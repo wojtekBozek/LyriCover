@@ -141,6 +141,7 @@ class CoverClassifier:
         Predict whether a pair of audio files are covers of each other.
         """
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.nn_model.to(device)
         if not self.is_model_loaded:
             raise RuntimeError("Model is not loaded. Call 'load_model()' first.")
         

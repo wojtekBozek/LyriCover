@@ -140,9 +140,10 @@ class CoverClassifier:
         """
         Predict whether a pair of audio files are covers of each other.
         """
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         if not self.is_model_loaded:
             raise RuntimeError("Model is not loaded. Call 'load_model()' first.")
-
+        
         logging.info("Preparing features for prediction...")
         # Extract features
         lyrics_a, is_instrumental_a = generate_lyrics(
@@ -164,7 +165,7 @@ class CoverClassifier:
         # Combine features
         features = np.array([[tonal_similarity, lyrics_similarity]])
         features_tensor = torch.tensor(features, dtype=torch.float32)
-        features_tensor = features_tensor.to(self.device)
+        features_tensor = features_tensor.to(device)
 
         # Predict
         with torch.no_grad():

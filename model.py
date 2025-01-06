@@ -28,6 +28,15 @@ class CoverClassifier:
         self.instrumental_threshold = instrumental_threshold
         self.lyrics_model = lyrics_model
         self.nn_model = CoverClassifierNN()
+        self.is_model_loaded = False
+
+    def load_model(self, model_path="model.pth"):
+        """Load the model once for predictions."""
+        logging.info("Loading model...")
+        self.nn_model.load_state_dict(torch.load(model_path, map_location=torch.device("cpu")))
+        self.nn_model.eval()
+        self.is_model_loaded = True
+        logging.info("Model loaded successfully.")
 
     def extract_pair_features(self, pairs):
         logging.info("Extracting features for pairs...")
@@ -127,14 +136,14 @@ class CoverClassifier:
         logging.info("Model saved successfully.")
 
     
-    def predict(self, audio_a, audio_b, model_path="model.pth"):
+    def predict(self, audio_a, audio_b):
         """
         Predict whether a pair of audio files are covers of each other.
         """
-        logging.info("Loading model for prediction...")
-        self.nn_model.load_state_dict(torch.load(model_path, map_location=torch.device("cpu")))
-        self.nn_model.eval()
+        if not self.is_model_loaded:
+            raise RuntimeError("Model is not loaded. Call 'load_model()' first.")
 
+        logging.info("Preparing features for prediction...")
         # Extract features
         lyrics_a, is_instrumental_a = generate_lyrics(
             audio_a, instrumental_threshold=self.instrumental_threshold, model=self.lyrics_model

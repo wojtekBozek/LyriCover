@@ -33,7 +33,7 @@ class CoverClassifier:
     def load_model(self, model_path="model.pth"):
         """Load the model once for predictions."""
         logging.info("Loading model...")
-        self.nn_model.load_state_dict(torch.load(model_path, map_location=torch.device("cpu")))
+        self.nn_model.load_state_dict(torch.load(model_path, map_location=torch.device("cuda" if torch.cuda.is_available() else "cpu")))
         self.nn_model.eval()
         self.is_model_loaded = True
         logging.info("Model loaded successfully.")

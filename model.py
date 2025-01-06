@@ -164,6 +164,7 @@ class CoverClassifier:
         # Combine features
         features = np.array([[tonal_similarity, lyrics_similarity]])
         features_tensor = torch.tensor(features, dtype=torch.float32)
+        features_tensor = features_tensor.to(self.device)
 
         # Predict
         with torch.no_grad():

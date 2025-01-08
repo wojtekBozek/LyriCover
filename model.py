@@ -66,6 +66,50 @@ class CoverClassifier:
 
         logging.info("Feature extraction for pairs completed.")
         return np.array(features), np.array(labels)
+    
+    def calculate_song_features(self, audio):
+        """
+        Calculates lyrics and tonal features for a single song.
+        """
+        lyrics, is_instrumental = generate_lyrics(
+            audio, instrumental_threshold=self.instrumental_threshold, model=self.lyrics_model
+        )
+        tonal_features = extract_tonal_features(audio)
+
+        return lyrics, is_instrumental, tonal_features
+    
+    def calculate_similarity(self, tonal_features_a, tonal_features_b, lyrics_a, lyrics_b, is_instrumental_a, is_instrumental_b):
+        """
+        Calculates similarity for tonal features and lyrics.
+        """
+        tonal_similarity = np.dot(tonal_features_a, tonal_features_b) / (
+            np.linalg.norm(tonal_features_a) * np.linalg.norm(tonal_features_b)
+        )
+        lyrics_similarity = compute_cosine_similarity(lyrics_a, lyrics_b) if not (
+            is_instrumental_a or is_instrumental_b) else 0.1
+
+        return tonal_similarity, lyrics_similarity
+    
+    def compute_similarity_and_predict(self, tonal_features_a, tonal_features_b, lyrics_a, lyrics_b, is_instrumental_a, is_instrumental_b):
+        """
+        Computes similarities and makes a prediction using the neural network model.
+        """
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.nn_model.to(device)
+        if not self.is_model_loaded:
+            raise RuntimeError("Model is not loaded. Call 'load_model()' first.")
+        
+        tonal_similarity, lyrics_similarity = self.calculate_similarity(
+            tonal_features_a, tonal_features_b, lyrics_a, lyrics_b, is_instrumental_a, is_instrumental_b
+        )
+
+        features = np.array([[tonal_similarity, lyrics_similarity]])
+        features_tensor = torch.tensor(features, dtype=torch.float32).to(device)
+
+        with torch.no_grad():
+            prediction = self.nn_model(features_tensor).item()
+
+        return prediction
 
     def train(self, X_train, y_train, num_epochs=10, learning_rate=0.001):
         """Train the classifier."""

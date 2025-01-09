@@ -21,6 +21,13 @@ After initial tests, the small model seems to be the best tradeoff between effic
 
 ## Audio features extraction
 
+The audio features extraction is performed by [librosa](https://github.com/librosa/librosa) library. Currently, it draws out the MFCC features with mean values for exctraction of audio as a vector.
+
+## Fusion 
+
+As described in the paper, the lyrics part detects the instrumental samples by counting unique words. If the model detects no words or less than defined treshold, the sample is considered instrumental and the prediction is rescaled to base mostly on audio features.
+
+Contrary to the approach presented in paper, the model uses a simple, 2-layer neural network for joining the information and returning the prediction. It was implemented in PyTorch.
 
 
 ## Training

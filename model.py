@@ -1,11 +1,12 @@
 import logging
+import os
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import torchmetrics
 import numpy as np
-from hpcp_utils import extract_tonal_features, generate_lyrics
-from text_utils import compute_cosine_similarity
+from hpcp_utils import extract_tonal_features
+from text_utils import compute_cosine_similarity, generate_lyrics
 
 
 class CoverClassifierNN(nn.Module):
@@ -29,7 +30,7 @@ class CoverClassifier:
         self.lyrics_model = lyrics_model
         self.nn_model = CoverClassifierNN()
         self.is_model_loaded = False
-
+    
     def load_model(self, model_path="model.pth"):
         """Load the model once for predictions."""
         logging.info("Loading model...")
@@ -38,29 +39,58 @@ class CoverClassifier:
         self.is_model_loaded = True
         logging.info("Model loaded successfully.")
 
-    def extract_pair_features(self, pairs):
+
+    def load_lyrics(self, filepath):
+        """Load lyrics from a file if it exists."""
+        if os.path.exists(filepath):
+            with open(filepath, 'r') as file:
+                return file.read()
+        return None
+
+    def save_lyrics(self, filepath, lyrics):
+        """Save lyrics to a file."""
+        with open(filepath, 'w') as file:
+            file.write(lyrics)
+
+    def get_lyrics(self, audio_path, filepath, load_save=None):
+        """Load, generate, or save lyrics for a given audio file."""
+        lyrics = self.load_lyrics(filepath) if load_save == "load" else None
+        if lyrics is None:
+            logging.info(f"Lyrics not found for {audio_path}, generating...")
+            lyrics, is_instrumental = generate_lyrics(
+                audio_path, instrumental_threshold=self.instrumental_threshold, model=self.lyrics_model
+            )
+            if load_save == "save" and lyrics is not None:
+                self.save_lyrics(filepath, lyrics)
+        else:
+            is_instrumental = False
+        return lyrics, is_instrumental
+
+    def extract_pair_features(self, pairs, load_save=None, lyrics_dir="lyrics"):
         logging.info("Extracting features for pairs...")
         features, labels = [], []
         for pair in pairs:
             song_a, song_b, label = pair
             audio_a, audio_b = song_a['wav'], song_b['wav']
+            lyrics_path_a = os.path.join(lyrics_dir, f"{os.path.basename(audio_a)}.txt")
+            lyrics_path_b = os.path.join(lyrics_dir, f"{os.path.basename(audio_b)}.txt")
 
-            # Pass the lyrics model
-            lyrics_a, is_instrumental_a = generate_lyrics(
-                audio_a, instrumental_threshold=self.instrumental_threshold, model=self.lyrics_model
-            )
-            lyrics_b, is_instrumental_b = generate_lyrics(
-                audio_b, instrumental_threshold=self.instrumental_threshold, model=self.lyrics_model
-            )
+            # Get lyrics and instrumental status for each song
+            lyrics_a, is_instrumental_a = self.get_lyrics(audio_a, lyrics_path_a, load_save)
+            lyrics_b, is_instrumental_b = self.get_lyrics(audio_b, lyrics_path_b, load_save)
 
+            # Extract tonal features
             tonal_features_a = extract_tonal_features(audio_a)
             tonal_features_b = extract_tonal_features(audio_b)
 
+            # Compute similarities
             tonal_similarity = np.dot(tonal_features_a, tonal_features_b) / (
                 np.linalg.norm(tonal_features_a) * np.linalg.norm(tonal_features_b)
             )
             lyrics_similarity = compute_cosine_similarity(lyrics_a, lyrics_b) if not (
                 is_instrumental_a or is_instrumental_b) else 0.1
+
+            # Append features and label
             features.append(np.array([tonal_similarity, lyrics_similarity]))
             labels.append(label)
 

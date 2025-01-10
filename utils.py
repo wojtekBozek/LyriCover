@@ -4,7 +4,7 @@ import random
 from collections import defaultdict
 from sklearn.model_selection import train_test_split
 import numpy as np
-from text_utils import preprocess_text, compute_cosine_similarity, generate_lyrics
+from text_utils import compute_cosine_similarity, generate_lyrics
 from hpcp_utils import extract_tonal_features
 from config import whisper_size, training_pairs_number
 
@@ -97,7 +97,7 @@ def extract_pair_features(pairs, model):
     logging.info("Feature extraction for pairs completed.")
     return np.array(features), np.array(labels)
 
-def split_data(features, labels):
+def split_data(features, labels, test_percentage = 0.2):
     logging.info("Splitting data into training and test sets...")
     X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
     logging.info(f"Train set: {len(X_train)} samples, Test set: {len(X_test)} samples")

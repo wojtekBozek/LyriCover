@@ -38,7 +38,7 @@ The details are described in [main repo](https://github.com/cncPomper/CoverDetec
 
 ## Performance metrics
 
-The model was trained on 2 datasets, Covers80, a well-known set for cover detection, and its variation "Injected Abracadabra" " a synthetic dataset where a portion of “Abracadabra” by Steve Miller Band is injected into other audio samples, as described in [Batlle-Roca et al.](https://arxiv.org/pdf/2407.14364).
+The model was trained on 2 datasets, Covers80, a well-known set for cover detection, and its variation "Injected Abracadabra", a synthetic dataset where a portion of “Abracadabra” by Steve Miller Band is injected into other audio samples, as described in [Batlle-Roca et al.](https://arxiv.org/pdf/2407.14364).
 
 Results:
 

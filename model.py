@@ -60,11 +60,25 @@ class CoverClassifier:
             lyrics, is_instrumental = generate_lyrics(
                 audio_path, instrumental_threshold=self.instrumental_threshold, model=self.lyrics_model
             )
+            # Check if lyrics are meaningful
+            if not lyrics or self.is_empty_or_stop_words(lyrics):
+                logging.warning(f"Lyrics for {audio_path} are empty or contain only stop words. Treating as instrumental.")
+                lyrics, is_instrumental = None, True
             if load_save == "save" and lyrics is not None:
                 self.save_lyrics(filepath, lyrics)
         else:
             is_instrumental = False
         return lyrics, is_instrumental
+
+    def is_empty_or_stop_words(self, lyrics):
+        """Check if lyrics are empty or contain only stop words."""
+        from sklearn.feature_extraction.text import CountVectorizer
+        vectorizer = CountVectorizer(stop_words="english")
+        try:
+            vectorizer.fit_transform([lyrics])
+            return len(vectorizer.vocabulary_) == 0
+        except ValueError:
+            return True
 
     def extract_pair_features(self, pairs, load_save=None, lyrics_dir="lyrics"):
         logging.info("Extracting features for pairs...")
@@ -129,8 +143,18 @@ class CoverClassifier:
         if not self.is_model_loaded:
             raise RuntimeError("Model is not loaded. Call 'load_model()' first.")
         
-        tonal_similarity, lyrics_similarity = self.calculate_similarity(
-            tonal_features_a, tonal_features_b, lyrics_a, lyrics_b, is_instrumental_a, is_instrumental_b
+        # Handle empty or stop-word-only lyrics
+        if not lyrics_a or not lyrics_b or is_instrumental_a or is_instrumental_b:
+            lyrics_similarity = 0.1  # Default similarity for instrumental or invalid lyrics
+        else:
+            try:
+                lyrics_similarity = compute_cosine_similarity(lyrics_a, lyrics_b)
+            except ValueError:
+                logging.warning("Empty vocabulary detected during cosine similarity computation. Treating as instrumental.")
+                lyrics_similarity = 0.1
+
+        tonal_similarity = np.dot(tonal_features_a, tonal_features_b) / (
+            np.linalg.norm(tonal_features_a) * np.linalg.norm(tonal_features_b)
         )
 
         features = np.array([[tonal_similarity, lyrics_similarity]])
@@ -140,6 +164,7 @@ class CoverClassifier:
             prediction = self.nn_model(features_tensor).item()
 
         return prediction
+
 
     def train(self, X_train, y_train, num_epochs=10, learning_rate=0.001):
         """Train the classifier."""

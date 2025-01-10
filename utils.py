@@ -4,11 +4,12 @@ import random
 from collections import defaultdict
 from sklearn.model_selection import train_test_split
 import numpy as np
-from text_utils import preprocess_text, compute_cosine_similarity
-from hpcp_utils import extract_tonal_features, generate_lyrics
+from text_utils import preprocess_text, compute_cosine_similarity, generate_lyrics
+from hpcp_utils import extract_tonal_features
+from config import whisper_size, training_pairs_number
 
 # Parameters
-MAX_PAIRS = 10
+MAX_PAIRS = training_pairs_number
 
 def read_metadata(json_path):
     logging.info(f"Reading metadata from {json_path}...")
@@ -23,7 +24,7 @@ def read_metadata(json_path):
 def load_whisper_model():
     import whisper  # Local import to keep main.py clean
     logging.info("Loading Whisper model...")
-    return whisper.load_model("small")
+    return whisper.load_model(whisper_size)
 
 def generate_pairs(metadata, max_pairs=MAX_PAIRS):
     logging.info("Generating random pairs of songs for cover classification...")

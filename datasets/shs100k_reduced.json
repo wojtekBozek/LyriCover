@@ -1,0 +1,5000 @@
+[
+    {
+        "utt": "cover9764_00115348_9764_3",
+        "wav": "datasets/shs100k/Y87IxaBuNvw.wav",
+        "dur_s": 225.7211875,
+        "song": "Every Kinda People",
+        "version": "Randy Crawford+Every Kinda People+3-Every Kinda People"
+    },
+    {
+        "utt": "cover9764_00115349_9764_4",
+        "wav": "datasets/shs100k/tEfAoLyIsHA.wav",
+        "dur_s": 205.705625,
+        "song": "Every Kinda People",
+        "version": "Frankie Goes To Hollywood+Every Kinda People+4-Every Kinda People"
+    },
+    {
+        "utt": "cover9765_00115350_9765_0",
+        "wav": "datasets/shs100k/t6YMdZdD9iQ.wav",
+        "dur_s": 299.30525,
+        "song": "She",
+        "version": "Gram Parsons+She+0-She"
+    },
+    {
+        "utt": "cover9765_00115351_9765_1",
+        "wav": "datasets/shs100k/6TiGRk2Phe0.wav",
+        "dur_s": 279.9165625,
+        "song": "She",
+        "version": "Long John Baldry+She+1-She"
+    },
+    {
+        "utt": "cover9765_00115352_9765_2",
+        "wav": "datasets/shs100k/2VlwLdbeMvA.wav",
+        "dur_s": 201.5956875,
+        "song": "She",
+        "version": "Emmylou Harris+She+2-She"
+    },
+    {
+        "utt": "cover9766_00115354_9766_0",
+        "wav": "datasets/shs100k/1agI3u1YUjQ.wav",
+        "dur_s": 265.607,
+        "song": "Pablo Picasso",
+        "version": "The Modern Lovers+Pablo Picasso+0-Pablo Picasso"
+    },
+    {
+        "utt": "cover9766_00115356_9766_2",
+        "wav": "datasets/shs100k/lzZPbZbXejg.wav",
+        "dur_s": 245.020375,
+        "song": "Pablo Picasso",
+        "version": "Sacred Cowboys+Pablo Picasso+2-Pablo Picasso"
+    },
+    {
+        "utt": "cover9766_00115357_9766_3",
+        "wav": "datasets/shs100k/9FQXXlHTz1k.wav",
+        "dur_s": 230.7831875,
+        "song": "Pablo Picasso",
+        "version": "Television Personalities+Pablo Picasso+3-Pablo Picasso"
+    },
+    {
+        "utt": "cover9766_00115358_9766_4",
+        "wav": "datasets/shs100k/Hk2hYnPo77M.wav",
+        "dur_s": 245.7368125,
+        "song": "Pablo Picasso",
+        "version": "David Bowie+Pablo Picasso+4-Pablo Picasso"
+    },
+    {
+        "utt": "cover9766_00115359_9766_6",
+        "wav": "datasets/shs100k/r-6mJAgB5bg.wav",
+        "dur_s": 161.33225,
+        "song": "Gertrude Stein",
+        "version": "Phranc+Gertrude Stein+6-Gertrude Stein"
+    },
+    {
+        "utt": "cover9767_00115360_9767_0",
+        "wav": "datasets/shs100k/YQNMEABaeVc.wav",
+        "dur_s": 139.079,
+        "song": "Every Night About This Time",
+        "version": "Fats Domino+Every Night About This Time+0-Every Night About This Time"
+    },
+    {
+        "utt": "cover9767_00115362_9767_2",
+        "wav": "datasets/shs100k/UkQmqc-2hnw.wav",
+        "dur_s": 217.031,
+        "song": "Every Night About This Time",
+        "version": "The Dirty Dozen Brass Band with Joss Stone and Buddy Guy+Every Night About This Time+2-Every Night About This Time"
+    },
+    {
+        "utt": "cover9767_00115363_9767_3",
+        "wav": "datasets/shs100k/y39RBRoO2-8.wav",
+        "dur_s": 147.81825,
+        "song": "Every Night About This Time",
+        "version": "Rachel Brooke+Every Night About This Time+3-Every Night About This Time"
+    },
+    {
+        "utt": "cover9768_00115364_9768_0",
+        "wav": "datasets/shs100k/7MPXZG5jxCs.wav",
+        "dur_s": 131.123125,
+        "song": "Goin' Home",
+        "version": "Fats Domino+Goin' Home+0-Goin' Home"
+    },
+    {
+        "utt": "cover9768_00115365_9768_1",
+        "wav": "datasets/shs100k/OVjHpwbXnfY.wav",
+        "dur_s": 141.0416875,
+        "song": "Goin' Home",
+        "version": "Frances Faye+Goin' Home+1-Goin' Home"
+    },
+    {
+        "utt": "cover9768_00115367_9768_3",
+        "wav": "datasets/shs100k/u-SqZUd7mhs.wav",
+        "dur_s": 192.9810625,
+        "song": "Going Home Tomorrow",
+        "version": "Little Richard+Going Home Tomorrow+3-Going Home Tomorrow"
+    },
+    {
+        "utt": "cover9768_00115368_9768_4",
+        "wav": "datasets/shs100k/02wnKQIwA1M.wav",
+        "dur_s": 185.0863125,
+        "song": "Goin' Home Tomorrow",
+        "version": "Dr. John+Goin' Home Tomorrow+4-Goin' Home Tomorrow"
+    },
+    {
+        "utt": "cover9769_00115369_9769_0",
+        "wav": "datasets/shs100k/x2fgwsOH5p8.wav",
+        "dur_s": 152.3229375,
+        "song": "Going to the River",
+        "version": "Fats Domino+Going to the River+0-Going to the River"
+    },
+    {
+        "utt": "cover9769_00115370_9769_1",
+        "wav": "datasets/shs100k/p2o0rvMyVo4.wav",
+        "dur_s": 188.128125,
+        "song": "Going to the River",
+        "version": "Prince Buster & The All Stars+Going to the River+1-Going to the River"
+    },
+    {
+        "utt": "cover9770_00115372_9770_1",
+        "wav": "datasets/shs100k/wdIcBjMD4zk.wav",
+        "dur_s": 212.807,
+        "song": "Running Free",
+        "version": "Paul Di'Anno+Running Free+1-Running Free"
+    },
+    {
+        "utt": "cover9770_00115373_9770_2",
+        "wav": "datasets/shs100k/H7DwiIkwEv4.wav",
+        "dur_s": 262.78025,
+        "song": "Running Free",
+        "version": "Tea+Running Free+2-Running Free"
+    },
+    {
+        "utt": "cover9770_00115374_9770_3",
+        "wav": "datasets/shs100k/V91kd9tZGZ0.wav",
+        "dur_s": 191.1699375,
+        "song": "Running Free",
+        "version": "Iron Savior+Running Free+3-Running Free"
+    },
+    {
+        "utt": "cover9770_00115376_9770_5",
+        "wav": "datasets/shs100k/hLuqjlWEIh0.wav",
+        "dur_s": 193.5848125,
+        "song": "Running Free",
+        "version": "Year Long Disaster+Running Free+5-Running Free"
+    },
+    {
+        "utt": "cover9772_00115379_9772_0",
+        "wav": "datasets/shs100k/5Af5d1FeJn4.wav",
+        "dur_s": 153.809,
+        "song": "I'm Not Sayin'",
+        "version": "Gordon Lightfoot+I'm Not Sayin'+0-I'm Not Sayin'"
+    },
+    {
+        "utt": "cover9772_00115381_9772_2",
+        "wav": "datasets/shs100k/yZwjj1UFZkM.wav",
+        "dur_s": 137.4389375,
+        "song": "I'm Not Sayin'",
+        "version": "Blake & Rice+I'm Not Sayin'+2-I'm Not Sayin'"
+    },
+    {
+        "utt": "cover9773_00115383_9773_1",
+        "wav": "datasets/shs100k/GQSoT-uxFTY.wav",
+        "dur_s": 143.8011875,
+        "song": "The Way I Feel",
+        "version": "Billy Lee Riley+The Way I Feel+1-The Way I Feel"
+    },
+    {
+        "utt": "cover9773_00115384_9773_2",
+        "wav": "datasets/shs100k/MHbN8Qd0XPo.wav",
+        "dur_s": 285.1410625,
+        "song": "The Way I Feel",
+        "version": "Fotheringay+The Way I Feel+2-The Way I Feel"
+    },
+    {
+        "utt": "cover9773_00115385_9773_3",
+        "wav": "datasets/shs100k/8bzfQ_dtUxw.wav",
+        "dur_s": 248.801875,
+        "song": "The Way I Feel",
+        "version": "Cowboy Junkies+The Way I Feel+3-The Way I Feel"
+    },
+    {
+        "utt": "cover9773_00115386_9773_4",
+        "wav": "datasets/shs100k/XvwD4-lIbRQ.wav",
+        "dur_s": 198.8325,
+        "song": "The Way I Feel",
+        "version": "Phil Upchurch+The Way I Feel+4-The Way I Feel"
+    },
+    {
+        "utt": "cover9774_00115387_9774_0",
+        "wav": "datasets/shs100k/AXxt79bxKHk.wav",
+        "dur_s": 211.7428125,
+        "song": "Biloxi",
+        "version": "Jesse Winchester+Biloxi+0-Biloxi"
+    },
+    {
+        "utt": "cover9774_00115388_9774_1",
+        "wav": "datasets/shs100k/fZoZJM_IDFw.wav",
+        "dur_s": 283.6085625,
+        "song": "Biloxi",
+        "version": "Tom Rush+Biloxi+1-Biloxi"
+    },
+    {
+        "utt": "cover9774_00115389_9774_2",
+        "wav": "datasets/shs100k/gFdiYDzbodM.wav",
+        "dur_s": 259.0650625,
+        "song": "Biloxi",
+        "version": "Ted Hawkins+Biloxi+2-Biloxi"
+    },
+    {
+        "utt": "cover9774_00115390_9774_3",
+        "wav": "datasets/shs100k/iDhV5SscEgc.wav",
+        "dur_s": 201.247375,
+        "song": "Biloxi",
+        "version": "Rosanne Cash+Biloxi+3-Biloxi"
+    },
+    {
+        "utt": "cover9777_00115397_9777_0",
+        "wav": "datasets/shs100k/Sloap5PUi40.wav",
+        "dur_s": 380.2268125,
+        "song": "Congo Square",
+        "version": "Sonny Landreth+Congo Square+0-Congo Square"
+    },
+    {
+        "utt": "cover9777_00115398_9777_1",
+        "wav": "datasets/shs100k/hv7g8ElB2Pw.wav",
+        "dur_s": 462.3325625,
+        "song": "Congo Square",
+        "version": "Tom Principato Band+Congo Square+1-Congo Square"
+    },
+    {
+        "utt": "cover9777_00115399_9777_2",
+        "wav": "datasets/shs100k/ceZ8luLtWvc.wav",
+        "dur_s": 753.650125,
+        "song": "Congo Square",
+        "version": "Ty Garner+Congo Square+2-Congo Square"
+    },
+    {
+        "utt": "cover9778_00115402_9778_0",
+        "wav": "datasets/shs100k/3XqyGoE2Q4Y.wav",
+        "dur_s": 352.732375,
+        "song": "The Pusher",
+        "version": "Steppenwolf+The Pusher+0-The Pusher"
+    },
+    {
+        "utt": "cover9778_00115405_9778_3",
+        "wav": "datasets/shs100k/LvbuenElD7M.wav",
+        "dur_s": 187.45475,
+        "song": "The Pusher",
+        "version": "Blind Melon+The Pusher+3-The Pusher"
+    },
+    {
+        "utt": "cover9778_00115406_9778_4",
+        "wav": "datasets/shs100k/m_8xBHh8aUE.wav",
+        "dur_s": 376.093625,
+        "song": "The Pusher",
+        "version": "Adam Parfrey+The Pusher+4-The Pusher"
+    },
+    {
+        "utt": "cover9778_00115407_9778_5",
+        "wav": "datasets/shs100k/2qe9Xyxmrck.wav",
+        "dur_s": 283.0745,
+        "song": "The Pusher",
+        "version": "Monkeywrench+The Pusher+5-The Pusher"
+    },
+    {
+        "utt": "cover9778_00115409_9778_7",
+        "wav": "datasets/shs100k/lcPrzU_WUYo.wav",
+        "dur_s": 321.4570625,
+        "song": "The Pusher",
+        "version": "Gideon Smith & The Dixie Damned+The Pusher+7-The Pusher"
+    },
+    {
+        "utt": "cover9778_00115410_9778_8",
+        "wav": "datasets/shs100k/BQkdxcDp-wY.wav",
+        "dur_s": 809.35475,
+        "song": "The Pusher",
+        "version": "Young Flowers+The Pusher+8-The Pusher"
+    },
+    {
+        "utt": "cover9779_00115411_9779_0",
+        "wav": "datasets/shs100k/cNGSJbE6JT4.wav",
+        "dur_s": 185.1095,
+        "song": "A Good Year for the Roses",
+        "version": "George Jones+A Good Year for the Roses+0-A Good Year for the Roses"
+    },
+    {
+        "utt": "cover9779_00115412_9779_1",
+        "wav": "datasets/shs100k/wGkkHdcyTws.wav",
+        "dur_s": 193.1900625,
+        "song": "Good Year for the Roses",
+        "version": "Miki and Griff+Good Year for the Roses+1-Good Year for the Roses"
+    },
+    {
+        "utt": "cover9780_00115415_9780_0",
+        "wav": "datasets/shs100k/egZdExfwFoY.wav",
+        "dur_s": 186.0615,
+        "song": "Sittin' and Thinkin'",
+        "version": "Charlie Rich+Sittin' and Thinkin'+0-Sittin' and Thinkin'"
+    },
+    {
+        "utt": "cover9780_00115416_9780_1",
+        "wav": "datasets/shs100k/VJaEh3132pU.wav",
+        "dur_s": 159.312125,
+        "song": "Sittin' and Thinkin'",
+        "version": "Bobby Bare+Sittin' and Thinkin'+1-Sittin' and Thinkin'"
+    },
+    {
+        "utt": "cover9780_00115417_9780_2",
+        "wav": "datasets/shs100k/KBS04l6dmFY.wav",
+        "dur_s": 169.2735,
+        "song": "Sittin' and Thinkin'",
+        "version": "Ray Price+Sittin' and Thinkin'+2-Sittin' and Thinkin'"
+    },
+    {
+        "utt": "cover9780_00115418_9780_3",
+        "wav": "datasets/shs100k/eQR61vVy3QA.wav",
+        "dur_s": 176.391,
+        "song": "Sittin' and Thinkin'",
+        "version": "Lefty Frizzell+Sittin' and Thinkin'+3-Sittin' and Thinkin'"
+    },
+    {
+        "utt": "cover9781_00115421_9781_2",
+        "wav": "datasets/shs100k/viKE2Crfq2w.wav",
+        "dur_s": 184.8540625,
+        "song": "Color of the Blues",
+        "version": "Patty Loveless+Color of the Blues+2-Color of the Blues"
+    },
+    {
+        "utt": "cover9783_00115424_9783_1",
+        "wav": "datasets/shs100k/jEZz6IAFyVk.wav",
+        "dur_s": 323.755875,
+        "song": "Celluloid Heroes",
+        "version": "Joan Jett and The Blackhearts+Celluloid Heroes+1-Celluloid Heroes"
+    },
+    {
+        "utt": "cover9783_00115425_9783_2",
+        "wav": "datasets/shs100k/nTA7QfeWETE.wav",
+        "dur_s": 447.030625,
+        "song": "Celluloid Heroes",
+        "version": "Monti Beton+Celluloid Heroes+2-Celluloid Heroes"
+    },
+    {
+        "utt": "cover9783_00115426_9783_3",
+        "wav": "datasets/shs100k/JvuTzvHE3cY.wav",
+        "dur_s": 326.2171875,
+        "song": "Celluloid Heroes",
+        "version": "Blackmore's Night+Celluloid Heroes+3-Celluloid Heroes"
+    },
+    {
+        "utt": "cover9783_00115427_9783_4",
+        "wav": "datasets/shs100k/2lopKf3GiI8.wav",
+        "dur_s": 67.1056875,
+        "song": "Celluloid Heroes",
+        "version": "Ray Davies, Jon Bon Jovi & Richie Sambora+Celluloid Heroes+4-Celluloid Heroes"
+    },
+    {
+        "utt": "cover9783_00115428_9783_5",
+        "wav": "datasets/shs100k/hBHrs-fS5Sc.wav",
+        "dur_s": 338.802375,
+        "song": "Paperit\u00e4hdet",
+        "version": "Juice Leskinen Slam+Paperit\u00e4hdet+5-Paperit\u00e4hdet"
+    },
+    {
+        "utt": "cover9784_00115432_9784_1",
+        "wav": "datasets/shs100k/WITXGt9pvNo.wav",
+        "dur_s": 118.8861875,
+        "song": "Livin' in the City",
+        "version": "Drain Bramaged+Livin' in the City+1-Livin' in the City"
+    },
+    {
+        "utt": "cover9784_00115433_9784_2",
+        "wav": "datasets/shs100k/PrPfMRXlf5E.wav",
+        "dur_s": 123.785625,
+        "song": "I Love Livin' in the City",
+        "version": "Rotting Out+I Love Livin' in the City+2-I Love Livin' in the City"
+    },
+    {
+        "utt": "cover9786_00115436_9786_1",
+        "wav": "datasets/shs100k/dzA29tCwyR4.wav",
+        "dur_s": 205.125125,
+        "song": "Hang On to Your Ego",
+        "version": "Frank Black+Hang On to Your Ego+1-Hang On to Your Ego"
+    },
+    {
+        "utt": "cover9786_00115437_9786_2",
+        "wav": "datasets/shs100k/YaqtQJ3IJys.wav",
+        "dur_s": 157.383,
+        "song": "Hang On to Your Ego",
+        "version": "The Levellers+Hang On to Your Ego+2-Hang On to Your Ego"
+    },
+    {
+        "utt": "cover9786_00115438_9786_3",
+        "wav": "datasets/shs100k/ofn60wahLlU.wav",
+        "dur_s": 189.2194375,
+        "song": "I Know There's an Answer",
+        "version": "The Beach Boys+I Know There's an Answer+3-I Know There's an Answer"
+    },
+    {
+        "utt": "cover9786_00115439_9786_4",
+        "wav": "datasets/shs100k/AMrA8zMZ390.wav",
+        "dur_s": 195.7675,
+        "song": "I Know There's an Answer -  Hang On to Your Ego",
+        "version": "Aaron Sprinkle+I Know There's an Answer -  Hang On to Your Ego+4-I Know There's an Answer -  Hang On to Your Ego"
+    },
+    {
+        "utt": "cover9786_00115440_9786_5",
+        "wav": "datasets/shs100k/SMgL0l-HIqE.wav",
+        "dur_s": 148.8496875,
+        "song": "I Know There's an Answer",
+        "version": "Les Limi\u00f1anas+I Know There's an Answer+5-I Know There's an Answer"
+    },
+    {
+        "utt": "cover9787_00115441_9787_0",
+        "wav": "datasets/shs100k/XRFPcPpLipM.wav",
+        "dur_s": 132.188375,
+        "song": "I Can't Let Go",
+        "version": "Evie Sands+I Can't Let Go+0-I Can't Let Go"
+    },
+    {
+        "utt": "cover9787_00115442_9787_1",
+        "wav": "datasets/shs100k/PGyJjisrAqo.wav",
+        "dur_s": 151.394125,
+        "song": "I Can't Let Go",
+        "version": "The Hollies+I Can't Let Go+1-I Can't Let Go"
+    },
+    {
+        "utt": "cover9787_00115443_9787_2",
+        "wav": "datasets/shs100k/JoxLGpS2lO0.wav",
+        "dur_s": 148.23625,
+        "song": "I Can't Let Go",
+        "version": "The Kitchen Cinq+I Can't Let Go+2-I Can't Let Go"
+    },
+    {
+        "utt": "cover9787_00115444_9787_3",
+        "wav": "datasets/shs100k/kTTWUQwm_Yo.wav",
+        "dur_s": 163.6775,
+        "song": "I Can't Let Go",
+        "version": "Linda Ronstadt+I Can't Let Go+3-I Can't Let Go"
+    },
+    {
+        "utt": "cover9787_00115445_9787_4",
+        "wav": "datasets/shs100k/f5dzH20CHAc.wav",
+        "dur_s": 159.175,
+        "song": "I Can't Let Go",
+        "version": "Adam Marsland's Chaos Band feat. Evie Sands+I Can't Let Go+4-I Can't Let Go"
+    },
+    {
+        "utt": "cover9788_00115449_9788_2",
+        "wav": "datasets/shs100k/ru_Mm359Vd8.wav",
+        "dur_s": 102.108375,
+        "song": "Love My Baby",
+        "version": "Robert Gordon+Love My Baby+2-Love My Baby"
+    },
+    {
+        "utt": "cover9789_00115450_9789_0",
+        "wav": "datasets/shs100k/oK8KtvphNAU.wav",
+        "dur_s": 304.227875,
+        "song": "My Father",
+        "version": "Judy Collins+My Father+0-My Father"
+    },
+    {
+        "utt": "cover9789_00115451_9789_1",
+        "wav": "datasets/shs100k/VBvO427bpPU.wav",
+        "dur_s": 304.90125,
+        "song": "My Father",
+        "version": "Melanie+My Father+1-My Father"
+    },
+    {
+        "utt": "cover9789_00115452_9789_2",
+        "wav": "datasets/shs100k/SSwnyLxzyRY.wav",
+        "dur_s": 308.477125,
+        "song": "My Father",
+        "version": "Nina Simone+My Father+2-My Father"
+    },
+    {
+        "utt": "cover9789_00115453_9789_3",
+        "wav": "datasets/shs100k/BNww4fMQ828.wav",
+        "dur_s": 357.63375,
+        "song": "My Father",
+        "version": "This Mortal Coil+My Father+3-My Father"
+    },
+    {
+        "utt": "cover9790_00115455_9790_1",
+        "wav": "datasets/shs100k/rdfECxbh5vM.wav",
+        "dur_s": 385.031,
+        "song": "Going Underground",
+        "version": "Manfred Mann's Earth Band+Going Underground+1-Going Underground"
+    },
+    {
+        "utt": "cover9790_00115457_9790_3",
+        "wav": "datasets/shs100k/biUAI8kVDaA.wav",
+        "dur_s": 196.0925625,
+        "song": "Going Underground",
+        "version": "Lostprophets+Going Underground+3-Going Underground"
+    },
+    {
+        "utt": "cover9790_00115458_9790_4",
+        "wav": "datasets/shs100k/z_H8XoHjDmE.wav",
+        "dur_s": 219.591,
+        "song": "Going Underground",
+        "version": "From The Jam+Going Underground+4-Going Underground"
+    },
+    {
+        "utt": "cover9791_00115459_9791_0",
+        "wav": "datasets/shs100k/bAzjVdD06z8.wav",
+        "dur_s": 245.8096875,
+        "song": "Strange Kind of Woman",
+        "version": "Deep Purple+Strange Kind of Woman+0-Strange Kind of Woman"
+    },
+    {
+        "utt": "cover9791_00115460_9791_1",
+        "wav": "datasets/shs100k/abSiTiJNBEM.wav",
+        "dur_s": 214.27375,
+        "song": "Strange Kind of Woman",
+        "version": "Funky Junction+Strange Kind of Woman+1-Strange Kind of Woman"
+    },
+    {
+        "utt": "cover9791_00115462_9791_4",
+        "wav": "datasets/shs100k/yY_JGiYbB8Y.wav",
+        "dur_s": 607.0625,
+        "song": "Strange Kind of Woman",
+        "version": "Dream Theater+Strange Kind of Woman+4-Strange Kind of Woman"
+    },
+    {
+        "utt": "cover9793_00115468_9793_0",
+        "wav": "datasets/shs100k/5gXSJ8LGwrM.wav",
+        "dur_s": 219.228375,
+        "song": "All Through the Night",
+        "version": "Jules Shear+All Through the Night+0-All Through the Night"
+    },
+    {
+        "utt": "cover9793_00115469_9793_1",
+        "wav": "datasets/shs100k/_-y7NQsl_PU.wav",
+        "dur_s": 226.7893125,
+        "song": "All Through the Night",
+        "version": "Cyndi Lauper+All Through the Night+1-All Through the Night"
+    },
+    {
+        "utt": "cover9793_00115471_9793_3",
+        "wav": "datasets/shs100k/Tf4arzZXEiA.wav",
+        "dur_s": 196.0925625,
+        "song": "All Through the Night",
+        "version": "Sleeping at Last+All Through the Night+3-All Through the Night"
+    },
+    {
+        "utt": "cover9793_00115472_9793_4",
+        "wav": "datasets/shs100k/g5QM5BQHGew.wav",
+        "dur_s": 149.93125,
+        "song": "All Through the Night",
+        "version": "Stevie McCrorie+All Through the Night+4-All Through the Night"
+    },
+    {
+        "utt": "cover9793_00115473_9793_5",
+        "wav": "datasets/shs100k/lq_KqfXYGdA.wav",
+        "dur_s": 200.8294375,
+        "song": "Natt efter natt",
+        "version": "Marie Fredriksson+Natt efter natt+5-Natt efter natt"
+    },
+    {
+        "utt": "cover9795_00115476_9795_1",
+        "wav": "datasets/shs100k/WQ4o9Vk7V-8.wav",
+        "dur_s": 240.071,
+        "song": "Junker's Blues",
+        "version": "Willy DeVille+Junker's Blues+1-Junker's Blues"
+    },
+    {
+        "utt": "cover9795_00115477_9795_2",
+        "wav": "datasets/shs100k/OEQYf0HX-3s.wav",
+        "dur_s": 670.108375,
+        "song": "Junker Blues",
+        "version": "Blackburn+Junker Blues+2-Junker Blues"
+    },
+    {
+        "utt": "cover9795_00115478_9795_3",
+        "wav": "datasets/shs100k/PgInl6XJVug.wav",
+        "dur_s": 175.0256875,
+        "song": "Junkers Blues",
+        "version": "Hugh Laurie+Junkers Blues+3-Junkers Blues"
+    },
+    {
+        "utt": "cover9795_00115479_9795_4",
+        "wav": "datasets/shs100k/aIz1cPfTRW4.wav",
+        "dur_s": 156.0176875,
+        "song": "The Fat Man",
+        "version": "Fats Domino+The Fat Man+4-The Fat Man"
+    },
+    {
+        "utt": "cover9795_00115481_9795_7",
+        "wav": "datasets/shs100k/J81NwFWN6ec.wav",
+        "dur_s": 299.2588125,
+        "song": "The Fat Man",
+        "version": "Los Lobos+The Fat Man+7-The Fat Man"
+    },
+    {
+        "utt": "cover9796_00115482_9796_0",
+        "wav": "datasets/shs100k/dFzZ3wrN3HY.wav",
+        "dur_s": 171.897375,
+        "song": "Forty Days & Forty Nights",
+        "version": "Muddy Waters and His Guitar+Forty Days & Forty Nights+0-Forty Days & Forty Nights"
+    },
+    {
+        "utt": "cover9796_00115484_9796_2",
+        "wav": "datasets/shs100k/wzrCTyFUX8k.wav",
+        "dur_s": 182.9500625,
+        "song": "Forty Days and Forty Nights",
+        "version": "Eric Burdon+Forty Days and Forty Nights+2-Forty Days and Forty Nights"
+    },
+    {
+        "utt": "cover9796_00115485_9796_3",
+        "wav": "datasets/shs100k/O0CNE6C1uTs.wav",
+        "dur_s": 169.552125,
+        "song": "Forty Days and Forty Nights",
+        "version": "Buddy Guy+Forty Days and Forty Nights+3-Forty Days and Forty Nights"
+    },
+    {
+        "utt": "cover9797_00115487_9797_1",
+        "wav": "datasets/shs100k/tn8QSzXFTwM.wav",
+        "dur_s": 135.09375,
+        "song": "Think for Yourself",
+        "version": "Yonder Mountain String Band+Think for Yourself+1-Think for Yourself"
+    },
+    {
+        "utt": "cover9797_00115488_9797_2",
+        "wav": "datasets/shs100k/7DL1k9S-FSE.wav",
+        "dur_s": 156.0149375,
+        "song": "Think for Yourself",
+        "version": "Pete Shelley+Think for Yourself+2-Think for Yourself"
+    },
+    {
+        "utt": "cover9798_00115489_9798_0",
+        "wav": "datasets/shs100k/g4Z2MGv7DLU.wav",
+        "dur_s": 186.2256875,
+        "song": "Two More Bottles of Wine",
+        "version": "Emmylou Harris+Two More Bottles of Wine+0-Two More Bottles of Wine"
+    },
+    {
+        "utt": "cover9798_00115490_9798_1",
+        "wav": "datasets/shs100k/HqHR9ewH0wc.wav",
+        "dur_s": 180.07075,
+        "song": "Two More Bottles of Wine",
+        "version": "Delbert McClinton+Two More Bottles of Wine+1-Two More Bottles of Wine"
+    },
+    {
+        "utt": "cover9798_00115492_9798_3",
+        "wav": "datasets/shs100k/sbd9tiR2PgM.wav",
+        "dur_s": 190.9841875,
+        "song": "Two More Bottles of Wine",
+        "version": "The Elio Pace Band+Two More Bottles of Wine+3-Two More Bottles of Wine"
+    },
+    {
+        "utt": "cover9798_00115493_9798_4",
+        "wav": "datasets/shs100k/EkIr23-usCY.wav",
+        "dur_s": 334.5299375,
+        "song": "Two More Bottles of Wine",
+        "version": "Albert Lee+Two More Bottles of Wine+4-Two More Bottles of Wine"
+    },
+    {
+        "utt": "cover9798_00115494_9798_5",
+        "wav": "datasets/shs100k/25SVdPLjUm4.wav",
+        "dur_s": 272.9970625,
+        "song": "Two More Bottles of Wine",
+        "version": "SFUZZI East/West+Two More Bottles of Wine+5-Two More Bottles of Wine"
+    },
+    {
+        "utt": "cover9798_00115495_9798_6",
+        "wav": "datasets/shs100k/22UCBfSBTPw.wav",
+        "dur_s": 182.0909375,
+        "song": "Two More Bottles of Wine",
+        "version": "Terri Clark+Two More Bottles of Wine+6-Two More Bottles of Wine"
+    },
+    {
+        "utt": "cover9798_00115496_9798_7",
+        "wav": "datasets/shs100k/dfrrn_BmtkQ.wav",
+        "dur_s": 200.263,
+        "song": "Two More Bottles of Wine",
+        "version": "Sheryl Crow and Vince Gill+Two More Bottles of Wine+7-Two More Bottles of Wine"
+    },
+    {
+        "utt": "cover9799_00115499_9799_2",
+        "wav": "datasets/shs100k/YeSMR1gV5qs.wav",
+        "dur_s": 163.2130625,
+        "song": "Pan American",
+        "version": "The Seldom Scene+Pan American+2-Pan American"
+    },
+    {
+        "utt": "cover9800_00115500_9800_0",
+        "wav": "datasets/shs100k/EU3FMsIyNh4.wav",
+        "dur_s": 514.71675,
+        "song": "Don't Throw Your Love on Me So Strong",
+        "version": "Albert King+Don't Throw Your Love on Me So Strong+0-Don't Throw Your Love on Me So Strong"
+    },
+    {
+        "utt": "cover9800_00115501_9800_1",
+        "wav": "datasets/shs100k/pNbTEZRvbcs.wav",
+        "dur_s": 660.5845,
+        "song": "Don't Throw Your Love on Me So Strong",
+        "version": "Al Kooper & Mike Bloomfield+Don't Throw Your Love on Me So Strong+1-Don't Throw Your Love on Me So Strong"
+    },
+    {
+        "utt": "cover9800_00115502_9800_2",
+        "wav": "datasets/shs100k/lS1WWXKi6y4.wav",
+        "dur_s": 434.1203125,
+        "song": "Don't Throw Your Love on Me So Strong",
+        "version": "Carlos Johnson, Billy Branch+Don't Throw Your Love on Me So Strong+2-Don't Throw Your Love on Me So Strong"
+    },
+    {
+        "utt": "cover9803_00115507_9803_0",
+        "wav": "datasets/shs100k/l87jkd6juq0.wav",
+        "dur_s": 329.7776875,
+        "song": "Home",
+        "version": "Depeche Mode+Home+0-Home"
+    },
+    {
+        "utt": "cover9803_00115508_9803_1",
+        "wav": "datasets/shs100k/f8GcZY2TfQE.wav",
+        "dur_s": 271.9056875,
+        "song": "Home",
+        "version": "Diesel Christ+Home+1-Home"
+    },
+    {
+        "utt": "cover9803_00115509_9803_2",
+        "wav": "datasets/shs100k/QHOPLdAGkmo.wav",
+        "dur_s": 312.4245,
+        "song": "Home",
+        "version": "\u041f\u0435\u043b\u0430\u0433\u0435\u044f+Home+2-Home"
+    },
+    {
+        "utt": "cover9803_00115510_9803_3",
+        "wav": "datasets/shs100k/jr9y8P5RNr0.wav",
+        "dur_s": 183.7296875,
+        "song": "Home",
+        "version": "Justyna Kabala+Home+3-Home"
+    },
+    {
+        "utt": "cover9803_00115511_9803_4",
+        "wav": "datasets/shs100k/cdPvXKNLcb0.wav",
+        "dur_s": 288.071,
+        "song": "Home",
+        "version": "Floating Point+Home+4-Home"
+    },
+    {
+        "utt": "cover9803_00115512_9803_5",
+        "wav": "datasets/shs100k/hbtbBBDCe-k.wav",
+        "dur_s": 295.1024375,
+        "song": "Home",
+        "version": "Sylvain Chauveau & Ensemble Nocturne+Home+5-Home"
+    },
+    {
+        "utt": "cover9804_00115513_9804_0",
+        "wav": "datasets/shs100k/ajybTp3dBLU.wav",
+        "dur_s": 153.159,
+        "song": "No Letter Today",
+        "version": "Rosemary Clooney+No Letter Today+0-No Letter Today"
+    },
+    {
+        "utt": "cover9804_00115514_9804_1",
+        "wav": "datasets/shs100k/CK9xIXkab08.wav",
+        "dur_s": 157.020375,
+        "song": "No Letter Today",
+        "version": "Tennessee Ernie Ford+No Letter Today+1-No Letter Today"
+    },
+    {
+        "utt": "cover9804_00115515_9804_2",
+        "wav": "datasets/shs100k/FZLUqUxoK0U.wav",
+        "dur_s": 186.967125,
+        "song": "No Letter Today",
+        "version": "The Dinning Sisters+No Letter Today+2-No Letter Today"
+    },
+    {
+        "utt": "cover9805_00115516_9805_0",
+        "wav": "datasets/shs100k/IdiWzdfW8Po.wav",
+        "dur_s": 210.6514375,
+        "song": "Song for the Life",
+        "version": "Jerry Jeff Walker+Song for the Life+0-Song for the Life"
+    },
+    {
+        "utt": "cover9805_00115518_9805_2",
+        "wav": "datasets/shs100k/Sc2eevoZ_e0.wav",
+        "dur_s": 227.5788125,
+        "song": "Song for the Life",
+        "version": "John Denver+Song for the Life+2-Song for the Life"
+    },
+    {
+        "utt": "cover9805_00115519_9805_3",
+        "wav": "datasets/shs100k/tSx_U971TAw.wav",
+        "dur_s": 223.492125,
+        "song": "Song for the Life",
+        "version": "Waylon Jennings+Song for the Life+3-Song for the Life"
+    },
+    {
+        "utt": "cover9805_00115520_9805_4",
+        "wav": "datasets/shs100k/eCTrjb8NGJs.wav",
+        "dur_s": 180.9136875,
+        "song": "Song for Life",
+        "version": "Tony Rice+Song for Life+4-Song for Life"
+    },
+    {
+        "utt": "cover9805_00115521_9805_5",
+        "wav": "datasets/shs100k/fa4KH38GOHU.wav",
+        "dur_s": 272.8345,
+        "song": "Song for the Life",
+        "version": "Alan Jackson+Song for the Life+5-Song for the Life"
+    },
+    {
+        "utt": "cover9806_00115522_9806_0",
+        "wav": "datasets/shs100k/-Y74YMJr98U.wav",
+        "dur_s": 166.1388125,
+        "song": "The Image of Me",
+        "version": "Wayne Kemp+The Image of Me+0-The Image of Me"
+    },
+    {
+        "utt": "cover9806_00115523_9806_1",
+        "wav": "datasets/shs100k/APYfiQDOlYM.wav",
+        "dur_s": 172.8725625,
+        "song": "Image of Me",
+        "version": "Conway Twitty+Image of Me+1-Image of Me"
+    },
+    {
+        "utt": "cover9806_00115524_9806_2",
+        "wav": "datasets/shs100k/5hdocraNM1s.wav",
+        "dur_s": 165.9530625,
+        "song": "The Image of Me",
+        "version": "Charley Pride+The Image of Me+2-The Image of Me"
+    },
+    {
+        "utt": "cover9806_00115525_9806_3",
+        "wav": "datasets/shs100k/t9MzSixDlzg.wav",
+        "dur_s": 171.5258125,
+        "song": "Image of Me",
+        "version": "George Jones+Image of Me+3-Image of Me"
+    },
+    {
+        "utt": "cover9806_00115526_9806_4",
+        "wav": "datasets/shs100k/ZS0u3xLhPXg.wav",
+        "dur_s": 197.9965625,
+        "song": "The Image of Me",
+        "version": "Doug Sahm & Friends+The Image of Me+4-The Image of Me"
+    },
+    {
+        "utt": "cover9807_00115528_9807_0",
+        "wav": "datasets/shs100k/dPTQsqog4Zw.wav",
+        "dur_s": 133.8630625,
+        "song": "Misery",
+        "version": "Kenny Lynch+Misery+0-Misery"
+    },
+    {
+        "utt": "cover9807_00115530_9807_2",
+        "wav": "datasets/shs100k/4L_xqNFydxA.wav",
+        "dur_s": 101.127,
+        "song": "Misery",
+        "version": "The Merseyboys+Misery+2-Misery"
+    },
+    {
+        "utt": "cover9807_00115531_9807_3",
+        "wav": "datasets/shs100k/5u18SrLYE8Y.wav",
+        "dur_s": 98.8009375,
+        "song": "Misery",
+        "version": "Flamin' Groovies+Misery+3-Misery"
+    },
+    {
+        "utt": "cover9807_00115532_9807_4",
+        "wav": "datasets/shs100k/9fobqf2D7v4.wav",
+        "dur_s": 211.3136875,
+        "song": "Misery",
+        "version": "Feverbody+Misery+4-Misery"
+    },
+    {
+        "utt": "cover9808_00115537_9808_3",
+        "wav": "datasets/shs100k/WvZtHtUnUWg.wav",
+        "dur_s": 125.1555625,
+        "song": "Window Shopping",
+        "version": "Eugene Chadbourne+Window Shopping+3-Window Shopping"
+    },
+    {
+        "utt": "cover9809_00115539_9809_1",
+        "wav": "datasets/shs100k/4Gh2nWRQD7I.wav",
+        "dur_s": 212.671625,
+        "song": "Werewolves of London",
+        "version": "The Flamin' Groovies+Werewolves of London+1-Werewolves of London"
+    },
+    {
+        "utt": "cover9809_00115542_9809_5",
+        "wav": "datasets/shs100k/wep5jJSQi9E.wav",
+        "dur_s": 246.2576875,
+        "song": "Werewolves of London",
+        "version": "The String Quartet+Werewolves of London+5-Werewolves of London"
+    },
+    {
+        "utt": "cover9810_00115543_9810_0",
+        "wav": "datasets/shs100k/93_pv-XWHpQ.wav",
+        "dur_s": 172.0176875,
+        "song": "Mon amant de Saint-Jean",
+        "version": "Lucienne Delyle+Mon amant de Saint-Jean+0-Mon amant de Saint-Jean"
+    },
+    {
+        "utt": "cover9810_00115544_9810_1",
+        "wav": "datasets/shs100k/MbNszPqS1zU.wav",
+        "dur_s": 213.6176875,
+        "song": "Mon amant de Saint-Jean",
+        "version": "Louis Ville+Mon amant de Saint-Jean+1-Mon amant de Saint-Jean"
+    },
+    {
+        "utt": "cover9811_00115545_9811_0",
+        "wav": "datasets/shs100k/JXpYGOY2AJM.wav",
+        "dur_s": 133.93275,
+        "song": "Apron Strings",
+        "version": "Billy the Kid [1]+Apron Strings+0-Apron Strings"
+    },
+    {
+        "utt": "cover9811_00115546_9811_1",
+        "wav": "datasets/shs100k/9gANdVNY0ls.wav",
+        "dur_s": 168.0496875,
+        "song": "Apron Strings",
+        "version": "Cliff Richard and The Drifters+Apron Strings+1-Apron Strings"
+    },
+    {
+        "utt": "cover9811_00115548_9811_3",
+        "wav": "datasets/shs100k/bINfZgbMaHQ.wav",
+        "dur_s": 151.4638125,
+        "song": "Apron Strings",
+        "version": "Johnny & The Roccos+Apron Strings+3-Apron Strings"
+    },
+    {
+        "utt": "cover9811_00115549_9811_4",
+        "wav": "datasets/shs100k/rf_Wxb8WH_M.wav",
+        "dur_s": 110.945,
+        "song": "Apron Strings",
+        "version": "Elvis Presley+Apron Strings+4-Apron Strings"
+    },
+    {
+        "utt": "cover9812_00115550_9812_0",
+        "wav": "datasets/shs100k/kW_5YdPL9Go.wav",
+        "dur_s": 198.236375,
+        "song": "Fall at Your Feet",
+        "version": "Crowded House+Fall at Your Feet+0-Fall at Your Feet"
+    },
+    {
+        "utt": "cover9812_00115551_9812_1",
+        "wav": "datasets/shs100k/EsotddQ-DQs.wav",
+        "dur_s": 193.1668125,
+        "song": "Fall at Your Feet",
+        "version": "Peter Cox+Fall at Your Feet+1-Fall at Your Feet"
+    },
+    {
+        "utt": "cover9812_00115552_9812_2",
+        "wav": "datasets/shs100k/DbTZKxe4m7E.wav",
+        "dur_s": 245.78325,
+        "song": "Fall at Your Feet",
+        "version": "Clare Bowditch+Fall at Your Feet+2-Fall at Your Feet"
+    },
+    {
+        "utt": "cover9812_00115553_9812_3",
+        "wav": "datasets/shs100k/F8iIxqYd5Rg.wav",
+        "dur_s": 145.5195,
+        "song": "Fall at Your Feet",
+        "version": "James Blunt+Fall at Your Feet+3-Fall at Your Feet"
+    },
+    {
+        "utt": "cover9812_00115554_9812_4",
+        "wav": "datasets/shs100k/Iu_zT5fdINE.wav",
+        "dur_s": 202.3386875,
+        "song": "Fall at Your Feet",
+        "version": "Hermione Hennessy+Fall at Your Feet+4-Fall at Your Feet"
+    },
+    {
+        "utt": "cover9812_00115555_9812_5",
+        "wav": "datasets/shs100k/wJwjKL2dxXo.wav",
+        "dur_s": 271.8360625,
+        "song": "Fall at Your Feet",
+        "version": "Boy & Bear+Fall at Your Feet+5-Fall at Your Feet"
+    },
+    {
+        "utt": "cover9812_00115556_9812_6",
+        "wav": "datasets/shs100k/_Unm-A39TnU.wav",
+        "dur_s": 229.852375,
+        "song": "Fall at Your Feet",
+        "version": "Mike Mass\u00e9 feat. Jeff Hall+Fall at Your Feet+6-Fall at Your Feet"
+    },
+    {
+        "utt": "cover9813_00115557_9813_0",
+        "wav": "datasets/shs100k/1Um0yPDoF4s.wav",
+        "dur_s": 197.2535625,
+        "song": "Cuttin' In",
+        "version": "Johnny (Guitar) Watson+Cuttin' In+0-Cuttin' In"
+    },
+    {
+        "utt": "cover9813_00115558_9813_1",
+        "wav": "datasets/shs100k/MxswjL6CSXA.wav",
+        "dur_s": 163.1201875,
+        "song": "Cuttin' In",
+        "version": "The Paramounts+Cuttin' In+1-Cuttin' In"
+    },
+    {
+        "utt": "cover9813_00115559_9813_2",
+        "wav": "datasets/shs100k/MNG8KDKeIbg.wav",
+        "dur_s": 179.049125,
+        "song": "Cuttin' In",
+        "version": "Chris Farlowe+Cuttin' In+2-Cuttin' In"
+    },
+    {
+        "utt": "cover9813_00115560_9813_3",
+        "wav": "datasets/shs100k/l0BvjlCoJzQ.wav",
+        "dur_s": 227.740375,
+        "song": "Cuttin' In",
+        "version": "Roomful of Blues+Cuttin' In+3-Cuttin' In"
+    },
+    {
+        "utt": "cover9814_00115562_9814_1",
+        "wav": "datasets/shs100k/l-Q41SORGc8.wav",
+        "dur_s": 346.5456875,
+        "song": "Time Has Told Me",
+        "version": "Nikki Sudden & The French Revolution+Time Has Told Me+1-Time Has Told Me"
+    },
+    {
+        "utt": "cover9814_00115563_9814_2",
+        "wav": "datasets/shs100k/pxsNuZPXiyU.wav",
+        "dur_s": 331.18625,
+        "song": "Time Has Told Me",
+        "version": "Kelly Willis+Time Has Told Me+2-Time Has Told Me"
+    },
+    {
+        "utt": "cover9814_00115564_9814_3",
+        "wav": "datasets/shs100k/IPgyrMyDcTI.wav",
+        "dur_s": 380.43575,
+        "song": "Time Has Told Me",
+        "version": "Jason Parker Quartet+Time Has Told Me+3-Time Has Told Me"
+    },
+    {
+        "utt": "cover9814_00115565_9814_4",
+        "wav": "datasets/shs100k/DPT1P2Uh1EA.wav",
+        "dur_s": 341.124375,
+        "song": "Time Has Told Me",
+        "version": "Gra\u017cyna Augu\u015bcik+Time Has Told Me+4-Time Has Told Me"
+    },
+    {
+        "utt": "cover9814_00115566_9814_5",
+        "wav": "datasets/shs100k/mzkzQ8J_dyg.wav",
+        "dur_s": 299.2588125,
+        "song": "Time Has Told Me",
+        "version": "Krystle Warren+Time Has Told Me+5-Time Has Told Me"
+    },
+    {
+        "utt": "cover9814_00115567_9814_6",
+        "wav": "datasets/shs100k/w74a2DbzzC8.wav",
+        "dur_s": 520.7075,
+        "song": "Time Has Told Me",
+        "version": "Brad Mehldau Trio+Time Has Told Me+6-Time Has Told Me"
+    },
+    {
+        "utt": "cover9815_00115568_9815_0",
+        "wav": "datasets/shs100k/EfBiKQj2Px0.wav",
+        "dur_s": 150.5814375,
+        "song": "Sugar Moon",
+        "version": "Bob Wills & His Texas Playboys+Sugar Moon+0-Sugar Moon"
+    },
+    {
+        "utt": "cover9815_00115569_9815_1",
+        "wav": "datasets/shs100k/GKGtPZv9POc.wav",
+        "dur_s": 129.590625,
+        "song": "Sugar Moon",
+        "version": "Bobby Helms+Sugar Moon+1-Sugar Moon"
+    },
+    {
+        "utt": "cover9815_00115570_9815_2",
+        "wav": "datasets/shs100k/ZmD-Fr5HJQE.wav",
+        "dur_s": 143.815,
+        "song": "Sugar Moon",
+        "version": "k.d. lang+Sugar Moon+2-Sugar Moon"
+    },
+    {
+        "utt": "cover9815_00115571_9815_3",
+        "wav": "datasets/shs100k/nq5RuUt8QBE.wav",
+        "dur_s": 151.231625,
+        "song": "Sugar Moon",
+        "version": "Willie Nelson+Sugar Moon+3-Sugar Moon"
+    },
+    {
+        "utt": "cover9815_00115572_9815_4",
+        "wav": "datasets/shs100k/jfBTILKrtTQ.wav",
+        "dur_s": 204.0801875,
+        "song": "Sugar Moon",
+        "version": "Asleep at the Wheel and Leon Rausch+Sugar Moon+4-Sugar Moon"
+    },
+    {
+        "utt": "cover9816_00115573_9816_0",
+        "wav": "datasets/shs100k/NZY5b9kC8YE.wav",
+        "dur_s": 310.0016875,
+        "song": "Friendship",
+        "version": "Judy Garland & Johnny Mercer+Friendship+0-Friendship"
+    },
+    {
+        "utt": "cover9816_00115574_9816_1",
+        "wav": "datasets/shs100k/gO0Y7YyC5xA.wav",
+        "dur_s": 165.117125,
+        "song": "Friendship",
+        "version": "Ray Charles with Ricky Skaggs+Friendship+1-Friendship"
+    },
+    {
+        "utt": "cover9817_00115576_9817_0",
+        "wav": "datasets/shs100k/KSHY1_ux8rs.wav",
+        "dur_s": 314.2896875,
+        "song": "Young Americans",
+        "version": "David Bowie+Young Americans+0-Young Americans"
+    },
+    {
+        "utt": "cover9817_00115577_9817_1",
+        "wav": "datasets/shs100k/HebCp6rnxys.wav",
+        "dur_s": 383.1989375,
+        "song": "Young Americans",
+        "version": "The Cure+Young Americans+1-Young Americans"
+    },
+    {
+        "utt": "cover9817_00115578_9817_2",
+        "wav": "datasets/shs100k/10Wl89pIyYk.wav",
+        "dur_s": 240.732375,
+        "song": "Young Americans",
+        "version": "The Braids+Young Americans+2-Young Americans"
+    },
+    {
+        "utt": "cover9817_00115579_9817_3",
+        "wav": "datasets/shs100k/dGi-GCfA45Q.wav",
+        "dur_s": 282.795875,
+        "song": "Young Americans",
+        "version": "Danny Michel+Young Americans+3-Young Americans"
+    },
+    {
+        "utt": "cover9818_00115580_9818_0",
+        "wav": "datasets/shs100k/cd2jXsmSaKc.wav",
+        "dur_s": 117.596375,
+        "song": "The Wind",
+        "version": "Cat Stevens+The Wind+0-The Wind"
+    },
+    {
+        "utt": "cover9818_00115581_9818_1",
+        "wav": "datasets/shs100k/gqVbebPLxQU.wav",
+        "dur_s": 130.0781875,
+        "song": "The Wind",
+        "version": "Mary Hopkin+The Wind+1-The Wind"
+    },
+    {
+        "utt": "cover9818_00115583_9818_3",
+        "wav": "datasets/shs100k/CvZ3BjwJxGw.wav",
+        "dur_s": 155.7616875,
+        "song": "The Wind",
+        "version": "Susan Werner+The Wind+3-The Wind"
+    },
+    {
+        "utt": "cover9819_00115585_9819_0",
+        "wav": "datasets/shs100k/y8uLiQll0tk.wav",
+        "dur_s": 160.4499375,
+        "song": "Alfie",
+        "version": "The James Taylor Quartet+Alfie+0-Alfie"
+    },
+    {
+        "utt": "cover9819_00115586_9819_2",
+        "wav": "datasets/shs100k/ytUxQ8UMUu0.wav",
+        "dur_s": 410.2896875,
+        "song": "Alfie's Theme",
+        "version": "The Thing+Alfie's Theme+2-Alfie's Theme"
+    },
+    {
+        "utt": "cover9820_00115587_9820_0",
+        "wav": "datasets/shs100k/uOT5VlbUsYk.wav",
+        "dur_s": 162.145,
+        "song": "When It's Springtime in Alaska (It's Forty Below)",
+        "version": "Johnny Horton+When It's Springtime in Alaska (It's Forty Below)+0-When It's Springtime in Alaska (It's Forty Below)"
+    },
+    {
+        "utt": "cover9820_00115588_9820_1",
+        "wav": "datasets/shs100k/tee6VjpXwFU.wav",
+        "dur_s": 159.4514375,
+        "song": "When It's Springtime in Alaska (It's Forty Below)",
+        "version": "Johnny Cash+When It's Springtime in Alaska (It's Forty Below)+1-When It's Springtime in Alaska (It's Forty Below)"
+    },
+    {
+        "utt": "cover9820_00115589_9820_2",
+        "wav": "datasets/shs100k/HRwwgqCEOLg.wav",
+        "dur_s": 141.383,
+        "song": "When It's Springtime in Alaska",
+        "version": "Tex Croft+When It's Springtime in Alaska+2-When It's Springtime in Alaska"
+    },
+    {
+        "utt": "cover9820_00115590_9820_3",
+        "wav": "datasets/shs100k/XbdCJNDIcDM.wav",
+        "dur_s": 170.183,
+        "song": "When It's Springtime in Alaska",
+        "version": "Tim Timebomb+When It's Springtime in Alaska+3-When It's Springtime in Alaska"
+    },
+    {
+        "utt": "cover9821_00115592_9821_1",
+        "wav": "datasets/shs100k/nQ4x2a_dOJg.wav",
+        "dur_s": 145.3569375,
+        "song": "Ask",
+        "version": "Gigolo Aunts+Ask+1-Ask"
+    },
+    {
+        "utt": "cover9821_00115593_9821_2",
+        "wav": "datasets/shs100k/YbrmxG9npkQ.wav",
+        "dur_s": 200.2489375,
+        "song": "Ask",
+        "version": "Reel Big Fish+Ask+2-Ask"
+    },
+    {
+        "utt": "cover9821_00115594_9821_3",
+        "wav": "datasets/shs100k/5zbRIWFAdL4.wav",
+        "dur_s": 240.028375,
+        "song": "Ask",
+        "version": "Janice Whaley+Ask+3-Ask"
+    },
+    {
+        "utt": "cover9821_00115595_9821_4",
+        "wav": "datasets/shs100k/bS91pm-Rwu0.wav",
+        "dur_s": 173.987125,
+        "song": "Dimmi",
+        "version": "Tre Allegri Ragazzi Morti+Dimmi+4-Dimmi"
+    },
+    {
+        "utt": "cover9822_00115596_9822_0",
+        "wav": "datasets/shs100k/GHjeuRwnSJY.wav",
+        "dur_s": 253.468375,
+        "song": "Neanderthal Man",
+        "version": "Hotlegs+Neanderthal Man+0-Neanderthal Man"
+    },
+    {
+        "utt": "cover9822_00115597_9822_1",
+        "wav": "datasets/shs100k/5YTSf4Et15Q.wav",
+        "dur_s": 215.1329375,
+        "song": "Neanderthal Man",
+        "version": "Reg Dwight+Neanderthal Man+1-Neanderthal Man"
+    },
+    {
+        "utt": "cover9822_00115599_9822_3",
+        "wav": "datasets/shs100k/czTn7zCY7nw.wav",
+        "dur_s": 234.8234375,
+        "song": "Hey Neandertalmann",
+        "version": "Adam & Eve+Hey Neandertalmann+3-Hey Neandertalmann"
+    },
+    {
+        "utt": "cover9823_00115601_9823_1",
+        "wav": "datasets/shs100k/NePKqyHrDTA.wav",
+        "dur_s": 132.0176875,
+        "song": "Down Along the Cove",
+        "version": "Davy Graham+Down Along the Cove+1-Down Along the Cove"
+    },
+    {
+        "utt": "cover9823_00115602_9823_2",
+        "wav": "datasets/shs100k/V_8CT--H89Y.wav",
+        "dur_s": 236.956375,
+        "song": "Down Along the Cove",
+        "version": "Thea Gilmore+Down Along the Cove+2-Down Along the Cove"
+    },
+    {
+        "utt": "cover9824_00115603_9824_0",
+        "wav": "datasets/shs100k/84N0-XnwimU.wav",
+        "dur_s": 152.09075,
+        "song": "Keep It a Secret",
+        "version": "Dinah Shore+Keep It a Secret+0-Keep It a Secret"
+    },
+    {
+        "utt": "cover9824_00115604_9824_1",
+        "wav": "datasets/shs100k/m-HnqwUpekk.wav",
+        "dur_s": 158.8941875,
+        "song": "Keep It a Secret",
+        "version": "Jo Stafford+Keep It a Secret+1-Keep It a Secret"
+    },
+    {
+        "utt": "cover9824_00115605_9824_2",
+        "wav": "datasets/shs100k/w5PlVyRGqr0.wav",
+        "dur_s": 159.4514375,
+        "song": "Keep It a Secret",
+        "version": "Slim Whitman+Keep It a Secret+2-Keep It a Secret"
+    },
+    {
+        "utt": "cover9824_00115606_9824_3",
+        "wav": "datasets/shs100k/hoqUtMZCMaE.wav",
+        "dur_s": 164.165125,
+        "song": "Keep It a Secret",
+        "version": "Jimmy Young+Keep It a Secret+3-Keep It a Secret"
+    },
+    {
+        "utt": "cover9824_00115607_9824_4",
+        "wav": "datasets/shs100k/JmV_xfP2Dy8.wav",
+        "dur_s": 191.623,
+        "song": "Keep It a Secret",
+        "version": "Bing Crosby+Keep It a Secret+4-Keep It a Secret"
+    },
+    {
+        "utt": "cover9824_00115608_9824_5",
+        "wav": "datasets/shs100k/7p3miVTc9cs.wav",
+        "dur_s": 343.817875,
+        "song": "Keep It a Secret",
+        "version": "Five Crowns+Keep It a Secret+5-Keep It a Secret"
+    },
+    {
+        "utt": "cover9824_00115609_9824_6",
+        "wav": "datasets/shs100k/tol-EhIHXug.wav",
+        "dur_s": 159.42825,
+        "song": "Keep It a Secret",
+        "version": "Anita Carter+Keep It a Secret+6-Keep It a Secret"
+    },
+    {
+        "utt": "cover9824_00115611_9824_8",
+        "wav": "datasets/shs100k/SIgo8FWx6TI.wav",
+        "dur_s": 158.6416875,
+        "song": "Keep It a Secret",
+        "version": "Ronnie Dove+Keep It a Secret+8-Keep It a Secret"
+    },
+    {
+        "utt": "cover9825_00115612_9825_0",
+        "wav": "datasets/shs100k/bYrE2mTkxCQ.wav",
+        "dur_s": 191.402125,
+        "song": "Just Don't Want to Be Lonely",
+        "version": "Ronnie Dyson+Just Don't Want to Be Lonely+0-Just Don't Want to Be Lonely"
+    },
+    {
+        "utt": "cover9825_00115613_9825_1",
+        "wav": "datasets/shs100k/bEL7b9zTZHE.wav",
+        "dur_s": 428.7856875,
+        "song": "Just Don't Want to Be Lonely",
+        "version": "Blue Magic+Just Don't Want to Be Lonely+1-Just Don't Want to Be Lonely"
+    },
+    {
+        "utt": "cover9825_00115615_9825_3",
+        "wav": "datasets/shs100k/eoitdsQFlHg.wav",
+        "dur_s": 240.094375,
+        "song": "Just Don't Want to Be Lonely",
+        "version": "Freddie McGregor+Just Don't Want to Be Lonely+3-Just Don't Want to Be Lonely"
+    },
+    {
+        "utt": "cover9825_00115616_9825_4",
+        "wav": "datasets/shs100k/Mha7eXyTMn0.wav",
+        "dur_s": 236.8435625,
+        "song": "I Just Don't Want to Be Lonely",
+        "version": "Regine [1]+I Just Don't Want to Be Lonely+4-I Just Don't Want to Be Lonely"
+    },
+    {
+        "utt": "cover9825_00115617_9825_5",
+        "wav": "datasets/shs100k/07RYm0kGp1s.wav",
+        "dur_s": 242.3466875,
+        "song": "Just Don't Wanna Be Lonely",
+        "version": "Will Downing+Just Don't Wanna Be Lonely+5-Just Don't Wanna Be Lonely"
+    },
+    {
+        "utt": "cover9826_00115620_9826_1",
+        "wav": "datasets/shs100k/GC5E8ie2pdM.wav",
+        "dur_s": 249.436375,
+        "song": "The Best",
+        "version": "Tina Turner+The Best+1-The Best"
+    },
+    {
+        "utt": "cover9826_00115621_9826_2",
+        "wav": "datasets/shs100k/g4HyMVATTVY.wav",
+        "dur_s": 329.8859375,
+        "song": "(Simply) The Best",
+        "version": "Tina Turner & Jimmy Barnes+(Simply) The Best+2-(Simply) The Best"
+    },
+    {
+        "utt": "cover9826_00115622_9826_3",
+        "wav": "datasets/shs100k/TCXRyxBaULg.wav",
+        "dur_s": 258.322,
+        "song": "The Best",
+        "version": "Nancy Kerrigan+The Best+3-The Best"
+    },
+    {
+        "utt": "cover9826_00115623_9826_4",
+        "wav": "datasets/shs100k/h85XE04u33I.wav",
+        "dur_s": 294.7696875,
+        "song": "The Best",
+        "version": "Wynonna+The Best+4-The Best"
+    },
+    {
+        "utt": "cover9828_00115625_9828_0",
+        "wav": "datasets/shs100k/5Jf26TEFD7U.wav",
+        "dur_s": 223.687,
+        "song": "Midnight Blue",
+        "version": "Johnny Mathis+Midnight Blue+0-Midnight Blue"
+    },
+    {
+        "utt": "cover9828_00115626_9828_1",
+        "wav": "datasets/shs100k/ri5ol1mPvt8.wav",
+        "dur_s": 216.8744375,
+        "song": "Midnight Blue",
+        "version": "Cristy Lane+Midnight Blue+1-Midnight Blue"
+    },
+    {
+        "utt": "cover9828_00115627_9828_2",
+        "wav": "datasets/shs100k/KKEUKL_EYj8.wav",
+        "dur_s": 221.0416875,
+        "song": "Midnight Blue",
+        "version": "Viola Wills+Midnight Blue+2-Midnight Blue"
+    },
+    {
+        "utt": "cover9828_00115628_9828_3",
+        "wav": "datasets/shs100k/TrJJ6TH_kKQ.wav",
+        "dur_s": 214.947125,
+        "song": "Midnight Blue",
+        "version": "Barbara Jones+Midnight Blue+3-Midnight Blue"
+    },
+    {
+        "utt": "cover9829_00115629_9829_0",
+        "wav": "datasets/shs100k/kI434oaUT2Y.wav",
+        "dur_s": 176.21625,
+        "song": "Sunny Goodge Street",
+        "version": "Donovan+Sunny Goodge Street+0-Sunny Goodge Street"
+    },
+    {
+        "utt": "cover9829_00115630_9829_1",
+        "wav": "datasets/shs100k/fmEVcAmqgn0.wav",
+        "dur_s": 194.0491875,
+        "song": "Sunny Goodge Street",
+        "version": "Marianne Faithfull+Sunny Goodge Street+1-Sunny Goodge Street"
+    },
+    {
+        "utt": "cover9829_00115631_9829_2",
+        "wav": "datasets/shs100k/YCqMOaFeOwA.wav",
+        "dur_s": 175.7750625,
+        "song": "Sunny Goodge Street",
+        "version": "Tom Northcott+Sunny Goodge Street+2-Sunny Goodge Street"
+    },
+    {
+        "utt": "cover9829_00115632_9829_3",
+        "wav": "datasets/shs100k/aujFgp2Ac0c.wav",
+        "dur_s": 193.1900625,
+        "song": "Sunny Goodge Street",
+        "version": "The Les Williams Orchestra+Sunny Goodge Street+3-Sunny Goodge Street"
+    },
+    {
+        "utt": "cover9830_00115634_9830_1",
+        "wav": "datasets/shs100k/QAZTtH1YNOU.wav",
+        "dur_s": 228.02,
+        "song": "99 Miles from L.A.",
+        "version": "Johnny Mathis+99 Miles from L.A.+1-99 Miles from L.A."
+    },
+    {
+        "utt": "cover9830_00115635_9830_2",
+        "wav": "datasets/shs100k/gJca07HLqw0.wav",
+        "dur_s": 211.1390625,
+        "song": "99 Miles from L.A.",
+        "version": "Art Garfunkel+99 Miles from L.A.+2-99 Miles from L.A."
+    },
+    {
+        "utt": "cover9830_00115636_9830_3",
+        "wav": "datasets/shs100k/2QQRjJ1Dg2Y.wav",
+        "dur_s": 290.133375,
+        "song": "99 Miles from L.A.",
+        "version": "Dianne Brooks+99 Miles from L.A.+3-99 Miles from L.A."
+    },
+    {
+        "utt": "cover9830_00115637_9830_4",
+        "wav": "datasets/shs100k/mhz-9smmStM.wav",
+        "dur_s": 250.588375,
+        "song": "99 Miles from L.A.",
+        "version": "Julio Iglesias+99 Miles from L.A.+4-99 Miles from L.A."
+    },
+    {
+        "utt": "cover9830_00115639_9830_6",
+        "wav": "datasets/shs100k/fCeY2uPKcsM.wav",
+        "dur_s": 238.07425,
+        "song": "99 Miles from LA",
+        "version": "Dionne Warwick+99 Miles from LA+6-99 Miles from LA"
+    },
+    {
+        "utt": "cover9831_00115641_9831_0",
+        "wav": "datasets/shs100k/B-2MenrnR2U.wav",
+        "dur_s": 302.087,
+        "song": "Fool to Cry",
+        "version": "The Rolling Stones+Fool to Cry+0-Fool to Cry"
+    },
+    {
+        "utt": "cover9831_00115642_9831_1",
+        "wav": "datasets/shs100k/v1Lo-YX2_Sc.wav",
+        "dur_s": 360.540375,
+        "song": "Fool to Cry",
+        "version": "Ten Sharp+Fool to Cry+1-Fool to Cry"
+    },
+    {
+        "utt": "cover9831_00115644_9831_3",
+        "wav": "datasets/shs100k/AWRzZT4KqiY.wav",
+        "dur_s": 213.32175,
+        "song": "Fool to Cry",
+        "version": "Taylor Dayne+Fool to Cry+3-Fool to Cry"
+    },
+    {
+        "utt": "cover9831_00115645_9831_4",
+        "wav": "datasets/shs100k/5SvUSwfeZa0.wav",
+        "dur_s": 227.740375,
+        "song": "Fool to Cry",
+        "version": "Tegan and Sara+Fool to Cry+4-Fool to Cry"
+    },
+    {
+        "utt": "cover9832_00115646_9832_0",
+        "wav": "datasets/shs100k/R-Tfm70dL5s.wav",
+        "dur_s": 167.623,
+        "song": "Going to a Go-Go",
+        "version": "The Miracles+Going to a Go-Go+0-Going to a Go-Go"
+    },
+    {
+        "utt": "cover9832_00115647_9832_1",
+        "wav": "datasets/shs100k/lI6ldEjAMVM.wav",
+        "dur_s": 190.1946875,
+        "song": "Going to a Go-Go",
+        "version": "Albino Gorilla+Going to a Go-Go+1-Going to a Go-Go"
+    },
+    {
+        "utt": "cover9832_00115648_9832_3",
+        "wav": "datasets/shs100k/PPMAuv_O750.wav",
+        "dur_s": 233.415,
+        "song": "Going to a Go Go",
+        "version": "The Rolling Stones+Going to a Go Go+3-Going to a Go Go"
+    },
+    {
+        "utt": "cover9832_00115649_9832_4",
+        "wav": "datasets/shs100k/EGgTfmUrl28.wav",
+        "dur_s": 236.2863125,
+        "song": "Going to a Go-Go",
+        "version": "Phil Collins+Going to a Go-Go+4-Going to a Go-Go"
+    },
+    {
+        "utt": "cover9833_00115650_9833_0",
+        "wav": "datasets/shs100k/JpE5msmw9tU.wav",
+        "dur_s": 136.138625,
+        "song": "The Nitty Gritty",
+        "version": "Shirley Ellis+The Nitty Gritty+0-The Nitty Gritty"
+    },
+    {
+        "utt": "cover9833_00115651_9833_1",
+        "wav": "datasets/shs100k/3VoXAfWci6A.wav",
+        "dur_s": 131.548375,
+        "song": "The Nitty Gritty",
+        "version": "Dinah Lee+The Nitty Gritty+1-The Nitty Gritty"
+    },
+    {
+        "utt": "cover9833_00115652_9833_3",
+        "wav": "datasets/shs100k/RqQpVoq0YGU.wav",
+        "dur_s": 148.0504375,
+        "song": "Nitty Gritty",
+        "version": "Ricardo Ray Orchestra+Nitty Gritty+3-Nitty Gritty"
+    },
+    {
+        "utt": "cover9833_00115654_9833_5",
+        "wav": "datasets/shs100k/cEi4e87jSJA.wav",
+        "dur_s": 142.826,
+        "song": "Nitty Gritty",
+        "version": "Southern Culture on the Skids+Nitty Gritty+5-Nitty Gritty"
+    },
+    {
+        "utt": "cover9834_00115655_9834_0",
+        "wav": "datasets/shs100k/Me2u9yBHfFI.wav",
+        "dur_s": 215.623,
+        "song": "Ira Hayes",
+        "version": "Peter La Farge+Ira Hayes+0-Ira Hayes"
+    },
+    {
+        "utt": "cover9834_00115658_9834_3",
+        "wav": "datasets/shs100k/QFxD_e1uA9I.wav",
+        "dur_s": 170.503,
+        "song": "The Ballad of Ira Hayes",
+        "version": "Marvin Rainwater+The Ballad of Ira Hayes+3-The Ballad of Ira Hayes"
+    },
+    {
+        "utt": "cover9834_00115659_9834_4",
+        "wav": "datasets/shs100k/EfekomjxjRY.wav",
+        "dur_s": 298.9105,
+        "song": "The Ballad of Ira Hayes",
+        "version": "Kinky Friedman+The Ballad of Ira Hayes+4-The Ballad of Ira Hayes"
+    },
+    {
+        "utt": "cover9834_00115660_9834_5",
+        "wav": "datasets/shs100k/pkyo2ML5JE0.wav",
+        "dur_s": 225.1639375,
+        "song": "Ira Hayes",
+        "version": "Townes Van Zandt+Ira Hayes+5-Ira Hayes"
+    },
+    {
+        "utt": "cover9834_00115661_9834_6",
+        "wav": "datasets/shs100k/UdqAquGOC_c.wav",
+        "dur_s": 224.4673125,
+        "song": "Ballad of Ira Hayes",
+        "version": "Tom Russell+Ballad of Ira Hayes+6-Ballad of Ira Hayes"
+    },
+    {
+        "utt": "cover9836_00115663_9836_0",
+        "wav": "datasets/shs100k/MO6xhLtfwW0.wav",
+        "dur_s": 272.348375,
+        "song": "Love Will Lead You Back",
+        "version": "Taylor Dayne+Love Will Lead You Back+0-Love Will Lead You Back"
+    },
+    {
+        "utt": "cover9836_00115664_9836_1",
+        "wav": "datasets/shs100k/j3nSqqIhYso.wav",
+        "dur_s": 308.2216875,
+        "song": "Love Will Lead You Back",
+        "version": "Johnny Mathis+Love Will Lead You Back+1-Love Will Lead You Back"
+    },
+    {
+        "utt": "cover9836_00115665_9836_2",
+        "wav": "datasets/shs100k/f4P8OzLEaMA.wav",
+        "dur_s": 311.4260625,
+        "song": "Love Will Lead You Back",
+        "version": "Patti LaBelle+Love Will Lead You Back+2-Love Will Lead You Back"
+    },
+    {
+        "utt": "cover9836_00115666_9836_3",
+        "wav": "datasets/shs100k/zg_16aqbnoc.wav",
+        "dur_s": 236.7275,
+        "song": "Love Will Lead You Back",
+        "version": "Young Divas+Love Will Lead You Back+3-Love Will Lead You Back"
+    },
+    {
+        "utt": "cover9836_00115667_9836_4",
+        "wav": "datasets/shs100k/57_h29o5zPw.wav",
+        "dur_s": 296.775,
+        "song": "Love Will Lead You Back",
+        "version": "Kyla [1]+Love Will Lead You Back+4-Love Will Lead You Back"
+    },
+    {
+        "utt": "cover9836_00115668_9836_5",
+        "wav": "datasets/shs100k/-mLsm009hqQ.wav",
+        "dur_s": 266.2896875,
+        "song": "Love Will Lead You Back",
+        "version": "Marika [1]+Love Will Lead You Back+5-Love Will Lead You Back"
+    },
+    {
+        "utt": "cover9836_00115670_9836_7",
+        "wav": "datasets/shs100k/XyBf_dqDrwI.wav",
+        "dur_s": 166.835375,
+        "song": "Qui\u00e9n eres t\u00fa",
+        "version": "Yuri+Qui\u00e9n eres t\u00fa+7-Qui\u00e9n eres t\u00fa"
+    },
+    {
+        "utt": "cover9837_00115671_9837_0",
+        "wav": "datasets/shs100k/tOG1_K6H3C8.wav",
+        "dur_s": 146.268375,
+        "song": "Rich Girl",
+        "version": "Daryl Hall & John Oates+Rich Girl+0-Rich Girl"
+    },
+    {
+        "utt": "cover9837_00115672_9837_1",
+        "wav": "datasets/shs100k/-FAc7DuSPn8.wav",
+        "dur_s": 351.6198125,
+        "song": "Rich Girl",
+        "version": "Nina Simone+Rich Girl+1-Rich Girl"
+    },
+    {
+        "utt": "cover9837_00115673_9837_2",
+        "wav": "datasets/shs100k/AIWtsKQdCPI.wav",
+        "dur_s": 122.8568125,
+        "song": "Rich Girl",
+        "version": "Me First and The Gimme Gimmes+Rich Girl+2-Rich Girl"
+    },
+    {
+        "utt": "cover9837_00115674_9837_3",
+        "wav": "datasets/shs100k/ETmcFOCk3YA.wav",
+        "dur_s": 168.50725,
+        "song": "Rich Girl",
+        "version": "The Bird and the Bee+Rich Girl+3-Rich Girl"
+    },
+    {
+        "utt": "cover9837_00115675_9837_4",
+        "wav": "datasets/shs100k/P4RL4D6jKXc.wav",
+        "dur_s": 175.900375,
+        "song": "Rich Girl",
+        "version": "Rachael Sage+Rich Girl+4-Rich Girl"
+    },
+    {
+        "utt": "cover9837_00115676_9837_5",
+        "wav": "datasets/shs100k/VVQlDiklZQY.wav",
+        "dur_s": 220.1251875,
+        "song": "Rich Girl",
+        "version": "Lake Street Dive+Rich Girl+5-Rich Girl"
+    },
+    {
+        "utt": "cover9837_00115677_9837_6",
+        "wav": "datasets/shs100k/b4XOoJZvpL8.wav",
+        "dur_s": 143.175,
+        "song": "Rich Girl",
+        "version": "Tim Timebomb+Rich Girl+6-Rich Girl"
+    },
+    {
+        "utt": "cover9838_00115678_9838_0",
+        "wav": "datasets/shs100k/anpMFcae9rI.wav",
+        "dur_s": 381.4806875,
+        "song": "Hold Your Head Up",
+        "version": "Argent+Hold Your Head Up+0-Hold Your Head Up"
+    },
+    {
+        "utt": "cover9838_00115680_9838_2",
+        "wav": "datasets/shs100k/6W1I34Y7cYw.wav",
+        "dur_s": 278.2911875,
+        "song": "Hold Your Head Up",
+        "version": "Uriah Heep+Hold Your Head Up+2-Hold Your Head Up"
+    },
+    {
+        "utt": "cover9838_00115681_9838_3",
+        "wav": "datasets/shs100k/FH8lgnUDUpo.wav",
+        "dur_s": 202.716375,
+        "song": "Hold Your Head Up",
+        "version": "Fish+Hold Your Head Up+3-Hold Your Head Up"
+    },
+    {
+        "utt": "cover9838_00115682_9838_4",
+        "wav": "datasets/shs100k/scks2aaIQec.wav",
+        "dur_s": 299.2588125,
+        "song": "Hold Your Head Up",
+        "version": "Lana Lane+Hold Your Head Up+4-Hold Your Head Up"
+    },
+    {
+        "utt": "cover9838_00115683_9838_5",
+        "wav": "datasets/shs100k/0Cx8P-E_T_s.wav",
+        "dur_s": 298.817625,
+        "song": "Hold Your Head Up",
+        "version": "Mother Love Bone+Hold Your Head Up+5-Hold Your Head Up"
+    },
+    {
+        "utt": "cover9839_00115684_9839_0",
+        "wav": "datasets/shs100k/yFdYZQmQtcs.wav",
+        "dur_s": 173.2976875,
+        "song": "J'suis snob",
+        "version": "Boris Vian+J'suis snob+0-J'suis snob"
+    },
+    {
+        "utt": "cover9839_00115685_9839_1",
+        "wav": "datasets/shs100k/EcF4udohfO0.wav",
+        "dur_s": 198.4145625,
+        "song": "Je suis snob",
+        "version": "Mouloudji+Je suis snob+1-Je suis snob"
+    },
+    {
+        "utt": "cover9839_00115686_9839_2",
+        "wav": "datasets/shs100k/p50YK6X5kWY.wav",
+        "dur_s": 165.063,
+        "song": "J'suis snob",
+        "version": "Loes Snijders+J'suis snob+2-J'suis snob"
+    },
+    {
+        "utt": "cover9839_00115687_9839_3",
+        "wav": "datasets/shs100k/DD7-hRI2j78.wav",
+        "dur_s": 167.3694375,
+        "song": "J'suis snob",
+        "version": "Anabela Duarte - Piano: Ian Mikirtoumov+J'suis snob+3-J'suis snob"
+    },
+    {
+        "utt": "cover9839_00115688_9839_4",
+        "wav": "datasets/shs100k/6FuuNunpyEs.wav",
+        "dur_s": 191.0770625,
+        "song": "Jsem snob",
+        "version": "Hana Hegerov\u00e1+Jsem snob+4-Jsem snob"
+    },
+    {
+        "utt": "cover9840_00115690_9840_1",
+        "wav": "datasets/shs100k/1FEB2_ywkjU.wav",
+        "dur_s": 269.723,
+        "song": "The Same Love That Made Me Laugh",
+        "version": "Margie Joseph+The Same Love That Made Me Laugh+1-The Same Love That Made Me Laugh"
+    },
+    {
+        "utt": "cover9840_00115691_9840_2",
+        "wav": "datasets/shs100k/sjADjzBKkMM.wav",
+        "dur_s": 236.402375,
+        "song": "The Same Love That Made Me Laugh",
+        "version": "Diana Ross+The Same Love That Made Me Laugh+2-The Same Love That Made Me Laugh"
+    },
+    {
+        "utt": "cover9841_00115694_9841_1",
+        "wav": "datasets/shs100k/3efdY2kw8I0.wav",
+        "dur_s": 454.044375,
+        "song": "C'est irreparable",
+        "version": "Greta Panettieri+C'est irreparable+1-C'est irreparable"
+    },
+    {
+        "utt": "cover9841_00115695_9841_2",
+        "wav": "datasets/shs100k/r21yAe13jlM.wav",
+        "dur_s": 196.4640625,
+        "song": "Un anno d'amore",
+        "version": "Mina+Un anno d'amore+2-Un anno d'amore"
+    },
+    {
+        "utt": "cover9841_00115697_9841_4",
+        "wav": "datasets/shs100k/qLQxh6T2m2A.wav",
+        "dur_s": 216.2416875,
+        "song": "Un ano d' amor",
+        "version": "\u0391\u03c6\u03c1\u03bf\u03b4\u03af\u03c4\u03b7 \u039c\u03ac\u03bd\u03bf\u03c5+Un ano d' amor+4-Un ano d' amor"
+    },
+    {
+        "utt": "cover9841_00115698_9841_5",
+        "wav": "datasets/shs100k/GAginsIzVqA.wav",
+        "dur_s": 287.0683125,
+        "song": "Un a\u00f1o de amor",
+        "version": "Mina con Diego el Cigala+Un a\u00f1o de amor+5-Un a\u00f1o de amor"
+    },
+    {
+        "utt": "cover9844_00115708_9844_0",
+        "wav": "datasets/shs100k/RFGkQw2hd4A.wav",
+        "dur_s": 182.6714375,
+        "song": "All I Do Is Think About You",
+        "version": "Tammi Terrell+All I Do Is Think About You+0-All I Do Is Think About You"
+    },
+    {
+        "utt": "cover9844_00115710_9844_2",
+        "wav": "datasets/shs100k/zmNqtKK9sEE.wav",
+        "dur_s": 343.2838125,
+        "song": "All I Do",
+        "version": "Kirk Whalum+All I Do+2-All I Do"
+    },
+    {
+        "utt": "cover9844_00115711_9844_3",
+        "wav": "datasets/shs100k/FgLHcJOZzwI.wav",
+        "dur_s": 172.15275,
+        "song": "All I Do Is Think About You",
+        "version": "Brenda Holloway+All I Do Is Think About You+3-All I Do Is Think About You"
+    },
+    {
+        "utt": "cover9844_00115712_9844_4",
+        "wav": "datasets/shs100k/L2WlHkLTBhI.wav",
+        "dur_s": 263.5929375,
+        "song": "All I Do",
+        "version": "Wayne Brady+All I Do+4-All I Do"
+    },
+    {
+        "utt": "cover9845_00115714_9845_1",
+        "wav": "datasets/shs100k/I6-BIDnJVlI.wav",
+        "dur_s": 284.0729375,
+        "song": "Exit Music (For a Film)",
+        "version": "Miranda Sex Garden+Exit Music (For a Film)+1-Exit Music (For a Film)"
+    },
+    {
+        "utt": "cover9845_00115715_9845_2",
+        "wav": "datasets/shs100k/6PSZV15sCEk.wav",
+        "dur_s": 265.5201875,
+        "song": "Exit Music (For a Film)",
+        "version": "Easy Star All-Stars featuring Sugar Minott+Exit Music (For a Film)+2-Exit Music (For a Film)"
+    },
+    {
+        "utt": "cover9845_00115716_9845_3",
+        "wav": "datasets/shs100k/J__WgkDuO7M.wav",
+        "dur_s": 235.271,
+        "song": "Exit Music (For a Film)",
+        "version": "Vampire Weekend+Exit Music (For a Film)+3-Exit Music (For a Film)"
+    },
+    {
+        "utt": "cover9845_00115717_9845_4",
+        "wav": "datasets/shs100k/OFMHz7DOEyg.wav",
+        "dur_s": 327.0530625,
+        "song": "Exit Music (For a Film)",
+        "version": "Amanda Palmer+Exit Music (For a Film)+4-Exit Music (For a Film)"
+    },
+    {
+        "utt": "cover9845_00115718_9845_5",
+        "wav": "datasets/shs100k/GTNxrQ6vRhA.wav",
+        "dur_s": 266.460375,
+        "song": "Exit Music (For a Film)",
+        "version": "Brad Mehldau+Exit Music (For a Film)+5-Exit Music (For a Film)"
+    },
+    {
+        "utt": "cover9847_00115721_9847_0",
+        "wav": "datasets/shs100k/WhnZdSU2OlY.wav",
+        "dur_s": 186.9936875,
+        "song": "You Belong to Me",
+        "version": "The Doobie Brothers+You Belong to Me+0-You Belong to Me"
+    },
+    {
+        "utt": "cover9847_00115722_9847_1",
+        "wav": "datasets/shs100k/tl84o7IPGBQ.wav",
+        "dur_s": 217.571,
+        "song": "You Belong to Me",
+        "version": "Amii Stewart+You Belong to Me+1-You Belong to Me"
+    },
+    {
+        "utt": "cover9847_00115723_9847_2",
+        "wav": "datasets/shs100k/NcJdYIM7qVQ.wav",
+        "dur_s": 239.39775,
+        "song": "You Belong to Me",
+        "version": "Chaka Khan feat. Michael McDonald+You Belong to Me+2-You Belong to Me"
+    },
+    {
+        "utt": "cover9847_00115724_9847_3",
+        "wav": "datasets/shs100k/WKRGJTcyEyk.wav",
+        "dur_s": 248.1136875,
+        "song": "You Belong to Me",
+        "version": "Phil Perry+You Belong to Me+3-You Belong to Me"
+    },
+    {
+        "utt": "cover9849_00115729_9849_1",
+        "wav": "datasets/shs100k/dK9yO2d4zCA.wav",
+        "dur_s": 204.8465,
+        "song": "Cowgirl in the Sand",
+        "version": "The Byrds+Cowgirl in the Sand+1-Cowgirl in the Sand"
+    },
+    {
+        "utt": "cover9849_00115730_9849_2",
+        "wav": "datasets/shs100k/ak6gDKSSvjo.wav",
+        "dur_s": 588.13825,
+        "song": "Cowgirl in the Sand",
+        "version": "The Magic Numbers+Cowgirl in the Sand+2-Cowgirl in the Sand"
+    },
+    {
+        "utt": "cover9849_00115731_9849_3",
+        "wav": "datasets/shs100k/i8HR2VCi0TE.wav",
+        "dur_s": 320.5515,
+        "song": "Cowgirl in the Sand",
+        "version": "Josie Cotton+Cowgirl in the Sand+3-Cowgirl in the Sand"
+    },
+    {
+        "utt": "cover9849_00115733_9849_5",
+        "wav": "datasets/shs100k/dtiV-m1v6SQ.wav",
+        "dur_s": 144.265625,
+        "song": "Cowgirl in the Sand",
+        "version": "Barnstar!+Cowgirl in the Sand+5-Cowgirl in the Sand"
+    },
+    {
+        "utt": "cover9851_00115738_9851_0",
+        "wav": "datasets/shs100k/llDv4J1Dnhg.wav",
+        "dur_s": 191.704,
+        "song": "Experience",
+        "version": "Bob Andy+Experience+0-Experience"
+    },
+    {
+        "utt": "cover9851_00115739_9851_1",
+        "wav": "datasets/shs100k/Ex8mLm28f44.wav",
+        "dur_s": 216.9673125,
+        "song": "Too Experienced",
+        "version": "Owen Gray+Too Experienced+1-Too Experienced"
+    },
+    {
+        "utt": "cover9851_00115740_9851_2",
+        "wav": "datasets/shs100k/rIKEZLnD88g.wav",
+        "dur_s": 178.933,
+        "song": "Too Experienced",
+        "version": "Winston Francis+Too Experienced+2-Too Experienced"
+    },
+    {
+        "utt": "cover9851_00115741_9851_3",
+        "wav": "datasets/shs100k/70yqenx5w3k.wav",
+        "dur_s": 176.5616875,
+        "song": "Too Experienced",
+        "version": "Jackie Edwards+Too Experienced+3-Too Experienced"
+    },
+    {
+        "utt": "cover9851_00115742_9851_4",
+        "wav": "datasets/shs100k/WdhC-d9FPx4.wav",
+        "dur_s": 192.772125,
+        "song": "Too Experienced",
+        "version": "Eddie Lovette+Too Experienced+4-Too Experienced"
+    },
+    {
+        "utt": "cover9851_00115745_9851_7",
+        "wav": "datasets/shs100k/vx8UYM_QS9w.wav",
+        "dur_s": 196.32475,
+        "song": "Too Experienced",
+        "version": "Christine McNabb+Too Experienced+7-Too Experienced"
+    },
+    {
+        "utt": "cover9851_00115747_9851_9",
+        "wav": "datasets/shs100k/1HvfcD-4s40.wav",
+        "dur_s": 178.654375,
+        "song": "Too Experienced",
+        "version": "Ms. Dynamite feat. Barrington Levy+Too Experienced+9-Too Experienced"
+    },
+    {
+        "utt": "cover9852_00115748_9852_0",
+        "wav": "datasets/shs100k/ITvFtpDmHzw.wav",
+        "dur_s": 247.222875,
+        "song": "Only You Know and I Know",
+        "version": "Dave Mason+Only You Know and I Know+0-Only You Know and I Know"
+    },
+    {
+        "utt": "cover9852_00115749_9852_1",
+        "wav": "datasets/shs100k/27I_hNzncKo.wav",
+        "dur_s": 211.3480625,
+        "song": "Only You Know and I Know",
+        "version": "Delaney & Bonnie & Friends+Only You Know and I Know+1-Only You Know and I Know"
+    },
+    {
+        "utt": "cover9852_00115750_9852_2",
+        "wav": "datasets/shs100k/jYRtK-Mh4Vo.wav",
+        "dur_s": 211.100375,
+        "song": "Only You Know and I Know",
+        "version": "Rita Coolidge+Only You Know and I Know+2-Only You Know and I Know"
+    },
+    {
+        "utt": "cover9852_00115752_9852_4",
+        "wav": "datasets/shs100k/ynYOasVeNaM.wav",
+        "dur_s": 194.2256875,
+        "song": "Only You Know and I Know",
+        "version": "Ben E. King+Only You Know and I Know+4-Only You Know and I Know"
+    },
+    {
+        "utt": "cover9852_00115753_9852_5",
+        "wav": "datasets/shs100k/z7Q_X4RXkYo.wav",
+        "dur_s": 285.489375,
+        "song": "Only You Know and I Know",
+        "version": "Dave Mason and Jim Capaldi+Only You Know and I Know+5-Only You Know and I Know"
+    },
+    {
+        "utt": "cover9852_00115754_9852_6",
+        "wav": "datasets/shs100k/ICRYG0lxTyU.wav",
+        "dur_s": 209.1189375,
+        "song": "Only You Know and I Know",
+        "version": "Joan Osborne+Only You Know and I Know+6-Only You Know and I Know"
+    },
+    {
+        "utt": "cover9853_00115755_9853_0",
+        "wav": "datasets/shs100k/iyd8dY8rRtA.wav",
+        "dur_s": 190.535,
+        "song": "Die, Die My Darling",
+        "version": "Misfits+Die, Die My Darling+0-Die, Die My Darling"
+    },
+    {
+        "utt": "cover9853_00115757_9853_2",
+        "wav": "datasets/shs100k/OHWLgoA4Z6s.wav",
+        "dur_s": 179.015,
+        "song": "Die, Die My Darling",
+        "version": "Lords of the Highway+Die, Die My Darling+2-Die, Die My Darling"
+    },
+    {
+        "utt": "cover9853_00115758_9853_3",
+        "wav": "datasets/shs100k/ARMsLWBkRTQ.wav",
+        "dur_s": 204.45175,
+        "song": "Die, Die My Darling",
+        "version": "Aiden+Die, Die My Darling+3-Die, Die My Darling"
+    },
+    {
+        "utt": "cover9853_00115759_9853_4",
+        "wav": "datasets/shs100k/3BzxytnoCHM.wav",
+        "dur_s": 225.3265,
+        "song": "Die Die My Darling",
+        "version": "Caliban+Die Die My Darling+4-Die Die My Darling"
+    },
+    {
+        "utt": "cover9853_00115760_9853_5",
+        "wav": "datasets/shs100k/QKk_xgYhNd8.wav",
+        "dur_s": 125.132375,
+        "song": "Die, Die My Darling",
+        "version": "Nutley Brass+Die, Die My Darling+5-Die, Die My Darling"
+    },
+    {
+        "utt": "cover9854_00115761_9854_0",
+        "wav": "datasets/shs100k/y0nNZ5wAWZE.wav",
+        "dur_s": 311.936875,
+        "song": "Black Diamond",
+        "version": "Kiss+Black Diamond+0-Black Diamond"
+    },
+    {
+        "utt": "cover9854_00115762_9854_1",
+        "wav": "datasets/shs100k/S4RyjwIdwxc.wav",
+        "dur_s": 160.984,
+        "song": "Black Diamond",
+        "version": "The Replacements+Black Diamond+1-Black Diamond"
+    },
+    {
+        "utt": "cover9854_00115763_9854_2",
+        "wav": "datasets/shs100k/oaIZLM8fZh4.wav",
+        "dur_s": 395.7145,
+        "song": "Black Diamond",
+        "version": "ESP+Black Diamond+2-Black Diamond"
+    },
+    {
+        "utt": "cover9854_00115764_9854_3",
+        "wav": "datasets/shs100k/5BCa3yzXjK4.wav",
+        "dur_s": 163.079,
+        "song": "Black Diamond",
+        "version": "The Chuck Norris Experiment+Black Diamond+3-Black Diamond"
+    },
+    {
+        "utt": "cover9855_00115765_9855_0",
+        "wav": "datasets/shs100k/WFqvxs1zbZQ.wav",
+        "dur_s": 183.047,
+        "song": "I Don't Want to Hear It Anymore",
+        "version": "Jerry Butler+I Don't Want to Hear It Anymore+0-I Don't Want to Hear It Anymore"
+    },
+    {
+        "utt": "cover9855_00115766_9855_1",
+        "wav": "datasets/shs100k/3qtm6In2rjg.wav",
+        "dur_s": 202.29225,
+        "song": "I Don't Want to Hear It Anymore",
+        "version": "P.J. Proby+I Don't Want to Hear It Anymore+1-I Don't Want to Hear It Anymore"
+    },
+    {
+        "utt": "cover9855_00115769_9855_4",
+        "wav": "datasets/shs100k/3pU9aUed_a4.wav",
+        "dur_s": 279.5450625,
+        "song": "I Don't Want to Hear It Anymore",
+        "version": "Katy Setterfield+I Don't Want to Hear It Anymore+4-I Don't Want to Hear It Anymore"
+    },
+    {
+        "utt": "cover9856_00115770_9856_0",
+        "wav": "datasets/shs100k/7iWJn3quN80.wav",
+        "dur_s": 235.7058125,
+        "song": "Insight",
+        "version": "Joy Division+Insight+0-Insight"
+    },
+    {
+        "utt": "cover9856_00115772_9856_2",
+        "wav": "datasets/shs100k/AH6PBx0GU_U.wav",
+        "dur_s": 205.519875,
+        "song": "Insight",
+        "version": "The Trouble+Insight+2-Insight"
+    },
+    {
+        "utt": "cover9860_00115774_9860_0",
+        "wav": "datasets/shs100k/Ypkv0HeUvTc.wav",
+        "dur_s": 226.247,
+        "song": "The Beautiful People",
+        "version": "Marilyn Manson+The Beautiful People+0-The Beautiful People"
+    },
+    {
+        "utt": "cover9860_00115775_9860_1",
+        "wav": "datasets/shs100k/dgu3kr5hmx0.wav",
+        "dur_s": 224.199,
+        "song": "The Beautiful People",
+        "version": "Vanna+The Beautiful People+1-The Beautiful People"
+    },
+    {
+        "utt": "cover9860_00115776_9860_2",
+        "wav": "datasets/shs100k/tRVPMv73CtQ.wav",
+        "dur_s": 269.852375,
+        "song": "The Beautiful People",
+        "version": "The Lounge Kittens+The Beautiful People+2-The Beautiful People"
+    },
+    {
+        "utt": "cover9860_00115777_9860_3",
+        "wav": "datasets/shs100k/BEfwbpeVDdM.wav",
+        "dur_s": 213.063,
+        "song": "Beautiful People",
+        "version": "8-Bit Arcade+Beautiful People+3-Beautiful People"
+    },
+    {
+        "utt": "cover9862_00115779_9862_0",
+        "wav": "datasets/shs100k/vaapVFcL69k.wav",
+        "dur_s": 162.6736875,
+        "song": "It Makes a Long Time Man Feel Bad",
+        "version": "Group of Negro Prisoners+It Makes a Long Time Man Feel Bad+0-It Makes a Long Time Man Feel Bad"
+    },
+    {
+        "utt": "cover9862_00115781_9862_2",
+        "wav": "datasets/shs100k/RCzVslOyEk8.wav",
+        "dur_s": 172.188375,
+        "song": "Long Time Man",
+        "version": "Bobby Darin+Long Time Man+2-Long Time Man"
+    },
+    {
+        "utt": "cover9862_00115782_9862_3",
+        "wav": "datasets/shs100k/XfBc9VldEdE.wav",
+        "dur_s": 360.3969375,
+        "song": "Long Time Man",
+        "version": "Tim Rose+Long Time Man+3-Long Time Man"
+    },
+    {
+        "utt": "cover9862_00115783_9862_4",
+        "wav": "datasets/shs100k/2nzoYdW2GLI.wav",
+        "dur_s": 348.276125,
+        "song": "Long Time Man",
+        "version": "Nick Cave & The Bad Seeds+Long Time Man+4-Long Time Man"
+    },
+    {
+        "utt": "cover9862_00115784_9862_5",
+        "wav": "datasets/shs100k/_88zGOSdA08.wav",
+        "dur_s": 288.583,
+        "song": "Long Time Man",
+        "version": "Noir D\u00e9sir+Long Time Man+5-Long Time Man"
+    },
+    {
+        "utt": "cover9863_00115786_9863_1",
+        "wav": "datasets/shs100k/DtHGD1SV2Co.wav",
+        "dur_s": 264.8700625,
+        "song": "All Around the World",
+        "version": "Sagi-Rei+All Around the World+1-All Around the World"
+    },
+    {
+        "utt": "cover9863_00115787_9863_2",
+        "wav": "datasets/shs100k/K49Qc9L7-wM.wav",
+        "dur_s": 242.021625,
+        "song": "All Around the World",
+        "version": "Thomas Anders+All Around the World+2-All Around the World"
+    },
+    {
+        "utt": "cover9863_00115789_9863_4",
+        "wav": "datasets/shs100k/YWzWKPsuoQ4.wav",
+        "dur_s": 354.4061875,
+        "song": "All Around the World",
+        "version": "Vintage Lounge Orchestra+All Around the World+4-All Around the World"
+    },
+    {
+        "utt": "cover9863_00115790_9863_5",
+        "wav": "datasets/shs100k/Q4GaAKrrBC0.wav",
+        "dur_s": 300.1179375,
+        "song": "All Around the World",
+        "version": "Rick Braun+All Around the World+5-All Around the World"
+    },
+    {
+        "utt": "cover9864_00115792_9864_1",
+        "wav": "datasets/shs100k/NAPn4YPgyoo.wav",
+        "dur_s": 189.020375,
+        "song": "54-46 (Was My Number)",
+        "version": "Aswad+54-46 (Was My Number)+1-54-46 (Was My Number)"
+    },
+    {
+        "utt": "cover9864_00115793_9864_2",
+        "wav": "datasets/shs100k/GfxXrSLvv4E.wav",
+        "dur_s": 246.1315625,
+        "song": "54/46",
+        "version": "Buju Banton+54/46+2-54/46"
+    },
+    {
+        "utt": "cover9864_00115794_9864_3",
+        "wav": "datasets/shs100k/0sy6lzt2xU8.wav",
+        "dur_s": 280.102375,
+        "song": "54-46 Was My Number",
+        "version": "Toots and The Maytals with Jeff Beck+54-46 Was My Number+3-54-46 Was My Number"
+    },
+    {
+        "utt": "cover9864_00115796_9864_5",
+        "wav": "datasets/shs100k/UZue9XUe_aE.wav",
+        "dur_s": 318.087,
+        "song": "5446/Ball and Chain",
+        "version": "Sublime+5446/Ball and Chain+5-5446/Ball and Chain"
+    },
+    {
+        "utt": "cover9867_00115801_9867_0",
+        "wav": "datasets/shs100k/GawVyj-XXrQ.wav",
+        "dur_s": 106.1616875,
+        "song": "Vacation",
+        "version": "The Textones+Vacation+0-Vacation"
+    },
+    {
+        "utt": "cover9867_00115803_9867_2",
+        "wav": "datasets/shs100k/dlzum9WQvwM.wav",
+        "dur_s": 159.21925,
+        "song": "Vacation",
+        "version": "Sloppy Seconds+Vacation+2-Vacation"
+    },
+    {
+        "utt": "cover9867_00115804_9867_3",
+        "wav": "datasets/shs100k/8WXET7lfk2Q.wav",
+        "dur_s": 208.09725,
+        "song": "Vacation",
+        "version": "The Chipmunks & The Chipettes featuring BASKO+Vacation+3-Vacation"
+    },
+    {
+        "utt": "cover9868_00115807_9868_2",
+        "wav": "datasets/shs100k/xV7F-JwTx_U.wav",
+        "dur_s": 216.6421875,
+        "song": "Yes We Can Can",
+        "version": "Allen Toussaint+Yes We Can Can+2-Yes We Can Can"
+    },
+    {
+        "utt": "cover9868_00115808_9868_3",
+        "wav": "datasets/shs100k/GrUyCmW1J6I.wav",
+        "dur_s": 307.0606875,
+        "song": "Yes We Can, Can",
+        "version": "Marc Broussard+Yes We Can, Can+3-Yes We Can, Can"
+    },
+    {
+        "utt": "cover9868_00115809_9868_4",
+        "wav": "datasets/shs100k/TxLrGUBslzs.wav",
+        "dur_s": 270.0945625,
+        "song": "Yes We Can Can",
+        "version": "Harry Connick, Jr.+Yes We Can Can+4-Yes We Can Can"
+    },
+    {
+        "utt": "cover9868_00115810_9868_5",
+        "wav": "datasets/shs100k/58fWhWM52VY.wav",
+        "dur_s": 152.199,
+        "song": "Yes We Can",
+        "version": "An Apple a Day+Yes We Can+5-Yes We Can"
+    },
+    {
+        "utt": "cover9868_00115811_9868_6",
+        "wav": "datasets/shs100k/5Ac6XoO_6qE.wav",
+        "dur_s": 238.2576875,
+        "song": "Yes We Can",
+        "version": "The Sachal Ensemble featuring Bilal+Yes We Can+6-Yes We Can"
+    },
+    {
+        "utt": "cover9868_00115812_9868_7",
+        "wav": "datasets/shs100k/v_Ik-_UO84o.wav",
+        "dur_s": 295.7990625,
+        "song": "Yes We Can Can",
+        "version": "Swingadelic+Yes We Can Can+7-Yes We Can Can"
+    },
+    {
+        "utt": "cover9869_00115813_9869_0",
+        "wav": "datasets/shs100k/z_Gw5kx61y4.wav",
+        "dur_s": 152.0210625,
+        "song": "The Minute You're Gone",
+        "version": "Sonny James+The Minute You're Gone+0-The Minute You're Gone"
+    },
+    {
+        "utt": "cover9869_00115815_9869_2",
+        "wav": "datasets/shs100k/krTqP43TNqE.wav",
+        "dur_s": 168.3696875,
+        "song": "The Minute You're Gone",
+        "version": "Ronnie Dove+The Minute You're Gone+2-The Minute You're Gone"
+    },
+    {
+        "utt": "cover9869_00115816_9869_3",
+        "wav": "datasets/shs100k/rxt008m8UvE.wav",
+        "dur_s": 134.88475,
+        "song": "The Minute You're Gone",
+        "version": "Daniel O'Donnell+The Minute You're Gone+3-The Minute You're Gone"
+    },
+    {
+        "utt": "cover9870_00115818_9870_1",
+        "wav": "datasets/shs100k/-5sAzLVXTLY.wav",
+        "dur_s": 201.4795625,
+        "song": "Drain You",
+        "version": "Aiden+Drain You+1-Drain You"
+    },
+    {
+        "utt": "cover9870_00115819_9870_2",
+        "wav": "datasets/shs100k/a95aOexTHMM.wav",
+        "dur_s": 214.27375,
+        "song": "Drain You",
+        "version": "Horse Feathers+Drain You+2-Drain You"
+    },
+    {
+        "utt": "cover9870_00115820_9870_3",
+        "wav": "datasets/shs100k/cqtXkp65lXE.wav",
+        "dur_s": 248.10525,
+        "song": "Drain You",
+        "version": "Foxy Shazam+Drain You+3-Drain You"
+    },
+    {
+        "utt": "cover9870_00115821_9870_4",
+        "wav": "datasets/shs100k/mrAHQayGvuY.wav",
+        "dur_s": 222.911625,
+        "song": "Drain You",
+        "version": "Kids in Glass Houses+Drain You+4-Drain You"
+    },
+    {
+        "utt": "cover9870_00115822_9870_5",
+        "wav": "datasets/shs100k/eJuAbh1--hg.wav",
+        "dur_s": 221.054,
+        "song": "Drain You",
+        "version": "Maps and Atlases+Drain You+5-Drain You"
+    },
+    {
+        "utt": "cover9870_00115823_9870_6",
+        "wav": "datasets/shs100k/EWefaHNePOI.wav",
+        "dur_s": 225.1175,
+        "song": "Drain You",
+        "version": "Get Well Soon+Drain You+6-Drain You"
+    },
+    {
+        "utt": "cover9871_00115824_9871_0",
+        "wav": "datasets/shs100k/gcbTd8wdu2k.wav",
+        "dur_s": 204.4285,
+        "song": "Got to Be There",
+        "version": "Michael Jackson+Got to Be There+0-Got to Be There"
+    },
+    {
+        "utt": "cover9871_00115825_9871_1",
+        "wav": "datasets/shs100k/l6PCKxcxTss.wav",
+        "dur_s": 232.0496875,
+        "song": "Got to Be There",
+        "version": "Chaka Khan+Got to Be There+1-Got to Be There"
+    },
+    {
+        "utt": "cover9871_00115826_9871_2",
+        "wav": "datasets/shs100k/UkbIkARjFSM.wav",
+        "dur_s": 215.179375,
+        "song": "Got to Be There",
+        "version": "Boyz II Men+Got to Be There+2-Got to Be There"
+    },
+    {
+        "utt": "cover9871_00115827_9871_3",
+        "wav": "datasets/shs100k/CDBoA4m1pu4.wav",
+        "dur_s": 180.395875,
+        "song": "Got to Be There",
+        "version": "The Ramsey Lewis Trio+Got to Be There+3-Got to Be There"
+    },
+    {
+        "utt": "cover9872_00115828_9872_0",
+        "wav": "datasets/shs100k/ft-MddGJycU.wav",
+        "dur_s": 137.5216875,
+        "song": "I Hang My Head and Cry",
+        "version": "Marty Robbins+I Hang My Head and Cry+0-I Hang My Head and Cry"
+    },
+    {
+        "utt": "cover9872_00115829_9872_1",
+        "wav": "datasets/shs100k/_POazNk1kdo.wav",
+        "dur_s": 152.9963125,
+        "song": "I Hang My Head and Cry",
+        "version": "Arthur Alexander+I Hang My Head and Cry+1-I Hang My Head and Cry"
+    },
+    {
+        "utt": "cover9873_00115830_9873_0",
+        "wav": "datasets/shs100k/JgXrmyNpR6Q.wav",
+        "dur_s": 124.2964375,
+        "song": "Janie Jones",
+        "version": "The Clash+Janie Jones+0-Janie Jones"
+    },
+    {
+        "utt": "cover9873_00115831_9873_1",
+        "wav": "datasets/shs100k/NqB_bECBncA.wav",
+        "dur_s": 115.3136875,
+        "song": "Janie Jones",
+        "version": "The Weaklings+Janie Jones+1-Janie Jones"
+    },
+    {
+        "utt": "cover9873_00115832_9873_2",
+        "wav": "datasets/shs100k/Kmery1kr43I.wav",
+        "dur_s": 219.010625,
+        "song": "Janie Jones",
+        "version": "Songdog+Janie Jones+2-Janie Jones"
+    },
+    {
+        "utt": "cover9873_00115833_9873_3",
+        "wav": "datasets/shs100k/kR2OpNQHB9s.wav",
+        "dur_s": 119.0951875,
+        "song": "Janie Jones (Strummerville)",
+        "version": "Babyshambles & Friends+Janie Jones (Strummerville)+3-Janie Jones (Strummerville)"
+    },
+    {
+        "utt": "cover9874_00115834_9874_0",
+        "wav": "datasets/shs100k/LKb9XQ39-zc.wav",
+        "dur_s": 237.563375,
+        "song": "Games Without Frontiers",
+        "version": "Peter Gabriel+Games Without Frontiers+0-Games Without Frontiers"
+    },
+    {
+        "utt": "cover9874_00115835_9874_1",
+        "wav": "datasets/shs100k/mltxganVj1M.wav",
+        "dur_s": 323.755875,
+        "song": "Games Without Frontiers",
+        "version": "Pop Will Eat Itself+Games Without Frontiers+1-Games Without Frontiers"
+    },
+    {
+        "utt": "cover9874_00115836_9874_2",
+        "wav": "datasets/shs100k/dlwPNjYPpqI.wav",
+        "dur_s": 361.1864375,
+        "song": "Games Without Frontiers",
+        "version": "Bob Holroyd+Games Without Frontiers+2-Games Without Frontiers"
+    },
+    {
+        "utt": "cover9874_00115838_9874_4",
+        "wav": "datasets/shs100k/bYX-gqqYSJw.wav",
+        "dur_s": 232.246,
+        "song": "Games Without Frontiers",
+        "version": "Brainclaw+Games Without Frontiers+4-Games Without Frontiers"
+    },
+    {
+        "utt": "cover9874_00115839_9874_5",
+        "wav": "datasets/shs100k/VgW3XRQTt2M.wav",
+        "dur_s": 203.015,
+        "song": "Games Without Frontiers",
+        "version": "Arcade Fire+Games Without Frontiers+5-Games Without Frontiers"
+    },
+    {
+        "utt": "cover9875_00115842_9875_1",
+        "wav": "datasets/shs100k/7wS8V8vCUqw.wav",
+        "dur_s": 241.564375,
+        "song": "Here Comes the Flood",
+        "version": "Robert Fripp+Here Comes the Flood+1-Here Comes the Flood"
+    },
+    {
+        "utt": "cover9875_00115843_9875_2",
+        "wav": "datasets/shs100k/y8kp_7ChCPk.wav",
+        "dur_s": 222.60975,
+        "song": "Here Comes the Flood",
+        "version": "Erlend Bratland+Here Comes the Flood+2-Here Comes the Flood"
+    },
+    {
+        "utt": "cover9875_00115844_9875_3",
+        "wav": "datasets/shs100k/39exXmhygxQ.wav",
+        "dur_s": 364.530125,
+        "song": "Here Comes the Flood",
+        "version": "The Ordeal+Here Comes the Flood+3-Here Comes the Flood"
+    },
+    {
+        "utt": "cover9876_00115845_9876_0",
+        "wav": "datasets/shs100k/eFyr49TwuiI.wav",
+        "dur_s": 178.055,
+        "song": "Along Came Jones",
+        "version": "The Coasters+Along Came Jones+0-Along Came Jones"
+    },
+    {
+        "utt": "cover9876_00115846_9876_1",
+        "wav": "datasets/shs100k/-yYQ8CwZ1k8.wav",
+        "dur_s": 225.479,
+        "song": "Along Came Jones",
+        "version": "Ray Stevens+Along Came Jones+1-Along Came Jones"
+    },
+    {
+        "utt": "cover9876_00115847_9876_2",
+        "wav": "datasets/shs100k/PEEpkoevh5Y.wav",
+        "dur_s": 196.69625,
+        "song": "Along Came Jones",
+        "version": "Buck Owens+Along Came Jones+2-Along Came Jones"
+    },
+    {
+        "utt": "cover9876_00115848_9876_3",
+        "wav": "datasets/shs100k/d0kEnb8Z2Ds.wav",
+        "dur_s": 191.402125,
+        "song": "Along Came Jones",
+        "version": "Dolenz, Jones, Boyce & Hart+Along Came Jones+3-Along Came Jones"
+    },
+    {
+        "utt": "cover9876_00115849_9876_4",
+        "wav": "datasets/shs100k/xT2QOFUKlcs.wav",
+        "dur_s": 183.7395625,
+        "song": "Along Came Jones",
+        "version": "George Jones and Johnny Paycheck+Along Came Jones+4-Along Came Jones"
+    },
+    {
+        "utt": "cover9877_00115851_9877_0",
+        "wav": "datasets/shs100k/6lP-5Fp7vNU.wav",
+        "dur_s": 175.8215,
+        "song": "What Do I Get?",
+        "version": "Buzzcocks+What Do I Get?+0-What Do I Get?"
+    },
+    {
+        "utt": "cover9877_00115852_9877_1",
+        "wav": "datasets/shs100k/5fmL5nx0Kss.wav",
+        "dur_s": 172.1063125,
+        "song": "What Do I Get",
+        "version": "Soho Roses+What Do I Get+1-What Do I Get"
+    },
+    {
+        "utt": "cover9877_00115853_9877_2",
+        "wav": "datasets/shs100k/lEIhAxiUQvI.wav",
+        "dur_s": 156.0845625,
+        "song": "What Do I Get",
+        "version": "Cuff the Duke+What Do I Get+2-What Do I Get"
+    },
+    {
+        "utt": "cover9880_00115857_9880_1",
+        "wav": "datasets/shs100k/OLTqWBlAGMM.wav",
+        "dur_s": 126.1540625,
+        "song": "I Just Don't Understand",
+        "version": "The Cresters+I Just Don't Understand+1-I Just Don't Understand"
+    },
+    {
+        "utt": "cover9880_00115861_9880_5",
+        "wav": "datasets/shs100k/fAA7h5ijSEo.wav",
+        "dur_s": 157.779625,
+        "song": "I Just Don't Understand",
+        "version": "Spoon+I Just Don't Understand+5-I Just Don't Understand"
+    },
+    {
+        "utt": "cover9880_00115862_9880_6",
+        "wav": "datasets/shs100k/Fu6O-9b1LGc.wav",
+        "dur_s": 156.3864375,
+        "song": "Je ne comprends rien",
+        "version": "Sophie+Je ne comprends rien+6-Je ne comprends rien"
+    },
+    {
+        "utt": "cover9881_00115863_9881_0",
+        "wav": "datasets/shs100k/aQ-GDObOIKE.wav",
+        "dur_s": 209.4208125,
+        "song": "Do You Love Me?",
+        "version": "Kiss+Do You Love Me?+0-Do You Love Me?"
+    },
+    {
+        "utt": "cover9881_00115864_9881_1",
+        "wav": "datasets/shs100k/OVOZkIggPj8.wav",
+        "dur_s": 183.6234375,
+        "song": "Do You Love Me",
+        "version": "Girl+Do You Love Me+1-Do You Love Me"
+    },
+    {
+        "utt": "cover9881_00115865_9881_2",
+        "wav": "datasets/shs100k/MQZw3Sv5kfU.wav",
+        "dur_s": 208.09725,
+        "song": "Do You Love Me?",
+        "version": "Nirvana+Do You Love Me?+2-Do You Love Me?"
+    },
+    {
+        "utt": "cover9881_00115866_9881_3",
+        "wav": "datasets/shs100k/XBL4RDg5jiU.wav",
+        "dur_s": 191.587875,
+        "song": "Do You Love Me?",
+        "version": "Die Toten Hosen+Do You Love Me?+3-Do You Love Me?"
+    },
+    {
+        "utt": "cover9881_00115867_9881_4",
+        "wav": "datasets/shs100k/dVqLeXz07xA.wav",
+        "dur_s": 197.788375,
+        "song": "Do You Love Me?",
+        "version": "Livin' Sacrifice+Do You Love Me?+4-Do You Love Me?"
+    },
+    {
+        "utt": "cover9881_00115868_9881_5",
+        "wav": "datasets/shs100k/DIF9_Oss8NY.wav",
+        "dur_s": 300.1179375,
+        "song": "Do You Love Me",
+        "version": "L.A. Guns+Do You Love Me+5-Do You Love Me"
+    },
+    {
+        "utt": "cover9882_00115869_9882_0",
+        "wav": "datasets/shs100k/FvUfjm-97gw.wav",
+        "dur_s": 178.236375,
+        "song": "Want to Buy Some Illusions",
+        "version": "Marianne Faithfull+Want to Buy Some Illusions+0-Want to Buy Some Illusions"
+    },
+    {
+        "utt": "cover9882_00115870_9882_1",
+        "wav": "datasets/shs100k/DtSBHotvsyk.wav",
+        "dur_s": 120.604375,
+        "song": "Illusionen",
+        "version": "Hildegard Knef+Illusionen+1-Illusionen"
+    },
+    {
+        "utt": "cover9883_00115872_9883_0",
+        "wav": "datasets/shs100k/4vOq6UPhvDE.wav",
+        "dur_s": 168.9251875,
+        "song": "Lost Without Your Love",
+        "version": "Bread+Lost Without Your Love+0-Lost Without Your Love"
+    },
+    {
+        "utt": "cover9883_00115873_9883_1",
+        "wav": "datasets/shs100k/Rc4pM4w-07g.wav",
+        "dur_s": 185.597125,
+        "song": "Lost Without Your Love",
+        "version": "Jericho Rosales+Lost Without Your Love+1-Lost Without Your Love"
+    },
+    {
+        "utt": "cover9883_00115875_9883_3",
+        "wav": "datasets/shs100k/ckwbr5CBz6U.wav",
+        "dur_s": 176.79675,
+        "song": "Alleen is maar alleen",
+        "version": "Benny Neyman+Alleen is maar alleen+3-Alleen is maar alleen"
+    },
+    {
+        "utt": "cover9883_00115876_9883_4",
+        "wav": "datasets/shs100k/Uhnu888kD1M.wav",
+        "dur_s": 170.8756875,
+        "song": "Alleen is maar alleen",
+        "version": "Laura Lynn+Alleen is maar alleen+4-Alleen is maar alleen"
+    },
+    {
+        "utt": "cover9884_00115877_9884_0",
+        "wav": "datasets/shs100k/Z8O7LHpMSjI.wav",
+        "dur_s": 257.7136875,
+        "song": "Lay Back in the Arms of Someone",
+        "version": "Smokie+Lay Back in the Arms of Someone+0-Lay Back in the Arms of Someone"
+    },
+    {
+        "utt": "cover9884_00115879_9884_2",
+        "wav": "datasets/shs100k/gJJmkniYLnI.wav",
+        "dur_s": 178.0976875,
+        "song": "Lay Back in the Arms of Someone",
+        "version": "Rick Nelson+Lay Back in the Arms of Someone+2-Lay Back in the Arms of Someone"
+    },
+    {
+        "utt": "cover9886_00115882_9886_0",
+        "wav": "datasets/shs100k/w9yDlCC6SG0.wav",
+        "dur_s": 152.578375,
+        "song": "Excuse Me (I Think I've Got a Heartache)",
+        "version": "Buck Owens+Excuse Me (I Think I've Got a Heartache)+0-Excuse Me (I Think I've Got a Heartache)"
+    },
+    {
+        "utt": "cover9886_00115886_9886_4",
+        "wav": "datasets/shs100k/pvSpuRSaRYM.wav",
+        "dur_s": 160.0496875,
+        "song": "Excuse Me",
+        "version": "Getingarna+Excuse Me+4-Excuse Me"
+    },
+    {
+        "utt": "cover9886_00115887_9886_5",
+        "wav": "datasets/shs100k/9VV5r9se5vY.wav",
+        "dur_s": 213.5536875,
+        "song": "Excuse Me, I Think I've Got a Heartache",
+        "version": "The Crowe Brothers+Excuse Me, I Think I've Got a Heartache+5-Excuse Me, I Think I've Got a Heartache"
+    },
+    {
+        "utt": "cover9886_00115888_9886_6",
+        "wav": "datasets/shs100k/KpnWRIofp6k.wav",
+        "dur_s": 160.1136875,
+        "song": "Excuse Me (I Think I've Got a Heartache)",
+        "version": "The Mavericks+Excuse Me (I Think I've Got a Heartache)+6-Excuse Me (I Think I've Got a Heartache)"
+    },
+    {
+        "utt": "cover9886_00115892_9886_10",
+        "wav": "datasets/shs100k/a3Z8iwCq7D4.wav",
+        "dur_s": 151.516375,
+        "song": "Excuse Me (I Think I've Got a Heartache)",
+        "version": "Jann Browne+Excuse Me (I Think I've Got a Heartache)+10-Excuse Me (I Think I've Got a Heartache)"
+    },
+    {
+        "utt": "cover9887_00115894_9887_1",
+        "wav": "datasets/shs100k/pp4FYru7uO4.wav",
+        "dur_s": 241.650125,
+        "song": "It's All Too Much",
+        "version": "Journey+It's All Too Much+1-It's All Too Much"
+    },
+    {
+        "utt": "cover9887_00115895_9887_2",
+        "wav": "datasets/shs100k/sM9oNigAIrI.wav",
+        "dur_s": 394.4838125,
+        "song": "It's All Too Much",
+        "version": "Steve Hillage+It's All Too Much+2-It's All Too Much"
+    },
+    {
+        "utt": "cover9887_00115896_9887_3",
+        "wav": "datasets/shs100k/TIVwpP7h25Q.wav",
+        "dur_s": 381.6431875,
+        "song": "It's All Too Much",
+        "version": "The Church+It's All Too Much+3-It's All Too Much"
+    },
+    {
+        "utt": "cover9888_00115897_9888_0",
+        "wav": "datasets/shs100k/_03uXQiz6eY.wav",
+        "dur_s": 511.559,
+        "song": "Why Worry",
+        "version": "Dire Straits+Why Worry+0-Why Worry"
+    },
+    {
+        "utt": "cover9888_00115899_9888_2",
+        "wav": "datasets/shs100k/KXy8V03x1Ew.wav",
+        "dur_s": 333.4256875,
+        "song": "Why Worry",
+        "version": "Art Garfunkel+Why Worry+2-Why Worry"
+    },
+    {
+        "utt": "cover9888_00115901_9888_4",
+        "wav": "datasets/shs100k/kO8qnI5rkkw.wav",
+        "dur_s": 381.0626875,
+        "song": "Why Worry",
+        "version": "Chet Atkins+Why Worry+4-Why Worry"
+    },
+    {
+        "utt": "cover9889_00115903_9889_1",
+        "wav": "datasets/shs100k/cpeer-SvmFI.wav",
+        "dur_s": 174.0568125,
+        "song": "She Wants to Sell My Monkey",
+        "version": "Johnny Jones with Billy Boy Arnold+She Wants to Sell My Monkey+1-She Wants to Sell My Monkey"
+    },
+    {
+        "utt": "cover9889_00115905_9889_3",
+        "wav": "datasets/shs100k/Erob47SUfJQ.wav",
+        "dur_s": 180.0176875,
+        "song": "She Wants to Sell My Monkey",
+        "version": "Tinsley Ellis+She Wants to Sell My Monkey+3-She Wants to Sell My Monkey"
+    },
+    {
+        "utt": "cover9889_00115906_9889_4",
+        "wav": "datasets/shs100k/R8RVn43yAAQ.wav",
+        "dur_s": 303.0896875,
+        "song": "She Wants to Sell My Monkey",
+        "version": "Vidar Busk & His True Believers+She Wants to Sell My Monkey+4-She Wants to Sell My Monkey"
+    },
+    {
+        "utt": "cover9889_00115907_9889_5",
+        "wav": "datasets/shs100k/heiY916zwq8.wav",
+        "dur_s": 181.347875,
+        "song": "She Wants to Sell My Monkey",
+        "version": "Tav Falco & the Unapproachable Panther Burns+She Wants to Sell My Monkey+5-She Wants to Sell My Monkey"
+    },
+    {
+        "utt": "cover9890_00115908_9890_0",
+        "wav": "datasets/shs100k/A842x7fl6sM.wav",
+        "dur_s": 159.964375,
+        "song": "Jolie m\u00f4me",
+        "version": "L\u00e9o Ferr\u00e9+Jolie m\u00f4me+0-Jolie m\u00f4me"
+    },
+    {
+        "utt": "cover9890_00115911_9890_3",
+        "wav": "datasets/shs100k/pPi_c5QdpqY.wav",
+        "dur_s": 240.3265625,
+        "song": "Jolie m\u00f4me",
+        "version": "Higelin+Jolie m\u00f4me+3-Jolie m\u00f4me"
+    },
+    {
+        "utt": "cover9893_00115913_9893_0",
+        "wav": "datasets/shs100k/EUBAhjnJJlk.wav",
+        "dur_s": 222.2614375,
+        "song": "You're a Part of Me",
+        "version": "Kim Carnes+You're a Part of Me+0-You're a Part of Me"
+    },
+    {
+        "utt": "cover9893_00115914_9893_1",
+        "wav": "datasets/shs100k/uHPX6oBhIzw.wav",
+        "dur_s": 224.1886875,
+        "song": "You're a Part of Me",
+        "version": "Gene Cotton with Kim Carnes+You're a Part of Me+1-You're a Part of Me"
+    },
+    {
+        "utt": "cover9893_00115915_9893_2",
+        "wav": "datasets/shs100k/uV64TAPJZdI.wav",
+        "dur_s": 208.0740625,
+        "song": "You're a Part of Me",
+        "version": "Anne Murray+You're a Part of Me+2-You're a Part of Me"
+    },
+    {
+        "utt": "cover9893_00115916_9893_3",
+        "wav": "datasets/shs100k/G_1t9WDzXMg.wav",
+        "dur_s": 217.083375,
+        "song": "You're a Part of Me",
+        "version": "Charly McClain+You're a Part of Me+3-You're a Part of Me"
+    },
+    {
+        "utt": "cover9893_00115917_9893_4",
+        "wav": "datasets/shs100k/lf8pbP1aEpk.wav",
+        "dur_s": 223.9796875,
+        "song": "You're a Part of Me",
+        "version": "Albert West & Anita Meyer+You're a Part of Me+4-You're a Part of Me"
+    },
+    {
+        "utt": "cover9895_00115923_9895_1",
+        "wav": "datasets/shs100k/abcJA1hpO-0.wav",
+        "dur_s": 166.76575,
+        "song": "Lies",
+        "version": "Nancy Sinatra+Lies+1-Lies"
+    },
+    {
+        "utt": "cover9895_00115924_9895_2",
+        "wav": "datasets/shs100k/uRBmP58WcVk.wav",
+        "dur_s": 146.355375,
+        "song": "Lies",
+        "version": "Gary Lewis & The Playboys+Lies+2-Lies"
+    },
+    {
+        "utt": "cover9895_00115925_9895_3",
+        "wav": "datasets/shs100k/QZp-fBIgYU8.wav",
+        "dur_s": 164.467,
+        "song": "Lies",
+        "version": "Styx+Lies+3-Lies"
+    },
+    {
+        "utt": "cover9895_00115928_9895_6",
+        "wav": "datasets/shs100k/669Jku1j4Ug.wav",
+        "dur_s": 148.677375,
+        "song": "Lies",
+        "version": "The Delmonas+Lies+6-Lies"
+    },
+    {
+        "utt": "cover9896_00115929_9896_0",
+        "wav": "datasets/shs100k/pxAapOOllX0.wav",
+        "dur_s": 190.241125,
+        "song": "Breezin'",
+        "version": "Gabor Szabo and Bobby Womack+Breezin'+0-Breezin'"
+    },
+    {
+        "utt": "cover9896_00115930_9896_1",
+        "wav": "datasets/shs100k/14pitnJlcv4.wav",
+        "dur_s": 339.420375,
+        "song": "Breezin'",
+        "version": "George Benson+Breezin'+1-Breezin'"
+    },
+    {
+        "utt": "cover9896_00115931_9896_2",
+        "wav": "datasets/shs100k/mCkT6J8MOHw.wav",
+        "dur_s": 324.6846875,
+        "song": "Breezin'",
+        "version": "Alfonzo Blackwell+Breezin'+2-Breezin'"
+    },
+    {
+        "utt": "cover9896_00115932_9896_3",
+        "wav": "datasets/shs100k/Gg-zhuVbRak.wav",
+        "dur_s": 366.4805625,
+        "song": "Breezin'",
+        "version": "Bradley Leighton+Breezin'+3-Breezin'"
+    },
+    {
+        "utt": "cover9896_00115933_9896_4",
+        "wav": "datasets/shs100k/Qp2opIAYn70.wav",
+        "dur_s": 340.84575,
+        "song": "Breezin'",
+        "version": "George Benson & Al Jarreau+Breezin'+4-Breezin'"
+    },
+    {
+        "utt": "cover9897_00115934_9897_0",
+        "wav": "datasets/shs100k/Bl4dEAtxo0M.wav",
+        "dur_s": 216.199,
+        "song": "Runnin' With the Devil",
+        "version": "Van Halen+Runnin' With the Devil+0-Runnin' With the Devil"
+    },
+    {
+        "utt": "cover9897_00115935_9897_1",
+        "wav": "datasets/shs100k/I6r3meWQwvo.wav",
+        "dur_s": 142.7563125,
+        "song": "Runnin' With the Devil",
+        "version": "Blanche+Runnin' With the Devil+1-Runnin' With the Devil"
+    },
+    {
+        "utt": "cover9897_00115937_9897_3",
+        "wav": "datasets/shs100k/v3s5g3EPu2U.wav",
+        "dur_s": 216.476375,
+        "song": "Runnin' With the Devil",
+        "version": "The John Cowan Band+Runnin' With the Devil+3-Runnin' With the Devil"
+    },
+    {
+        "utt": "cover9898_00115939_9898_0",
+        "wav": "datasets/shs100k/7ZsQdLlvuk4.wav",
+        "dur_s": 269.575,
+        "song": "Fascination Street",
+        "version": "The Cure+Fascination Street+0-Fascination Street"
+    },
+    {
+        "utt": "cover9898_00115940_9898_1",
+        "wav": "datasets/shs100k/WAN-PekynUU.wav",
+        "dur_s": 277.780375,
+        "song": "Fascination Street",
+        "version": "Engine [1]+Fascination Street+1-Fascination Street"
+    },
+    {
+        "utt": "cover9898_00115941_9898_2",
+        "wav": "datasets/shs100k/PhwClTn2TKY.wav",
+        "dur_s": 197.11425,
+        "song": "Fascination Street",
+        "version": "Metronomy+Fascination Street+2-Fascination Street"
+    },
+    {
+        "utt": "cover9899_00115942_9899_0",
+        "wav": "datasets/shs100k/9-Ox8HzWVoA.wav",
+        "dur_s": 120.5348125,
+        "song": "Te-Ni-Nee-Ni-Nu",
+        "version": "Slim Harpo+Te-Ni-Nee-Ni-Nu+0-Te-Ni-Nee-Ni-Nu"
+    },
+    {
+        "utt": "cover9899_00115943_9899_1",
+        "wav": "datasets/shs100k/nKympUyefQw.wav",
+        "dur_s": 325.1258125,
+        "song": "Tee Ni Nee Ni Noo - Tip On In",
+        "version": "Alex Chilton+Tee Ni Nee Ni Noo - Tip On In+1-Tee Ni Nee Ni Noo - Tip On In"
+    },
+    {
+        "utt": "cover9899_00115944_9899_2",
+        "wav": "datasets/shs100k/IcU_5LZOgGQ.wav",
+        "dur_s": 186.4098125,
+        "song": "Te Ni Nee Ni Nu",
+        "version": "Lou Ann Barton+Te Ni Nee Ni Nu+2-Te Ni Nee Ni Nu"
+    },
+    {
+        "utt": "cover9899_00115945_9899_3",
+        "wav": "datasets/shs100k/_UUjOE6Ur5I.wav",
+        "dur_s": 130.396375,
+        "song": "Tee Ni Nee Ni Nu",
+        "version": "Wilson Diesel+Tee Ni Nee Ni Nu+3-Tee Ni Nee Ni Nu"
+    },
+    {
+        "utt": "cover9900_00115946_9900_0",
+        "wav": "datasets/shs100k/w1Lf_1y7rYE.wav",
+        "dur_s": 175.004375,
+        "song": "Groove Me",
+        "version": "King Floyd+Groove Me+0-Groove Me"
+    },
+    {
+        "utt": "cover9900_00115947_9900_1",
+        "wav": "datasets/shs100k/IDUwa6dixII.wav",
+        "dur_s": 281.054375,
+        "song": "Groove Me",
+        "version": "Etta James+Groove Me+1-Groove Me"
+    },
+    {
+        "utt": "cover9900_00115950_9900_4",
+        "wav": "datasets/shs100k/YQs2P5X0fvg.wav",
+        "dur_s": 212.3233125,
+        "song": "Groove Me",
+        "version": "King Curtis+Groove Me+4-Groove Me"
+    },
+    {
+        "utt": "cover9900_00115951_9900_5",
+        "wav": "datasets/shs100k/cxa93vJJwJg.wav",
+        "dur_s": 246.5495,
+        "song": "Groove Me",
+        "version": "Jim Weider and The Honky Tonk Gurus+Groove Me+5-Groove Me"
+    },
+    {
+        "utt": "cover9901_00115953_9901_1",
+        "wav": "datasets/shs100k/Et4Eofu9Yno.wav",
+        "dur_s": 193.515125,
+        "song": "Beats of Love",
+        "version": "The Bollock Brothers+Beats of Love+1-Beats of Love"
+    },
+    {
+        "utt": "cover9901_00115954_9901_2",
+        "wav": "datasets/shs100k/3K93-Nwo99Y.wav",
+        "dur_s": 218.524375,
+        "song": "Beats of Love",
+        "version": "Lina [1]+Beats of Love+2-Beats of Love"
+    },
+    {
+        "utt": "cover9901_00115955_9901_3",
+        "wav": "datasets/shs100k/Sogh2tSoltQ.wav",
+        "dur_s": 309.1696875,
+        "song": "Beats of Love",
+        "version": "2 Faces+Beats of Love+3-Beats of Love"
+    },
+    {
+        "utt": "cover9901_00115956_9901_4",
+        "wav": "datasets/shs100k/kHVSl0aKknI.wav",
+        "dur_s": 224.51375,
+        "song": "Beats of Love",
+        "version": "Get Ready! & Amanda Lear+Beats of Love+4-Beats of Love"
+    },
+    {
+        "utt": "cover9901_00115957_9901_5",
+        "wav": "datasets/shs100k/S_MrrzDbHr8.wav",
+        "dur_s": 379.599875,
+        "song": "Beats of Love",
+        "version": "The Rhythm Junks+Beats of Love+5-Beats of Love"
+    },
+    {
+        "utt": "cover9902_00115960_9902_0",
+        "wav": "datasets/shs100k/aCiYmCVikjo.wav",
+        "dur_s": 133.063,
+        "song": "Let's Lynch the Landlord",
+        "version": "Dead Kennedys+Let's Lynch the Landlord+0-Let's Lynch the Landlord"
+    },
+    {
+        "utt": "cover9902_00115961_9902_1",
+        "wav": "datasets/shs100k/3cpbOPQOcLw.wav",
+        "dur_s": 173.9406875,
+        "song": "Let's Lynch the Landlord",
+        "version": "Faith No More+Let's Lynch the Landlord+1-Let's Lynch the Landlord"
+    },
+    {
+        "utt": "cover9902_00115962_9902_2",
+        "wav": "datasets/shs100k/-8zj9iXlgcw.wav",
+        "dur_s": 121.068875,
+        "song": "Let's Lynch the Landlord",
+        "version": "L7+Let's Lynch the Landlord+2-Let's Lynch the Landlord"
+    },
+    {
+        "utt": "cover9903_00115963_9903_0",
+        "wav": "datasets/shs100k/0EZHq8zpfGI.wav",
+        "dur_s": 238.7011875,
+        "song": "Let Me Love You Baby",
+        "version": "Buddy Guy+Let Me Love You Baby+0-Let Me Love You Baby"
+    },
+    {
+        "utt": "cover9903_00115964_9903_1",
+        "wav": "datasets/shs100k/SvXCY5CKxds.wav",
+        "dur_s": 186.200875,
+        "song": "Let Me Love You Baby",
+        "version": "Savoy Brown Blues Band+Let Me Love You Baby+1-Let Me Love You Baby"
+    },
+    {
+        "utt": "cover9903_00115966_9903_3",
+        "wav": "datasets/shs100k/404KP2Gvcvw.wav",
+        "dur_s": 211.858875,
+        "song": "Let Me Love You",
+        "version": "Ronnie Earl and The Broadcasters+Let Me Love You+3-Let Me Love You"
+    },
+    {
+        "utt": "cover9903_00115967_9903_4",
+        "wav": "datasets/shs100k/Ns9aYA-dZ74.wav",
+        "dur_s": 160.9375625,
+        "song": "Let Me Love You Baby",
+        "version": "Stevie Ray Vaughan and Double Trouble+Let Me Love You Baby+4-Let Me Love You Baby"
+    },
+    {
+        "utt": "cover9904_00115969_9904_0",
+        "wav": "datasets/shs100k/rVQ9R2kSFRg.wav",
+        "dur_s": 218.081875,
+        "song": "Bright Side of the Road",
+        "version": "Van Morrison+Bright Side of the Road+0-Bright Side of the Road"
+    },
+    {
+        "utt": "cover9904_00115970_9904_1",
+        "wav": "datasets/shs100k/Q8Kodd0DWHQ.wav",
+        "dur_s": 218.887,
+        "song": "Bright Side of the Road",
+        "version": "Josh Graves feat. Delbert McClinton+Bright Side of the Road+1-Bright Side of the Road"
+    },
+    {
+        "utt": "cover9904_00115971_9904_2",
+        "wav": "datasets/shs100k/7JfbO4Xi5hs.wav",
+        "dur_s": 224.711,
+        "song": "Bright Side of the Road",
+        "version": "Dan Penn+Bright Side of the Road+2-Bright Side of the Road"
+    },
+    {
+        "utt": "cover9904_00115972_9904_3",
+        "wav": "datasets/shs100k/DoT8KVP1t-0.wav",
+        "dur_s": 258.832875,
+        "song": "Bright Side of the Road",
+        "version": "Raul Malo - Pat Flynn - Rob Ickes - Dave Pomeroy+Bright Side of the Road+3-Bright Side of the Road"
+    },
+    {
+        "utt": "cover9904_00115973_9904_4",
+        "wav": "datasets/shs100k/7KO8XjSaymQ.wav",
+        "dur_s": 244.2043125,
+        "song": "Bright Side of the Road",
+        "version": "Grandpa Nick Sessieband+Bright Side of the Road+4-Bright Side of the Road"
+    },
+    {
+        "utt": "cover9905_00115974_9905_0",
+        "wav": "datasets/shs100k/x5kisPBwZOM.wav",
+        "dur_s": 347.5696875,
+        "song": "Hit Me with Your Best Shot",
+        "version": "Pat Benatar+Hit Me with Your Best Shot+0-Hit Me with Your Best Shot"
+    },
+    {
+        "utt": "cover9905_00115975_9905_1",
+        "wav": "datasets/shs100k/6Nst1YDLRpg.wav",
+        "dur_s": 178.95625,
+        "song": "Hit Me with Your Best Shot",
+        "version": "Girl Authority+Hit Me with Your Best Shot+1-Hit Me with Your Best Shot"
+    },
+    {
+        "utt": "cover9905_00115976_9905_3",
+        "wav": "datasets/shs100k/t7vl5aoo2Sw.wav",
+        "dur_s": 153.628375,
+        "song": "Hit Me with Your Best Shot",
+        "version": "Jonathan Young feat. Savannah Stuckmayer+Hit Me with Your Best Shot+3-Hit Me with Your Best Shot"
+    },
+    {
+        "utt": "cover9906_00115977_9906_0",
+        "wav": "datasets/shs100k/mDzagmJbwtY.wav",
+        "dur_s": 221.1933125,
+        "song": "Half a Minute",
+        "version": "Matt Bianco+Half a Minute+0-Half a Minute"
+    },
+    {
+        "utt": "cover9906_00115978_9906_1",
+        "wav": "datasets/shs100k/LqVb54O7UmM.wav",
+        "dur_s": 353.8489375,
+        "song": "Half a Minute",
+        "version": "Headsounds feat.  Alayna Mosteller+Half a Minute+1-Half a Minute"
+    },
+    {
+        "utt": "cover9907_00115981_9907_1",
+        "wav": "datasets/shs100k/NyB_r9TuTfA.wav",
+        "dur_s": 152.7176875,
+        "song": "Fool #1",
+        "version": "Johnny Tillotson+Fool #1+1-Fool #1"
+    },
+    {
+        "utt": "cover9907_00115982_9907_2",
+        "wav": "datasets/shs100k/dUL-niLTWE0.wav",
+        "dur_s": 140.9776875,
+        "song": "Fool #1",
+        "version": "Sonny James, The Southern Gentleman+Fool #1+2-Fool #1"
+    },
+    {
+        "utt": "cover9907_00115983_9907_3",
+        "wav": "datasets/shs100k/E3Sn1x2YVl0.wav",
+        "dur_s": 140.4575625,
+        "song": "Fool #1",
+        "version": "Connie Smith+Fool #1+3-Fool #1"
+    },
+    {
+        "utt": "cover9907_00115984_9907_4",
+        "wav": "datasets/shs100k/4o39pLlFVzw.wav",
+        "dur_s": 126.0611875,
+        "song": "Fool No. 1",
+        "version": "Marie Osmond+Fool No. 1+4-Fool No. 1"
+    },
+    {
+        "utt": "cover9909_00115985_9909_0",
+        "wav": "datasets/shs100k/Xn5TgdH4GEU.wav",
+        "dur_s": 181.724375,
+        "song": "Comme un gar\u00e7on",
+        "version": "Sylvie Vartan+Comme un gar\u00e7on+0-Comme un gar\u00e7on"
+    },
+    {
+        "utt": "cover9909_00115986_9909_1",
+        "wav": "datasets/shs100k/GzxVJbIGhMc.wav",
+        "dur_s": 161.0304375,
+        "song": "Comme un gar\u00e7on",
+        "version": "Stereo Total+Comme un gar\u00e7on+1-Comme un gar\u00e7on"
+    },
+    {
+        "utt": "cover9909_00115987_9909_2",
+        "wav": "datasets/shs100k/t_dUIwykJ9s.wav",
+        "dur_s": 168.13575,
+        "song": "Comme un gar\u00e7on",
+        "version": "G\u00e9rard Depardieu+Comme un gar\u00e7on+2-Comme un gar\u00e7on"
+    },
+    {
+        "utt": "cover9910_00115988_9910_0",
+        "wav": "datasets/shs100k/IRHA9W-zExQ.wav",
+        "dur_s": 415.5675625,
+        "song": "Cloudbusting",
+        "version": "Kate Bush+Cloudbusting+0-Cloudbusting"
+    },
+    {
+        "utt": "cover9910_00115989_9910_1",
+        "wav": "datasets/shs100k/CLFKkSkX9js.wav",
+        "dur_s": 456.2025,
+        "song": "Cloudbusting",
+        "version": "Novembre+Cloudbusting+1-Cloudbusting"
+    },
+    {
+        "utt": "cover9910_00115990_9910_2",
+        "wav": "datasets/shs100k/WgE51H9uaII.wav",
+        "dur_s": 258.13625,
+        "song": "Cloudbusting",
+        "version": "Anthem In+Cloudbusting+2-Cloudbusting"
+    },
+    {
+        "utt": "cover9910_00115991_9910_3",
+        "wav": "datasets/shs100k/t-4Ewz31FhA.wav",
+        "dur_s": 420.6295,
+        "song": "Cloudbusting",
+        "version": "Neil Halstead+Cloudbusting+3-Cloudbusting"
+    },
+    {
+        "utt": "cover9913_00115997_9913_1",
+        "wav": "datasets/shs100k/_SJZv_Vosqw.wav",
+        "dur_s": 266.8016875,
+        "song": "Da Da Da",
+        "version": "Herbert Gr\u00f6nemeyer+Da Da Da+1-Da Da Da"
+    },
+    {
+        "utt": "cover9913_00115998_9913_2",
+        "wav": "datasets/shs100k/7WOc1BHdVNg.wav",
+        "dur_s": 170.82925,
+        "song": "Dadada",
+        "version": "Marina Celeste+Dadada+2-Dadada"
+    },
+    {
+        "utt": "cover9913_00115999_9913_3",
+        "wav": "datasets/shs100k/FuB6xTi8UXU.wav",
+        "dur_s": 206.5415,
+        "song": "Da Da Da I Don't Love You You Don't Love Me Aha Aha Aha",
+        "version": "Trio+Da Da Da I Don't Love You You Don't Love Me Aha Aha Aha+3-Da Da Da I Don't Love You You Don't Love Me Aha Aha Aha"
+    },
+    {
+        "utt": "cover9913_00116000_9913_4",
+        "wav": "datasets/shs100k/lFy43A1PdIQ.wav",
+        "dur_s": 206.3093125,
+        "song": "Da, Da, Da, I Don't Love You",
+        "version": "Suzy Andrews+Da, Da, Da, I Don't Love You+4-Da, Da, Da, I Don't Love You"
+    },
+    {
+        "utt": "cover9913_00116001_9913_5",
+        "wav": "datasets/shs100k/9vFnbIY0M98.wav",
+        "dur_s": 334.7853125,
+        "song": "Der Da Da Da",
+        "version": "Pink Project+Der Da Da Da+5-Der Da Da Da"
+    },
+    {
+        "utt": "cover9913_00116002_9913_6",
+        "wav": "datasets/shs100k/cxp7n2K7x0I.wav",
+        "dur_s": 232.3696875,
+        "song": "Da Da Da",
+        "version": "Elastica+Da Da Da+6-Da Da Da"
+    },
+    {
+        "utt": "cover9913_00116003_9913_7",
+        "wav": "datasets/shs100k/Xtl2-sT4uPQ.wav",
+        "dur_s": 194.951,
+        "song": "Da Da Da ich lieb dich nicht du liebst mich nicht",
+        "version": "Se\u00f1or Coconut and His Orchestra+Da Da Da ich lieb dich nicht du liebst mich nicht+7-Da Da Da ich lieb dich nicht du liebst mich nicht"
+    },
+    {
+        "utt": "cover9913_00116004_9913_8",
+        "wav": "datasets/shs100k/Z1xDeod5vME.wav",
+        "dur_s": 189.4284375,
+        "song": "Da da da ich wei\u00df Bescheid, du wei\u00dft Bescheid",
+        "version": "Frank Zander+Da da da ich wei\u00df Bescheid, du wei\u00dft Bescheid+8-Da da da ich wei\u00df Bescheid, du wei\u00dft Bescheid"
+    },
+    {
+        "utt": "cover9914_00116005_9914_0",
+        "wav": "datasets/shs100k/D_Bj8wrXslk.wav",
+        "dur_s": 229.063,
+        "song": "Don't Get Me Wrong",
+        "version": "The Pretenders+Don't Get Me Wrong+0-Don't Get Me Wrong"
+    },
+    {
+        "utt": "cover9914_00116006_9914_1",
+        "wav": "datasets/shs100k/f6ob1JMYkEc.wav",
+        "dur_s": 208.9099375,
+        "song": "Don't Get Me Wrong",
+        "version": "Tahta Menezes+Don't Get Me Wrong+1-Don't Get Me Wrong"
+    },
+    {
+        "utt": "cover9915_00116007_9915_0",
+        "wav": "datasets/shs100k/JfwGL1SN-Zw.wav",
+        "dur_s": 137.1376875,
+        "song": "The Ways of a Woman in Love",
+        "version": "Johnny Cash and The Tennessee Two+The Ways of a Woman in Love+0-The Ways of a Woman in Love"
+    },
+    {
+        "utt": "cover9915_00116008_9915_1",
+        "wav": "datasets/shs100k/Oqp1KyVoOvg.wav",
+        "dur_s": 226.441,
+        "song": "Ways of a Woman in Love",
+        "version": "Billy Swan+Ways of a Woman in Love+1-Ways of a Woman in Love"
+    },
+    {
+        "utt": "cover9915_00116009_9915_2",
+        "wav": "datasets/shs100k/xnr88B6uLko.wav",
+        "dur_s": 172.6171875,
+        "song": "Kun ei, niin ei...",
+        "version": "Tapio Rautavaara, Neloset ja Manhattan-yhtye+Kun ei, niin ei...+2-Kun ei, niin ei..."
+    },
+    {
+        "utt": "cover9916_00116010_9916_0",
+        "wav": "datasets/shs100k/ttzwW7pIVIw.wav",
+        "dur_s": 231.5494375,
+        "song": "Speak to Me",
+        "version": "Easy Star All-Stars+Speak to Me+0-Speak to Me"
+    },
+    {
+        "utt": "cover9916_00116011_9916_4",
+        "wav": "datasets/shs100k/G8zKjch_Tfs.wav",
+        "dur_s": 70.054625,
+        "song": "Speak to Me",
+        "version": "Gallops+Speak to Me+4-Speak to Me"
+    },
+    {
+        "utt": "cover9917_00116012_9917_0",
+        "wav": "datasets/shs100k/bK7HJvmgFnM.wav",
+        "dur_s": 206.2576875,
+        "song": "Any Colour You Like",
+        "version": "Pink Floyd+Any Colour You Like+0-Any Colour You Like"
+    },
+    {
+        "utt": "cover9917_00116014_9917_2",
+        "wav": "datasets/shs100k/bezv7XxvIJY.wav",
+        "dur_s": 201.851125,
+        "song": "Any Dub You Like",
+        "version": "Easy Star All-Stars+Any Dub You Like+2-Any Dub You Like"
+    },
+    {
+        "utt": "cover9917_00116015_9917_3",
+        "wav": "datasets/shs100k/ozryRgYp5iQ.wav",
+        "dur_s": 216.4796875,
+        "song": "Any Colour You Like",
+        "version": "Easy Star All-Stars+Any Colour You Like+3-Any Colour You Like"
+    },
+    {
+        "utt": "cover9917_00116016_9917_4",
+        "wav": "datasets/shs100k/BIKUF7C5Q6s.wav",
+        "dur_s": 306.0976875,
+        "song": "Any Colour You Like",
+        "version": "Dream Theater+Any Colour You Like+4-Any Colour You Like"
+    },
+    {
+        "utt": "cover9917_00116017_9917_5",
+        "wav": "datasets/shs100k/8diBf1gTSoY.wav",
+        "dur_s": 207.93475,
+        "song": "Any Colour You Like",
+        "version": "Matt Berry+Any Colour You Like+5-Any Colour You Like"
+    },
+    {
+        "utt": "cover9918_00116019_9918_1",
+        "wav": "datasets/shs100k/2qvsQXelkZs.wav",
+        "dur_s": 165.97625,
+        "song": "Venus and Mars",
+        "version": "Toni van Duyne+Venus and Mars+1-Venus and Mars"
+    },
+    {
+        "utt": "cover9918_00116020_9918_2",
+        "wav": "datasets/shs100k/-A9vugu86AI.wav",
+        "dur_s": 483.6336875,
+        "song": "Venus & Mars / Rock Show",
+        "version": "Tim Christensen, Mike Viola, Tracy Bonham with The Damn Crystals+Venus & Mars / Rock Show+2-Venus & Mars / Rock Show"
+    },
+    {
+        "utt": "cover9920_00116024_9920_0",
+        "wav": "datasets/shs100k/bORW_YEmHwY.wav",
+        "dur_s": 245.788375,
+        "song": "A Man Needs a Maid",
+        "version": "Neil Young+A Man Needs a Maid+0-A Man Needs a Maid"
+    },
+    {
+        "utt": "cover9920_00116025_9920_1",
+        "wav": "datasets/shs100k/ENQ0hXmkx1Q.wav",
+        "dur_s": 256.220375,
+        "song": "A Man Needs a Maid",
+        "version": "Dala+A Man Needs a Maid+1-A Man Needs a Maid"
+    },
+    {
+        "utt": "cover9920_00116026_9920_2",
+        "wav": "datasets/shs100k/5hd_gyIQFh0.wav",
+        "dur_s": 289.0884375,
+        "song": "A Man Needs a Maid",
+        "version": "Attack in Black+A Man Needs a Maid+2-A Man Needs a Maid"
+    },
+    {
+        "utt": "cover9920_00116027_9920_3",
+        "wav": "datasets/shs100k/hWvnqesB4fI.wav",
+        "dur_s": 256.0496875,
+        "song": "A Man Needs a Maid",
+        "version": "Rumer+A Man Needs a Maid+3-A Man Needs a Maid"
+    },
+    {
+        "utt": "cover9921_00116028_9921_0",
+        "wav": "datasets/shs100k/0x4AZHDT-4A.wav",
+        "dur_s": 158.663,
+        "song": "You'll Lose a Good Thing",
+        "version": "Barbara Lynn+You'll Lose a Good Thing+0-You'll Lose a Good Thing"
+    },
+    {
+        "utt": "cover9921_00116030_9921_2",
+        "wav": "datasets/shs100k/F-JRo2UPaSY.wav",
+        "dur_s": 156.595375,
+        "song": "You'll Lose a Good Thing",
+        "version": "Aretha Franklin+You'll Lose a Good Thing+2-You'll Lose a Good Thing"
+    },
+    {
+        "utt": "cover9921_00116031_9921_3",
+        "wav": "datasets/shs100k/D0dOSXOgIk4.wav",
+        "dur_s": 313.628375,
+        "song": "If You Should Loose Me",
+        "version": "Denise La Salle+If You Should Loose Me+3-If You Should Loose Me"
+    },
+    {
+        "utt": "cover9921_00116032_9921_4",
+        "wav": "datasets/shs100k/84K0Ka7HZ3k.wav",
+        "dur_s": 171.143,
+        "song": "You'll Lose a Good Thing",
+        "version": "Freddy Fender+You'll Lose a Good Thing+4-You'll Lose a Good Thing"
+    },
+    {
+        "utt": "cover9921_00116033_9921_5",
+        "wav": "datasets/shs100k/9cZd4uAl9J0.wav",
+        "dur_s": 178.53825,
+        "song": "You'll Lose a Good Thing",
+        "version": "Carla Thomas+You'll Lose a Good Thing+5-You'll Lose a Good Thing"
+    },
+    {
+        "utt": "cover9921_00116036_9921_8",
+        "wav": "datasets/shs100k/Ju4kJhEM18k.wav",
+        "dur_s": 233.0586875,
+        "song": "You'll Lose a Good Thing",
+        "version": "Madness+You'll Lose a Good Thing+8-You'll Lose a Good Thing"
+    },
+    {
+        "utt": "cover9922_00116038_9922_1",
+        "wav": "datasets/shs100k/rnHwLKHvHCM.wav",
+        "dur_s": 135.767125,
+        "song": "Mickey Mouse March",
+        "version": "Aaron Neville+Mickey Mouse March+1-Mickey Mouse March"
+    },
+    {
+        "utt": "cover9922_00116039_9922_2",
+        "wav": "datasets/shs100k/VCqNkRq61G0.wav",
+        "dur_s": 103.096625,
+        "song": "Mickey Mouse March",
+        "version": "Da Vinci's Notebook+Mickey Mouse March+2-Mickey Mouse March"
+    },
+    {
+        "utt": "cover9922_00116040_9922_3",
+        "wav": "datasets/shs100k/BbiOiCNtdWQ.wav",
+        "dur_s": 125.9450625,
+        "song": "Mickey Mouse March",
+        "version": "Domino+Mickey Mouse March+3-Mickey Mouse March"
+    },
+    {
+        "utt": "cover9923_00116044_9923_2",
+        "wav": "datasets/shs100k/6fZR-GbL6tM.wav",
+        "dur_s": 241.835875,
+        "song": "Atlantis",
+        "version": "No Angels & Donovan+Atlantis+2-Atlantis"
+    },
+    {
+        "utt": "cover9923_00116046_9923_4",
+        "wav": "datasets/shs100k/WbqDYjiZxHk.wav",
+        "dur_s": 207.0256875,
+        "song": "Atlantis",
+        "version": "Mixd Up Kidz+Atlantis+4-Atlantis"
+    },
+    {
+        "utt": "cover9923_00116047_9923_5",
+        "wav": "datasets/shs100k/zePSBagPDao.wav",
+        "dur_s": 283.036375,
+        "song": "Atlantis",
+        "version": "The Flaming Lips+Atlantis+5-Atlantis"
+    },
+    {
+        "utt": "cover9923_00116048_9923_6",
+        "wav": "datasets/shs100k/_156Dpk6xPU.wav",
+        "dur_s": 220.194875,
+        "song": "Atlantis",
+        "version": "Electronic Concept Orchestra+Atlantis+6-Atlantis"
+    },
+    {
+        "utt": "cover9925_00116052_9925_0",
+        "wav": "datasets/shs100k/pRFEz2MjZgg.wav",
+        "dur_s": 268.167,
+        "song": "Breathe Again",
+        "version": "Toni Braxton+Breathe Again+0-Breathe Again"
+    },
+    {
+        "utt": "cover9925_00116053_9925_1",
+        "wav": "datasets/shs100k/JlwipXEFB3U.wav",
+        "dur_s": 188.5228125,
+        "song": "Breathe Again",
+        "version": "Babyface with Shanice Wilson+Breathe Again+1-Breathe Again"
+    },
+    {
+        "utt": "cover9925_00116055_9925_3",
+        "wav": "datasets/shs100k/kM5OngJm_Q8.wav",
+        "dur_s": 233.5695625,
+        "song": "Breathe Again",
+        "version": "Greg Adams+Breathe Again+3-Breathe Again"
+    },
+    {
+        "utt": "cover9926_00116058_9926_2",
+        "wav": "datasets/shs100k/zNfKxxbfZ1E.wav",
+        "dur_s": 185.415,
+        "song": "It's Raining",
+        "version": "Shakin' Stevens+It's Raining+2-It's Raining"
+    },
+    {
+        "utt": "cover9926_00116059_9926_3",
+        "wav": "datasets/shs100k/JrvjokCl-08.wav",
+        "dur_s": 184.1575,
+        "song": "It's Raining",
+        "version": "Lou Ann Barton+It's Raining+3-It's Raining"
+    },
+    {
+        "utt": "cover9926_00116060_9926_4",
+        "wav": "datasets/shs100k/S3EgskgP0fA.wav",
+        "dur_s": 198.5770625,
+        "song": "It's Raining",
+        "version": "Jennifer Warnes+It's Raining+4-It's Raining"
+    },
+    {
+        "utt": "cover9926_00116061_9926_5",
+        "wav": "datasets/shs100k/5gd-DyuB-KI.wav",
+        "dur_s": 173.244125,
+        "song": "It's Raining",
+        "version": "Eleni Mandell+It's Raining+5-It's Raining"
+    },
+    {
+        "utt": "cover9926_00116062_9926_6",
+        "wav": "datasets/shs100k/53F5kCdkztE.wav",
+        "dur_s": 117.51625,
+        "song": "It's Raining",
+        "version": "The Detroit Cobras+It's Raining+6-It's Raining"
+    },
+    {
+        "utt": "cover9926_00116063_9926_7",
+        "wav": "datasets/shs100k/Sj6XVVsMdYo.wav",
+        "dur_s": 272.06825,
+        "song": "It's Raining",
+        "version": "Lisa Bassenge+It's Raining+7-It's Raining"
+    },
+    {
+        "utt": "cover9927_00116064_9927_0",
+        "wav": "datasets/shs100k/b8hbnFqe8aw.wav",
+        "dur_s": 205.660375,
+        "song": "9 to 5",
+        "version": "Sheena Easton+9 to 5+0-9 to 5"
+    },
+    {
+        "utt": "cover9927_00116065_9927_1",
+        "wav": "datasets/shs100k/S0VOcZ6E_rY.wav",
+        "dur_s": 151.0458125,
+        "song": "Morning Train (9 to 5)",
+        "version": "The Angels [1]+Morning Train (9 to 5)+1-Morning Train (9 to 5)"
+    },
+    {
+        "utt": "cover9928_00116066_9928_0",
+        "wav": "datasets/shs100k/JE-dqW4uBEE.wav",
+        "dur_s": 144.455,
+        "song": "Blister in the Sun",
+        "version": "Violent Femmes+Blister in the Sun+0-Blister in the Sun"
+    },
+    {
+        "utt": "cover9928_00116067_9928_1",
+        "wav": "datasets/shs100k/mmlnjl52u7s.wav",
+        "dur_s": 151.1619375,
+        "song": "Blister in the Sun",
+        "version": "The Wannadies+Blister in the Sun+1-Blister in the Sun"
+    },
+    {
+        "utt": "cover9928_00116069_9928_3",
+        "wav": "datasets/shs100k/wjCuW8wv0IQ.wav",
+        "dur_s": 365.087375,
+        "song": "Blister in the Sun",
+        "version": "Miss Lisa+Blister in the Sun+3-Blister in the Sun"
+    },
+    {
+        "utt": "cover9928_00116070_9928_4",
+        "wav": "datasets/shs100k/U1mJwDOnj64.wav",
+        "dur_s": 178.2131875,
+        "song": "Blister in the Sun",
+        "version": "Still Standing+Blister in the Sun+4-Blister in the Sun"
+    },
+    {
+        "utt": "cover9929_00116071_9929_0",
+        "wav": "datasets/shs100k/lKB8MheFUIE.wav",
+        "dur_s": 141.665,
+        "song": "Sure Gonna Miss Him",
+        "version": "Patty Duke+Sure Gonna Miss Him+0-Sure Gonna Miss Him"
+    },
+    {
+        "utt": "cover9929_00116072_9929_1",
+        "wav": "datasets/shs100k/CS8XO2c9Fqg.wav",
+        "dur_s": 134.281,
+        "song": "Sure Gonna Miss Him",
+        "version": "The Lennon Sisters+Sure Gonna Miss Him+1-Sure Gonna Miss Him"
+    },
+    {
+        "utt": "cover9929_00116074_9929_3",
+        "wav": "datasets/shs100k/CNbuiI8_u0M.wav",
+        "dur_s": 180.1636875,
+        "song": "Sure Gonna Miss Her",
+        "version": "The 50 Guitars of Tommy Garrett+Sure Gonna Miss Her+3-Sure Gonna Miss Her"
+    },
+    {
+        "utt": "cover9929_00116075_9929_4",
+        "wav": "datasets/shs100k/afJONl2NODU.wav",
+        "dur_s": 157.8260625,
+        "song": "Une autre avait sa bague",
+        "version": "Annie Markan+Une autre avait sa bague+4-Une autre avait sa bague"
+    },
+    {
+        "utt": "cover9930_00116076_9930_0",
+        "wav": "datasets/shs100k/H1tRB7-aBr8.wav",
+        "dur_s": 167.0256875,
+        "song": "Trouble",
+        "version": "Cat Stevens+Trouble+0-Trouble"
+    },
+    {
+        "utt": "cover9930_00116078_9930_2",
+        "wav": "datasets/shs100k/gU6NU4bGA2U.wav",
+        "dur_s": 170.1094375,
+        "song": "Trouble",
+        "version": "Elliott Smith+Trouble+2-Trouble"
+    },
+    {
+        "utt": "cover9931_00116079_9931_0",
+        "wav": "datasets/shs100k/GQjIdvDxlBk.wav",
+        "dur_s": 143.1975,
+        "song": "Better Man",
+        "version": "Frank Bennett+Better Man+0-Better Man"
+    },
+    {
+        "utt": "cover9931_00116080_9931_1",
+        "wav": "datasets/shs100k/P_lINTETIp8.wav",
+        "dur_s": 168.3215,
+        "song": "Better Man",
+        "version": "Patricia O'Callaghan+Better Man+1-Better Man"
+    },
+    {
+        "utt": "cover9931_00116081_9931_2",
+        "wav": "datasets/shs100k/TNPGJfqF0Nc.wav",
+        "dur_s": 276.6658125,
+        "song": "Better Man",
+        "version": "Sugarland+Better Man+2-Better Man"
+    },
+    {
+        "utt": "cover9931_00116082_9931_3",
+        "wav": "datasets/shs100k/GtWa1lrrCVI.wav",
+        "dur_s": 259.993875,
+        "song": "Better Man",
+        "version": "The Section+Better Man+3-Better Man"
+    },
+    {
+        "utt": "cover9932_00116083_9932_0",
+        "wav": "datasets/shs100k/sg1-aidI_xo.wav",
+        "dur_s": 164.0025625,
+        "song": "Broken-Hearted Melody",
+        "version": "Sarah Vaughan+Broken-Hearted Melody+0-Broken-Hearted Melody"
+    },
+    {
+        "utt": "cover9932_00116086_9932_3",
+        "wav": "datasets/shs100k/nWjtbQhWQ-Y.wav",
+        "dur_s": 141.0845,
+        "song": "Broken-Hearted Melody",
+        "version": "Dottie West+Broken-Hearted Melody+3-Broken-Hearted Melody"
+    },
+    {
+        "utt": "cover9932_00116087_9932_4",
+        "wav": "datasets/shs100k/b5QRjEDE46w.wav",
+        "dur_s": 120.6276875,
+        "song": "Broken Hearted Melody",
+        "version": "Sue Moreno - Chris Casello+Broken Hearted Melody+4-Broken Hearted Melody"
+    },
+    {
+        "utt": "cover9932_00116088_9932_5",
+        "wav": "datasets/shs100k/2rLzxVoTv_A.wav",
+        "dur_s": 155.1325625,
+        "song": "M\u00e9lodie pour un amour",
+        "version": "Dalida accompagn\u00e9e par Raymond Lef\u00e8vre et son orchestre+M\u00e9lodie pour un amour+5-M\u00e9lodie pour un amour"
+    },
+    {
+        "utt": "cover9933_00116091_9933_1",
+        "wav": "datasets/shs100k/MLLucW7PG9Q.wav",
+        "dur_s": 267.540375,
+        "song": "Slave to Love",
+        "version": "Jimmy Scott+Slave to Love+1-Slave to Love"
+    },
+    {
+        "utt": "cover9933_00116093_9933_3",
+        "wav": "datasets/shs100k/L_gQEdR26_M.wav",
+        "dur_s": 283.864,
+        "song": "Slave to Love",
+        "version": "Willy DeVille+Slave to Love+3-Slave to Love"
+    },
+    {
+        "utt": "cover9933_00116094_9933_4",
+        "wav": "datasets/shs100k/EgyaofD0kBQ.wav",
+        "dur_s": 235.6129375,
+        "song": "Slave to Love",
+        "version": "Dan Kelly & Martha Wainwright+Slave to Love+4-Slave to Love"
+    },
+    {
+        "utt": "cover9934_00116095_9934_0",
+        "wav": "datasets/shs100k/KEgxgnPpKQk.wav",
+        "dur_s": 270.11775,
+        "song": "Irish Heartbeat",
+        "version": "Van Morrison+Irish Heartbeat+0-Irish Heartbeat"
+    },
+    {
+        "utt": "cover9934_00116096_9934_1",
+        "wav": "datasets/shs100k/UT0YgMnSXR8.wav",
+        "dur_s": 234.0339375,
+        "song": "Irish Heartbeat",
+        "version": "Van Morrison & The Chieftains+Irish Heartbeat+1-Irish Heartbeat"
+    },
+    {
+        "utt": "cover9934_00116097_9934_2",
+        "wav": "datasets/shs100k/81bWIDBJ-Gc.wav",
+        "dur_s": 252.6099375,
+        "song": "What Makes the Irish Heart Beat",
+        "version": "Jerry Lee Lewis with Don Henley+What Makes the Irish Heart Beat+2-What Makes the Irish Heart Beat"
+    },
+    {
+        "utt": "cover9934_00116099_9934_4",
+        "wav": "datasets/shs100k/6sVbWhbMtkM.wav",
+        "dur_s": 196.626625,
+        "song": "Irish Heartbeat",
+        "version": "Johnny Logan+Irish Heartbeat+4-Irish Heartbeat"
+    },
+    {
+        "utt": "cover9934_00116100_9934_5",
+        "wav": "datasets/shs100k/_oPb2Ma9z2M.wav",
+        "dur_s": 316.6576875,
+        "song": "Irish Heartbeat",
+        "version": "Van Morrison with Mark Knopfler+Irish Heartbeat+5-Irish Heartbeat"
+    },
+    {
+        "utt": "cover9935_00116101_9935_0",
+        "wav": "datasets/shs100k/PwOFlnHanqg.wav",
+        "dur_s": 143.0581875,
+        "song": "Don't Let Me Lose This Dream",
+        "version": "Aretha Franklin+Don't Let Me Lose This Dream+0-Don't Let Me Lose This Dream"
+    },
+    {
+        "utt": "cover9935_00116102_9935_1",
+        "wav": "datasets/shs100k/DH87HLQf_98.wav",
+        "dur_s": 150.0938125,
+        "song": "Don't Let Me Lose This Dream",
+        "version": "Tamiko Jones+Don't Let Me Lose This Dream+1-Don't Let Me Lose This Dream"
+    },
+    {
+        "utt": "cover9935_00116103_9935_2",
+        "wav": "datasets/shs100k/69toKk18R3I.wav",
+        "dur_s": 141.757875,
+        "song": "Don't Let Me Lose This Dream",
+        "version": "Dusty Springfield+Don't Let Me Lose This Dream+2-Don't Let Me Lose This Dream"
+    },
+    {
+        "utt": "cover9935_00116104_9935_3",
+        "wav": "datasets/shs100k/WZp0A4hCMAs.wav",
+        "dur_s": 168.988375,
+        "song": "Don't Let Me Lose This Dream",
+        "version": "La Lupe+Don't Let Me Lose This Dream+3-Don't Let Me Lose This Dream"
+    },
+    {
+        "utt": "cover9935_00116106_9935_5",
+        "wav": "datasets/shs100k/ujrvFBkNX1w.wav",
+        "dur_s": 154.482375,
+        "song": "Don't Let Me Lose This Dream",
+        "version": "The Supremes & Four Tops+Don't Let Me Lose This Dream+5-Don't Let Me Lose This Dream"
+    },
+    {
+        "utt": "cover9936_00116108_9936_0",
+        "wav": "datasets/shs100k/ECoyUyB35iA.wav",
+        "dur_s": 812.83775,
+        "song": "Magic Bus",
+        "version": "Pete Townshend+Magic Bus+0-Magic Bus"
+    },
+    {
+        "utt": "cover9936_00116110_9936_2",
+        "wav": "datasets/shs100k/Tl4LRimXfBY.wav",
+        "dur_s": 326.0081875,
+        "song": "Bull Rush / Magic Bus",
+        "version": "Paul Weller+Bull Rush / Magic Bus+2-Bull Rush / Magic Bus"
+    },
+    {
+        "utt": "cover9936_00116111_9936_3",
+        "wav": "datasets/shs100k/GPvzZpbEn7c.wav",
+        "dur_s": 595.3364375,
+        "song": "Magic Bus",
+        "version": "Swervedriver+Magic Bus+3-Magic Bus"
+    },
+    {
+        "utt": "cover9936_00116112_9936_4",
+        "wav": "datasets/shs100k/MLvaw4uL4AI.wav",
+        "dur_s": 264.614625,
+        "song": "Magic Bus",
+        "version": "Simon Le Bon+Magic Bus+4-Magic Bus"
+    },
+    {
+        "utt": "cover9936_00116113_9936_6",
+        "wav": "datasets/shs100k/rCf5KPU8hKU.wav",
+        "dur_s": 200.295375,
+        "song": "Magic Bus",
+        "version": "Peter Noone, Peter Banks, Ginger Baker+Magic Bus+6-Magic Bus"
+    },
+    {
+        "utt": "cover9937_00116115_9937_1",
+        "wav": "datasets/shs100k/xdgLlTw_Phw.wav",
+        "dur_s": 198.7860625,
+        "song": "Watching the Wheels",
+        "version": "Matisyahu+Watching the Wheels+1-Watching the Wheels"
+    },
+    {
+        "utt": "cover9937_00116116_9937_2",
+        "wav": "datasets/shs100k/3Ab4QYU0eas.wav",
+        "dur_s": 225.024625,
+        "song": "Watching the Wheels",
+        "version": "Taj Mahal & Vusi Mahlasela+Watching the Wheels+2-Watching the Wheels"
+    },
+    {
+        "utt": "cover9938_00116117_9938_0",
+        "wav": "datasets/shs100k/aoRN4lcWvz8.wav",
+        "dur_s": 177.2379375,
+        "song": "Under My Wheels",
+        "version": "Hanoi Rocks+Under My Wheels+0-Under My Wheels"
+    },
+    {
+        "utt": "cover9938_00116119_9938_2",
+        "wav": "datasets/shs100k/de6YjgN8O_w.wav",
+        "dur_s": 200.109625,
+        "song": "Under My Wheels",
+        "version": "Joe Elliott+Under My Wheels+2-Under My Wheels"
+    },
+    {
+        "utt": "cover9938_00116120_9938_3",
+        "wav": "datasets/shs100k/CeYcU3aDFCo.wav",
+        "dur_s": 199.9935,
+        "song": "Under My Wheels",
+        "version": "Def Leppard+Under My Wheels+3-Under My Wheels"
+    },
+    {
+        "utt": "cover9939_00116122_9939_1",
+        "wav": "datasets/shs100k/1Jlonz0fh1k.wav",
+        "dur_s": 249.543,
+        "song": "Sun of Jamaica",
+        "version": "Vikingarna+Sun of Jamaica+1-Sun of Jamaica"
+    },
+    {
+        "utt": "cover9939_00116123_9939_2",
+        "wav": "datasets/shs100k/sOpGcfFvMLM.wav",
+        "dur_s": 253.3761875,
+        "song": "Sun of Jamaica",
+        "version": "Audrey Landers+Sun of Jamaica+2-Sun of Jamaica"
+    },
+    {
+        "utt": "cover9939_00116124_9939_3",
+        "wav": "datasets/shs100k/JoRXWr9iw94.wav",
+        "dur_s": 237.6098125,
+        "song": "Nie mehr allein sein",
+        "version": "Tony Holiday+Nie mehr allein sein+3-Nie mehr allein sein"
+    },
+    {
+        "utt": "cover9941_00116127_9941_0",
+        "wav": "datasets/shs100k/_KztNIg4cvE.wav",
+        "dur_s": 224.903,
+        "song": "Gypsy Woman (She's Homeless)",
+        "version": "Crystal Waters+Gypsy Woman (She's Homeless)+0-Gypsy Woman (She's Homeless)"
+    },
+    {
+        "utt": "cover9941_00116128_9941_1",
+        "wav": "datasets/shs100k/PFvcqT-qBbA.wav",
+        "dur_s": 225.8605,
+        "song": "Gypsy Woman",
+        "version": "David Byrne+Gypsy Woman+1-Gypsy Woman"
+    },
+    {
+        "utt": "cover9941_00116129_9941_2",
+        "wav": "datasets/shs100k/WTsp9bWix-w.wav",
+        "dur_s": 415.1960625,
+        "song": "Gipsy Woman (La da de la da da)",
+        "version": "Montefiori Cocktail+Gipsy Woman (La da de la da da)+2-Gipsy Woman (La da de la da da)"
+    },
+    {
+        "utt": "cover9942_00116130_9942_0",
+        "wav": "datasets/shs100k/gT9tWLLFN2k.wav",
+        "dur_s": 246.828125,
+        "song": "You Better Sit Down Kids",
+        "version": "Cher+You Better Sit Down Kids+0-You Better Sit Down Kids"
+    },
+    {
+        "utt": "cover9942_00116131_9942_1",
+        "wav": "datasets/shs100k/S2d2MhNOTk4.wav",
+        "dur_s": 193.3758125,
+        "song": "You Better Sit Down Kids",
+        "version": "Roy Drusky+You Better Sit Down Kids+1-You Better Sit Down Kids"
+    },
+    {
+        "utt": "cover9942_00116132_9942_2",
+        "wav": "datasets/shs100k/EV8H_gcsffw.wav",
+        "dur_s": 250.729125,
+        "song": "You Better Sit Down Kids",
+        "version": "Gary Puckett & The Union Gap+You Better Sit Down Kids+2-You Better Sit Down Kids"
+    },
+    {
+        "utt": "cover9943_00116135_9943_0",
+        "wav": "datasets/shs100k/hs0epThTlpw.wav",
+        "dur_s": 185.50425,
+        "song": "Such a Night",
+        "version": "Dr. John+Such a Night+0-Such a Night"
+    },
+    {
+        "utt": "cover9943_00116136_9943_1",
+        "wav": "datasets/shs100k/aMvsdsXnSpw.wav",
+        "dur_s": 200.109625,
+        "song": "Such a Night",
+        "version": "Esther Phillips+Such a Night+1-Such a Night"
+    },
+    {
+        "utt": "cover9943_00116137_9943_2",
+        "wav": "datasets/shs100k/SCRrXZP8b0I.wav",
+        "dur_s": 216.860375,
+        "song": "Such a Night",
+        "version": "The Band with Dr. John+Such a Night+2-Such a Night"
+    },
+    {
+        "utt": "cover9943_00116138_9943_3",
+        "wav": "datasets/shs100k/25N4uZXkr-I.wav",
+        "dur_s": 292.2231875,
+        "song": "Such a Night",
+        "version": "Paul Asbell+Such a Night+3-Such a Night"
+    },
+    {
+        "utt": "cover9945_00116141_9945_1",
+        "wav": "datasets/shs100k/2sXIUSgsZgk.wav",
+        "dur_s": 284.2355,
+        "song": "Fear of the Dark",
+        "version": "Demonios+Fear of the Dark+1-Fear of the Dark"
+    },
+    {
+        "utt": "cover9945_00116143_9945_3",
+        "wav": "datasets/shs100k/lWPuSMnXuQM.wav",
+        "dur_s": 479.687,
+        "song": "Fear of the Dark",
+        "version": "Chuck Billy, Craig Goldy, Rickie Phillips, Mikkey Dee+Fear of the Dark+3-Fear of the Dark"
+    },
+    {
+        "utt": "cover9945_00116144_9945_4",
+        "wav": "datasets/shs100k/Y5sw8tOMYac.wav",
+        "dur_s": 460.916125,
+        "song": "Fear of the Dark",
+        "version": "The Iron Maidens+Fear of the Dark+4-Fear of the Dark"
+    },
+    {
+        "utt": "cover9945_00116145_9945_5",
+        "wav": "datasets/shs100k/2L28dLudXqc.wav",
+        "dur_s": 433.2379375,
+        "song": "Fear of the Dark",
+        "version": "Fightstar+Fear of the Dark+5-Fear of the Dark"
+    },
+    {
+        "utt": "cover9945_00116146_9945_6",
+        "wav": "datasets/shs100k/vyHcIHssdHA.wav",
+        "dur_s": 429.615625,
+        "song": "Fear of the Dark",
+        "version": "van Canto+Fear of the Dark+6-Fear of the Dark"
+    },
+    {
+        "utt": "cover9945_00116147_9945_7",
+        "wav": "datasets/shs100k/l7HSip-Lvm0.wav",
+        "dur_s": 222.02925,
+        "song": "Fear of the Dark",
+        "version": "Yahel & Tammy feat. Riko+Fear of the Dark+7-Fear of the Dark"
+    },
+    {
+        "utt": "cover9945_00116148_9945_8",
+        "wav": "datasets/shs100k/lyYpPgn5IpQ.wav",
+        "dur_s": 363.015,
+        "song": "Fear of the Dark",
+        "version": "Future Idiots+Fear of the Dark+8-Fear of the Dark"
+    },
+    {
+        "utt": "cover9947_00116152_9947_0",
+        "wav": "datasets/shs100k/fMVUILVM0Xw.wav",
+        "dur_s": 192.647,
+        "song": "The Pilgrim - Chapter 33",
+        "version": "Kris Kristofferson+The Pilgrim - Chapter 33+0-The Pilgrim - Chapter 33"
+    },
+    {
+        "utt": "cover9947_00116153_9947_1",
+        "wav": "datasets/shs100k/dnc9bceoeDs.wav",
+        "dur_s": 191.495,
+        "song": "The Pilgrim - Chapter 33",
+        "version": "Teresa Brewer+The Pilgrim - Chapter 33+1-The Pilgrim - Chapter 33"
+    },
+    {
+        "utt": "cover9947_00116155_9947_3",
+        "wav": "datasets/shs100k/Q10wGg8NEbo.wav",
+        "dur_s": 140.3181875,
+        "song": "The Pilgrim: Chapter 33",
+        "version": "Street Dogs+The Pilgrim: Chapter 33+3-The Pilgrim: Chapter 33"
+    },
+    {
+        "utt": "cover9947_00116156_9947_4",
+        "wav": "datasets/shs100k/YGrLuscbpXI.wav",
+        "dur_s": 232.284375,
+        "song": "The Pilgrim: Chapter 33",
+        "version": "Emmylou Harris & Friends+The Pilgrim: Chapter 33+4-The Pilgrim: Chapter 33"
+    },
+    {
+        "utt": "cover9947_00116157_9947_5",
+        "wav": "datasets/shs100k/PSPxbqvdCCE.wav",
+        "dur_s": 181.1056875,
+        "song": "The Pilgrim",
+        "version": "Jerry Lee Lewis with Kris Kristofferson+The Pilgrim+5-The Pilgrim"
+    },
+    {
+        "utt": "cover9947_00116158_9947_6",
+        "wav": "datasets/shs100k/Asf234_8Tf4.wav",
+        "dur_s": 114.311875,
+        "song": "The Pilgrim",
+        "version": "Brassknuckle Boys+The Pilgrim+6-The Pilgrim"
+    },
+    {
+        "utt": "cover9948_00116161_9948_2",
+        "wav": "datasets/shs100k/d-c7Z_0DSnY.wav",
+        "dur_s": 181.8819375,
+        "song": "It Wouldn't Have Made Any Difference",
+        "version": "Florence Warner+It Wouldn't Have Made Any Difference+2-It Wouldn't Have Made Any Difference"
+    },
+    {
+        "utt": "cover9948_00116162_9948_3",
+        "wav": "datasets/shs100k/a--_P_3R8Rg.wav",
+        "dur_s": 216.7350625,
+        "song": "It Wouldn't Have Made Any Difference",
+        "version": "The Manhattan Transfer+It Wouldn't Have Made Any Difference+3-It Wouldn't Have Made Any Difference"
+    },
+    {
+        "utt": "cover9948_00116163_9948_4",
+        "wav": "datasets/shs100k/0D8eMuoB0e0.wav",
+        "dur_s": 237.099,
+        "song": "Wouldn't Have Made a Difference",
+        "version": "Maggie Pie and The Imposters+Wouldn't Have Made a Difference+4-Wouldn't Have Made a Difference"
+    },
+    {
+        "utt": "cover9949_00116165_9949_0",
+        "wav": "datasets/shs100k/ivBqA8p9r6Q.wav",
+        "dur_s": 153.287,
+        "song": "Turn-Down Day",
+        "version": "The Cyrkle+Turn-Down Day+0-Turn-Down Day"
+    },
+    {
+        "utt": "cover9949_00116166_9949_1",
+        "wav": "datasets/shs100k/l4cxExVcrRE.wav",
+        "dur_s": 147.100375,
+        "song": "Turn Down Day",
+        "version": "Dino, Desi and Billy+Turn Down Day+1-Turn Down Day"
+    },
+    {
+        "utt": "cover9949_00116168_9949_3",
+        "wav": "datasets/shs100k/PjjdN8RUjIQ.wav",
+        "dur_s": 139.621625,
+        "song": "Turn-Down Day",
+        "version": "Gary Lewis & The Playboys+Turn-Down Day+3-Turn-Down Day"
+    },
+    {
+        "utt": "cover9949_00116169_9949_4",
+        "wav": "datasets/shs100k/ls1x28OyySQ.wav",
+        "dur_s": 147.168125,
+        "song": "Turn Down Day",
+        "version": "Enoch Light's Action+Turn Down Day+4-Turn Down Day"
+    },
+    {
+        "utt": "cover9950_00116170_9950_0",
+        "wav": "datasets/shs100k/d85i-R8CZCQ.wav",
+        "dur_s": 68.42925,
+        "song": "You Couldn't Be Cuter",
+        "version": "Irene Dunne+You Couldn't Be Cuter+0-You Couldn't Be Cuter"
+    },
+    {
+        "utt": "cover9950_00116172_9950_2",
+        "wav": "datasets/shs100k/aCMDiHefcKI.wav",
+        "dur_s": 121.95125,
+        "song": "You Couldn't Be Cuter",
+        "version": "Margaret Whiting+You Couldn't Be Cuter+2-You Couldn't Be Cuter"
+    },
+    {
+        "utt": "cover9950_00116173_9950_3",
+        "wav": "datasets/shs100k/o8Zp2mdwOrs.wav",
+        "dur_s": 208.4336875,
+        "song": "You Couldn't Be Cuter",
+        "version": "Yo-Yo Ma, Diana Krall, John Clayton+You Couldn't Be Cuter+3-You Couldn't Be Cuter"
+    },
+    {
+        "utt": "cover9950_00116174_9950_4",
+        "wav": "datasets/shs100k/fi-HX4DTjXY.wav",
+        "dur_s": 203.0576875,
+        "song": "You Couldn't Be Cuter",
+        "version": "Rebecca Kilgore+You Couldn't Be Cuter+4-You Couldn't Be Cuter"
+    },
+    {
+        "utt": "cover9951_00116176_9951_1",
+        "wav": "datasets/shs100k/NcLWiYnnuAk.wav",
+        "dur_s": 272.284375,
+        "song": "Souvenir",
+        "version": "Tom Hooper+Souvenir+1-Souvenir"
+    },
+    {
+        "utt": "cover9951_00116177_9951_2",
+        "wav": "datasets/shs100k/NnLNDn3wbp0.wav",
+        "dur_s": 252.060375,
+        "song": "Souvenir",
+        "version": "The Separate with Stephanie Dosen+Souvenir+2-Souvenir"
+    },
+    {
+        "utt": "cover9952_00116179_9952_1",
+        "wav": "datasets/shs100k/MjnpCd7sAqI.wav",
+        "dur_s": 275.063625,
+        "song": "Together in Electric Dreams",
+        "version": "Lali Puna+Together in Electric Dreams+1-Together in Electric Dreams"
+    },
+    {
+        "utt": "cover9952_00116180_9952_2",
+        "wav": "datasets/shs100k/KIeXCkBpYAs.wav",
+        "dur_s": 385.8924375,
+        "song": "Together in Electric Dreams",
+        "version": "Subway [1]+Together in Electric Dreams+2-Together in Electric Dreams"
+    },
+    {
+        "utt": "cover9952_00116182_9952_4",
+        "wav": "datasets/shs100k/P5UgJ2CkhN4.wav",
+        "dur_s": 332.6026875,
+        "song": "Together in Electric Dreams",
+        "version": "Darren Hanlon+Together in Electric Dreams+4-Together in Electric Dreams"
+    },
+    {
+        "utt": "cover9953_00116183_9953_0",
+        "wav": "datasets/shs100k/dY8_vZXo8oY.wav",
+        "dur_s": 170.183,
+        "song": "Man in Black",
+        "version": "Johnny Cash+Man in Black+0-Man in Black"
+    },
+    {
+        "utt": "cover9953_00116184_9953_1",
+        "wav": "datasets/shs100k/jTeIHThlz7k.wav",
+        "dur_s": 160.75175,
+        "song": "Man in Black",
+        "version": "The Bouncing Souls+Man in Black+1-Man in Black"
+    },
+    {
+        "utt": "cover9953_00116186_9953_3",
+        "wav": "datasets/shs100k/vBKj_fvgKxg.wav",
+        "dur_s": 178.073875,
+        "song": "Man in Black",
+        "version": "Debauchery+Man in Black+3-Man in Black"
+    },
+    {
+        "utt": "cover9953_00116187_9953_4",
+        "wav": "datasets/shs100k/Pc-DpGtnxCk.wav",
+        "dur_s": 167.0256875,
+        "song": "Man in Black",
+        "version": "Johnny Horsepower+Man in Black+4-Man in Black"
+    },
+    {
+        "utt": "cover9953_00116188_9953_5",
+        "wav": "datasets/shs100k/dKeYCY52vhs.wav",
+        "dur_s": 180.124375,
+        "song": "Man in Black",
+        "version": "Overkill+Man in Black+5-Man in Black"
+    },
+    {
+        "utt": "cover9953_00116189_9953_6",
+        "wav": "datasets/shs100k/xKRP8-lCkb4.wav",
+        "dur_s": 183.1125625,
+        "song": "Man in zwart",
+        "version": "Alias Berger+Man in zwart+6-Man in zwart"
+    },
+    {
+        "utt": "cover9956_00116194_9956_0",
+        "wav": "datasets/shs100k/hj3Zvde6tYs.wav",
+        "dur_s": 195.16375,
+        "song": "Blues at Sunrise",
+        "version": "Ivory Joe Hunter with Johnny Moore's 3 Blazers+Blues at Sunrise+0-Blues at Sunrise"
+    },
+    {
+        "utt": "cover9956_00116195_9956_1",
+        "wav": "datasets/shs100k/x-cUVnqiOKU.wav",
+        "dur_s": 152.135,
+        "song": "Lookin' for My Baby",
+        "version": "Big Boy Crudup+Lookin' for My Baby+1-Lookin' for My Baby"
+    },
+    {
+        "utt": "cover9956_00116196_9956_2",
+        "wav": "datasets/shs100k/bfoNBYrCGJA.wav",
+        "dur_s": 166.0656875,
+        "song": "The Moon Is Rising",
+        "version": "Robert Nighthawk+The Moon Is Rising+2-The Moon Is Rising"
+    },
+    {
+        "utt": "cover9956_00116197_9956_3",
+        "wav": "datasets/shs100k/eIgQtoGhkC8.wav",
+        "dur_s": 422.2084375,
+        "song": "The Moon Is Rising",
+        "version": "Earl Hooker+The Moon Is Rising+3-The Moon Is Rising"
+    },
+    {
+        "utt": "cover9957_00116199_9957_1",
+        "wav": "datasets/shs100k/OX7OzG5rDVs.wav",
+        "dur_s": 178.076375,
+        "song": "Maggie Campbell",
+        "version": "Robert Nighthawk+Maggie Campbell+1-Maggie Campbell"
+    },
+    {
+        "utt": "cover9957_00116200_9957_2",
+        "wav": "datasets/shs100k/UFhrqA1JPAA.wav",
+        "dur_s": 146.378625,
+        "song": "Meanest Woman",
+        "version": "Muddy Waters+Meanest Woman+2-Meanest Woman"
+    },
+    {
+        "utt": "cover9958_00116202_9958_0",
+        "wav": "datasets/shs100k/eI1UyWcCKaY.wav",
+        "dur_s": 137.485375,
+        "song": "Come to Me, Bend to Me",
+        "version": "Frank Porretta+Come to Me, Bend to Me+0-Come to Me, Bend to Me"
+    },
+    {
+        "utt": "cover9958_00116203_9958_1",
+        "wav": "datasets/shs100k/n5dv7eCeLAY.wav",
+        "dur_s": 144.637125,
+        "song": "Come to Me, Bend to Me",
+        "version": "John Gary+Come to Me, Bend to Me+1-Come to Me, Bend to Me"
+    },
+    {
+        "utt": "cover9959_00116205_9959_1",
+        "wav": "datasets/shs100k/DpiE9UcO2Pk.wav",
+        "dur_s": 317.3239375,
+        "song": "Forget Me Nots",
+        "version": "La Bouche+Forget Me Nots+1-Forget Me Nots"
+    },
+    {
+        "utt": "cover9959_00116206_9959_2",
+        "wav": "datasets/shs100k/QT6NjaiTUgg.wav",
+        "dur_s": 345.095,
+        "song": "Forget Me Nots",
+        "version": "Randy Crawford+Forget Me Nots+2-Forget Me Nots"
+    },
+    {
+        "utt": "cover9960_00116207_9960_0",
+        "wav": "datasets/shs100k/Wd1qiZbFyyQ.wav",
+        "dur_s": 158.9870625,
+        "song": "Greased Lightnin'",
+        "version": "Timothy Meyers & Cast+Greased Lightnin'+0-Greased Lightnin'"
+    },
+    {
+        "utt": "cover9960_00116208_9960_1",
+        "wav": "datasets/shs100k/wK63eUyk-iM.wav",
+        "dur_s": 186.247,
+        "song": "Greased Lightnin'",
+        "version": "John Travolta+Greased Lightnin'+1-Greased Lightnin'"
+    },
+    {
+        "utt": "cover9960_00116209_9960_2",
+        "wav": "datasets/shs100k/tzAmA0AmYFI.wav",
+        "dur_s": 153.8554375,
+        "song": "Greased Lightning",
+        "version": "Less Than Jake+Greased Lightning+2-Greased Lightning"
+    },
+    {
+        "utt": "cover9961_00116210_9961_0",
+        "wav": "datasets/shs100k/01kUyzOnbAM.wav",
+        "dur_s": 302.7185625,
+        "song": "So Quiet in Here / That's Where It's At",
+        "version": "Van Morrison+So Quiet in Here / That's Where It's At+0-So Quiet in Here / That's Where It's At"
+    },
+    {
+        "utt": "cover9961_00116211_9961_1",
+        "wav": "datasets/shs100k/xGFQFwJKXAA.wav",
+        "dur_s": 164.615,
+        "song": "That's Where It's At",
+        "version": "Colin Meloy+That's Where It's At+1-That's Where It's At"
+    },
+    {
+        "utt": "cover9962_00116212_9962_0",
+        "wav": "datasets/shs100k/aZ0Ubvkx6VY.wav",
+        "dur_s": 174.1296875,
+        "song": "La mort",
+        "version": "Jacques Brel+La mort+0-La mort"
+    },
+    {
+        "utt": "cover9962_00116213_9962_1",
+        "wav": "datasets/shs100k/00DBOm-rThE.wav",
+        "dur_s": 295.8919375,
+        "song": "My Death",
+        "version": "The Fatal Shore+My Death+1-My Death"
+    },
+    {
+        "utt": "cover9962_00116214_9962_2",
+        "wav": "datasets/shs100k/NNZStOpKI3w.wav",
+        "dur_s": 360.722,
+        "song": "My Death",
+        "version": "David Bowie+My Death+2-My Death"
+    },
+    {
+        "utt": "cover9963_00116215_9963_0",
+        "wav": "datasets/shs100k/SJUhlRoBL8M.wav",
+        "dur_s": 190.748375,
+        "song": "Always Look on the Bright Side of Life",
+        "version": "Eric Idle+Always Look on the Bright Side of Life+0-Always Look on the Bright Side of Life"
+    },
+    {
+        "utt": "cover9963_00116216_9963_1",
+        "wav": "datasets/shs100k/0v1rQKMpCVA.wav",
+        "dur_s": 248.5464375,
+        "song": "Bright Side of Life",
+        "version": "Harry Nilsson+Bright Side of Life+1-Bright Side of Life"
+    },
+    {
+        "utt": "cover9963_00116219_9963_4",
+        "wav": "datasets/shs100k/UwhSqNWhFOE.wav",
+        "dur_s": 186.3169375,
+        "song": "Always Look on the Bright Side of Life",
+        "version": "Jonny Blu+Always Look on the Bright Side of Life+4-Always Look on the Bright Side of Life"
+    },
+    {
+        "utt": "cover9963_00116220_9963_5",
+        "wav": "datasets/shs100k/UJRzlVknCT8.wav",
+        "dur_s": 319.6226875,
+        "song": "Always Look on the Bright Side of Life",
+        "version": "Emilie Autumn+Always Look on the Bright Side of Life+5-Always Look on the Bright Side of Life"
+    },
+    {
+        "utt": "cover9963_00116221_9963_6",
+        "wav": "datasets/shs100k/ZOVESp0jS4I.wav",
+        "dur_s": 341.79775,
+        "song": "Koule zvan\u00e1 sv\u011bt",
+        "version": "The Tap Tap+Koule zvan\u00e1 sv\u011bt+6-Koule zvan\u00e1 sv\u011bt"
+    },
+    {
+        "utt": "cover9964_00116222_9964_0",
+        "wav": "datasets/shs100k/Nt06PFWkJ1I.wav",
+        "dur_s": 246.178,
+        "song": "Out in the Fields",
+        "version": "Gary Moore & Phil Lynott+Out in the Fields+0-Out in the Fields"
+    },
+    {
+        "utt": "cover9964_00116224_9964_2",
+        "wav": "datasets/shs100k/U8jQqjua5AI.wav",
+        "dur_s": 219.91625,
+        "song": "Out in the Fields",
+        "version": "Dark at Dawn+Out in the Fields+2-Out in the Fields"
+    },
+    {
+        "utt": "cover9964_00116225_9964_3",
+        "wav": "datasets/shs100k/WSwawW-1cqs.wav",
+        "dur_s": 245.1795625,
+        "song": "Out in the Fields",
+        "version": "Iron Mask+Out in the Fields+3-Out in the Fields"
+    },
+    {
+        "utt": "cover9964_00116226_9964_4",
+        "wav": "datasets/shs100k/oTM96kHceBw.wav",
+        "dur_s": 251.657875,
+        "song": "Out in the Fields",
+        "version": "Ghost Machinery+Out in the Fields+4-Out in the Fields"
+    },
+    {
+        "utt": "cover9964_00116227_9964_5",
+        "wav": "datasets/shs100k/P_4deVmHp-k.wav",
+        "dur_s": 246.479875,
+        "song": "Out in the Fields",
+        "version": "Sonata Arctica+Out in the Fields+5-Out in the Fields"
+    },
+    {
+        "utt": "cover9964_00116228_9964_6",
+        "wav": "datasets/shs100k/6co3QDiCNYA.wav",
+        "dur_s": 265.5434375,
+        "song": "Out in the Fields",
+        "version": "Michael Schenker Group+Out in the Fields+6-Out in the Fields"
+    },
+    {
+        "utt": "cover9964_00116229_9964_7",
+        "wav": "datasets/shs100k/NwSU9uvl7Mc.wav",
+        "dur_s": 265.820375,
+        "song": "Out in the Fields",
+        "version": "Powerwolf+Out in the Fields+7-Out in the Fields"
+    },
+    {
+        "utt": "cover9965_00116230_9965_0",
+        "wav": "datasets/shs100k/Y2jxjv0HkwM.wav",
+        "dur_s": 148.828375,
+        "song": "Day Is Done",
+        "version": "Nick Drake+Day Is Done+0-Day Is Done"
+    },
+    {
+        "utt": "cover9965_00116231_9965_1",
+        "wav": "datasets/shs100k/UO5Ol-KqrJc.wav",
+        "dur_s": 161.8416875,
+        "song": "Day Is Done",
+        "version": "Jason Parker Quartet+Day Is Done+1-Day Is Done"
+    },
+    {
+        "utt": "cover9966_00116235_9966_2",
+        "wav": "datasets/shs100k/Rg7kUBmA8LM.wav",
+        "dur_s": 138.460625,
+        "song": "You Done Me Wrong",
+        "version": "Skeeter Davis+You Done Me Wrong+2-You Done Me Wrong"
+    },
+    {
+        "utt": "cover9966_00116236_9966_3",
+        "wav": "datasets/shs100k/EJAOQKQbJTg.wav",
+        "dur_s": 187.5708125,
+        "song": "You Done Me Wrong",
+        "version": "Willie Nelson+You Done Me Wrong+3-You Done Me Wrong"
+    },
+    {
+        "utt": "cover9967_00116237_9967_0",
+        "wav": "datasets/shs100k/0LIwpnYTMeM.wav",
+        "dur_s": 190.471,
+        "song": "Tell Me More and More (And Then Some)",
+        "version": "Billie Holiday+Tell Me More and More (And Then Some)+0-Tell Me More and More (And Then Some)"
+    },
+    {
+        "utt": "cover9967_00116238_9967_1",
+        "wav": "datasets/shs100k/NktqF1hABG0.wav",
+        "dur_s": 177.7488125,
+        "song": "Tell Me More and More and Then Some",
+        "version": "Randy Crawford & Joe Sample+Tell Me More and More and Then Some+1-Tell Me More and More and Then Some"
+    },
+    {
+        "utt": "cover9968_00116241_9968_2",
+        "wav": "datasets/shs100k/PVo_KCo_T50.wav",
+        "dur_s": 242.5324375,
+        "song": "No Surrender",
+        "version": "Jill Johnson+No Surrender+2-No Surrender"
+    },
+    {
+        "utt": "cover9968_00116242_9968_3",
+        "wav": "datasets/shs100k/uZga5ozv4uA.wav",
+        "dur_s": 260.295,
+        "song": "No Surrender",
+        "version": "Holly Williams+No Surrender+3-No Surrender"
+    },
+    {
+        "utt": "cover9969_00116244_9969_1",
+        "wav": "datasets/shs100k/zP_tE3711_A.wav",
+        "dur_s": 163.036375,
+        "song": "Before I Grow Too Old",
+        "version": "Millie+Before I Grow Too Old+1-Before I Grow Too Old"
+    },
+    {
+        "utt": "cover9969_00116245_9969_2",
+        "wav": "datasets/shs100k/Jf8w0773x2U.wav",
+        "dur_s": 159.497875,
+        "song": "Silver and Gold",
+        "version": "Joe Strummer and the Mescaleros+Silver and Gold+2-Silver and Gold"
+    },
+    {
+        "utt": "cover9969_00116246_9969_3",
+        "wav": "datasets/shs100k/9ORT6n51L4M.wav",
+        "dur_s": 343.632125,
+        "song": "Done Most Everything",
+        "version": "C.C. Adcock with Tommy McLain+Done Most Everything+3-Done Most Everything"
+    },
+    {
+        "utt": "cover9970_00116247_9970_0",
+        "wav": "datasets/shs100k/5UqEG0a_FOE.wav",
+        "dur_s": 148.3376875,
+        "song": "Yesterday's Gone",
+        "version": "Chad Stuart and Jeremy Clyde+Yesterday's Gone+0-Yesterday's Gone"
+    },
+    {
+        "utt": "cover9970_00116248_9970_1",
+        "wav": "datasets/shs100k/6vmscvn1ETY.wav",
+        "dur_s": 130.5890625,
+        "song": "Yesterday's Gone",
+        "version": "The Overlanders+Yesterday's Gone+1-Yesterday's Gone"
+    },
+    {
+        "utt": "cover9970_00116250_9970_3",
+        "wav": "datasets/shs100k/FAtIdT1pFNk.wav",
+        "dur_s": 163.719,
+        "song": "Yesterday's Gone",
+        "version": "Brenda Lee+Yesterday's Gone+3-Yesterday's Gone"
+    },
+    {
+        "utt": "cover9970_00116251_9970_4",
+        "wav": "datasets/shs100k/J0yhYdyPqfs.wav",
+        "dur_s": 142.686625,
+        "song": "Yesterday's Gone",
+        "version": "The Hollyridge Strings+Yesterday's Gone+4-Yesterday's Gone"
+    },
+    {
+        "utt": "cover9972_00116254_9972_1",
+        "wav": "datasets/shs100k/fuFhdkN1jiM.wav",
+        "dur_s": 140.7361875,
+        "song": "Mean Red Spider",
+        "version": "Muddy Waters+Mean Red Spider+1-Mean Red Spider"
+    },
+    {
+        "utt": "cover9972_00116255_9972_2",
+        "wav": "datasets/shs100k/E4rrTYp3gf4.wav",
+        "dur_s": 155.480875,
+        "song": "Mean Red Spider",
+        "version": "The Groundhogs+Mean Red Spider+2-Mean Red Spider"
+    },
+    {
+        "utt": "cover9972_00116256_9972_3",
+        "wav": "datasets/shs100k/YG-0weuOUU4.wav",
+        "dur_s": 182.6481875,
+        "song": "Mean Red Spider",
+        "version": "Thee Headcoats Sect+Mean Red Spider+3-Mean Red Spider"
+    },
+    {
+        "utt": "cover9973_00116257_9973_0",
+        "wav": "datasets/shs100k/dbiugrfo7G4.wav",
+        "dur_s": 164.1186875,
+        "song": "Breakfast in America",
+        "version": "Supertramp+Breakfast in America+0-Breakfast in America"
+    },
+    {
+        "utt": "cover9973_00116258_9973_1",
+        "wav": "datasets/shs100k/BVRxbXb0nwI.wav",
+        "dur_s": 150.047375,
+        "song": "Break Dub in America",
+        "version": "Les Satellites [1]+Break Dub in America+1-Break Dub in America"
+    },
+    {
+        "utt": "cover9974_00116260_9974_1",
+        "wav": "datasets/shs100k/GRiWlIZ1ffk.wav",
+        "dur_s": 170.132625,
+        "song": "Rock 'n' Me",
+        "version": "Status Quo+Rock 'n' Me+1-Rock 'n' Me"
+    },
+    {
+        "utt": "cover9974_00116261_9974_2",
+        "wav": "datasets/shs100k/5UvbxJBgzIM.wav",
+        "dur_s": 219.3776875,
+        "song": "Rockin Me",
+        "version": "Theodore+Rockin Me+2-Rockin Me"
+    },
+    {
+        "utt": "cover9975_00116262_9975_0",
+        "wav": "datasets/shs100k/k8ucJI7qB1A.wav",
+        "dur_s": 157.084375,
+        "song": "Be Young, Be Foolish, Be Happy",
+        "version": "The Sensational Epics+Be Young, Be Foolish, Be Happy+0-Be Young, Be Foolish, Be Happy"
+    },
+    {
+        "utt": "cover9975_00116263_9975_1",
+        "wav": "datasets/shs100k/xiIbS_F6nQY.wav",
+        "dur_s": 144.1263125,
+        "song": "Be Young, Be Foolish, Be Happy",
+        "version": "The Gentle Touch+Be Young, Be Foolish, Be Happy+1-Be Young, Be Foolish, Be Happy"
+    },
+    {
+        "utt": "cover9975_00116264_9975_2",
+        "wav": "datasets/shs100k/vhAYpfIRbV0.wav",
+        "dur_s": 151.9281875,
+        "song": "Be Young, Be Foolish, Be Happy",
+        "version": "Bobby and I+Be Young, Be Foolish, Be Happy+2-Be Young, Be Foolish, Be Happy"
+    },
+    {
+        "utt": "cover9975_00116265_9975_3",
+        "wav": "datasets/shs100k/HwBWr-vRvgo.wav",
+        "dur_s": 224.629875,
+        "song": "Be Young, Be Foolish, Be Happy",
+        "version": "The Jimmy Castor Bunch+Be Young, Be Foolish, Be Happy+3-Be Young, Be Foolish, Be Happy"
+    },
+    {
+        "utt": "cover9975_00116266_9975_4",
+        "wav": "datasets/shs100k/xxCtcRby-dE.wav",
+        "dur_s": 184.436125,
+        "song": "Be Young, Be Foolish, Be Happy",
+        "version": "Sonia+Be Young, Be Foolish, Be Happy+4-Be Young, Be Foolish, Be Happy"
+    },
+    {
+        "utt": "cover9976_00116267_9976_0",
+        "wav": "datasets/shs100k/NlzVestR1iQ.wav",
+        "dur_s": 163.956125,
+        "song": "Juke",
+        "version": "Little Walter and His Night Cats+Juke+0-Juke"
+    },
+    {
+        "utt": "cover9976_00116268_9976_1",
+        "wav": "datasets/shs100k/V4hqOqg1m_E.wav",
+        "dur_s": 188.499625,
+        "song": "Juke",
+        "version": "George Smith+Juke+1-Juke"
+    },
+    {
+        "utt": "cover9977_00116270_9977_1",
+        "wav": "datasets/shs100k/MpBrwAk1_VU.wav",
+        "dur_s": 193.5615625,
+        "song": "Don't Bring Me Down",
+        "version": "Swag+Don't Bring Me Down+1-Don't Bring Me Down"
+    },
+    {
+        "utt": "cover9977_00116271_9977_2",
+        "wav": "datasets/shs100k/hbOZLjimG4w.wav",
+        "dur_s": 238.910125,
+        "song": "Don't Bring Me Down",
+        "version": "Status Quo+Don't Bring Me Down+2-Don't Bring Me Down"
+    },
+    {
+        "utt": "cover9977_00116273_9977_4",
+        "wav": "datasets/shs100k/tQ0YRCmAGy0.wav",
+        "dur_s": 261.4335,
+        "song": "Don't Bring Me Cows",
+        "version": "ApologetiX+Don't Bring Me Cows+4-Don't Bring Me Cows"
+    },
+    {
+        "utt": "cover9978_00116274_9978_0",
+        "wav": "datasets/shs100k/bOm0Dq_kKNU.wav",
+        "dur_s": 319.964375,
+        "song": "Biggest Part of Me",
+        "version": "Ambrosia+Biggest Part of Me+0-Biggest Part of Me"
+    },
+    {
+        "utt": "cover9978_00116275_9978_1",
+        "wav": "datasets/shs100k/M9t6WiQrjWY.wav",
+        "dur_s": 261.2013125,
+        "song": "Biggest Part of Me",
+        "version": "Tom Scott+Biggest Part of Me+1-Biggest Part of Me"
+    },
+    {
+        "utt": "cover9978_00116276_9978_2",
+        "wav": "datasets/shs100k/jY_TRATee8g.wav",
+        "dur_s": 252.8885625,
+        "song": "Biggest Part of Me",
+        "version": "Take 6+Biggest Part of Me+2-Biggest Part of Me"
+    },
+    {
+        "utt": "cover9978_00116278_9978_4",
+        "wav": "datasets/shs100k/joJWfU3bx94.wav",
+        "dur_s": 285.094625,
+        "song": "Biggest Part of Me",
+        "version": "Les Sabler+Biggest Part of Me+4-Biggest Part of Me"
+    },
+    {
+        "utt": "cover9978_00116279_9978_5",
+        "wav": "datasets/shs100k/A1hlIH0wxTY.wav",
+        "dur_s": 345.735,
+        "song": "You're the Biggest Part of Me",
+        "version": "Greg Vail+You're the Biggest Part of Me+5-You're the Biggest Part of Me"
+    },
+    {
+        "utt": "cover9979_00116280_9979_0",
+        "wav": "datasets/shs100k/-E_Hyn53acA.wav",
+        "dur_s": 172.551,
+        "song": "Aline",
+        "version": "Christophe+Aline+0-Aline"
+    },
+    {
+        "utt": "cover9979_00116281_9979_1",
+        "wav": "datasets/shs100k/clkMuOhlFqI.wav",
+        "dur_s": 167.833875,
+        "song": "Aline",
+        "version": "Gilbert Montagn\u00e9+Aline+1-Aline"
+    },
+    {
+        "utt": "cover9979_00116282_9979_2",
+        "wav": "datasets/shs100k/6XGc_CEOU48.wav",
+        "dur_s": 165.5815,
+        "song": "Aline",
+        "version": "Nolwenn Leroy+Aline+2-Aline"
+    },
+    {
+        "utt": "cover9979_00116283_9979_3",
+        "wav": "datasets/shs100k/iCpYL36mkA0.wav",
+        "dur_s": 153.6496875,
+        "song": "Aline",
+        "version": "Richard Clayderman+Aline+3-Aline"
+    },
+    {
+        "utt": "cover9981_00116284_9981_0",
+        "wav": "datasets/shs100k/v3JNi0LV0YQ.wav",
+        "dur_s": 264.988375,
+        "song": "Watch Yourself",
+        "version": "Nine Below Zero+Watch Yourself+0-Watch Yourself"
+    },
+    {
+        "utt": "cover9981_00116285_9981_1",
+        "wav": "datasets/shs100k/eM-cvqqFIk4.wav",
+        "dur_s": 178.0976875,
+        "song": "You Better Watch Yourself",
+        "version": "Smokey Wilson+You Better Watch Yourself+1-You Better Watch Yourself"
+    },
+    {
+        "utt": "cover9981_00116286_9981_2",
+        "wav": "datasets/shs100k/adNtt026UzY.wav",
+        "dur_s": 314.908375,
+        "song": "Watch Yourself",
+        "version": "Eric Clapton+Watch Yourself+2-Watch Yourself"
+    },
+    {
+        "utt": "cover9981_00116287_9981_3",
+        "wav": "datasets/shs100k/GwEQ17f4O-4.wav",
+        "dur_s": 227.6949375,
+        "song": "You Better Watch Yourself",
+        "version": "Junior Wells+You Better Watch Yourself+3-You Better Watch Yourself"
+    },
+    {
+        "utt": "cover9981_00116288_9981_4",
+        "wav": "datasets/shs100k/q7DN5VT1dK4.wav",
+        "dur_s": 208.412375,
+        "song": "You Better Watch Yourself",
+        "version": "Rod Piazza & The Mighty Flyers Blues Quartet+You Better Watch Yourself+4-You Better Watch Yourself"
+    },
+    {
+        "utt": "cover9982_00116289_9982_0",
+        "wav": "datasets/shs100k/cGW2Vml9S8U.wav",
+        "dur_s": 158.8941875,
+        "song": "Two Hearts",
+        "version": "The Charms [1]+Two Hearts+0-Two Hearts"
+    },
+    {
+        "utt": "cover9982_00116293_9982_4",
+        "wav": "datasets/shs100k/ZZ18zC6FxXs.wav",
+        "dur_s": 162.400375,
+        "song": "Two Hearts, Two Kisses",
+        "version": "The Crew-Cuts+Two Hearts, Two Kisses+4-Two Hearts, Two Kisses"
+    },
+    {
+        "utt": "cover9982_00116294_9982_5",
+        "wav": "datasets/shs100k/CpXNb-GfQOs.wav",
+        "dur_s": 201.6885625,
+        "song": "Two Hearts",
+        "version": "Shakin' Stevens+Two Hearts+5-Two Hearts"
+    },
+    {
+        "utt": "cover9984_00116298_9984_0",
+        "wav": "datasets/shs100k/5PHSqKxbJ2c.wav",
+        "dur_s": 202.87275,
+        "song": "Over at the Frankenstein Place",
+        "version": "Belinda Sinclair, Christopher Malcolm, Richard O' Brien+Over at the Frankenstein Place+0-Over at the Frankenstein Place"
+    },
+    {
+        "utt": "cover9984_00116299_9984_1",
+        "wav": "datasets/shs100k/O5fKYGnK28s.wav",
+        "dur_s": 200.3418125,
+        "song": "Over at the Frankenstein Place",
+        "version": "Abigale Haness and B. Miller+Over at the Frankenstein Place+1-Over at the Frankenstein Place"
+    },
+    {
+        "utt": "cover9984_00116300_9984_2",
+        "wav": "datasets/shs100k/ZSAKloKl3m0.wav",
+        "dur_s": 165.6279375,
+        "song": "Over at the Frankenstein Place",
+        "version": "Barry Bostwick, Susan Sarandon, Richard O'Brien+Over at the Frankenstein Place+2-Over at the Frankenstein Place"
+    },
+    {
+        "utt": "cover9984_00116301_9984_3",
+        "wav": "datasets/shs100k/pKpRKqrGEm4.wav",
+        "dur_s": 152.3925625,
+        "song": "Over at the Frankenstein Place",
+        "version": "Alkaline Trio+Over at the Frankenstein Place+3-Over at the Frankenstein Place"
+    },
+    {
+        "utt": "cover9984_00116302_9984_4",
+        "wav": "datasets/shs100k/023x9Zp0Ozw.wav",
+        "dur_s": 160.101625,
+        "song": "There's a Light (Over at the Frankenstein Place)",
+        "version": "Glee Cast+There's a Light (Over at the Frankenstein Place)+4-There's a Light (Over at the Frankenstein Place)"
+    },
+    {
+        "utt": "cover9985_00116303_9985_0",
+        "wav": "datasets/shs100k/8xwHld2h4PE.wav",
+        "dur_s": 199.3433125,
+        "song": "Sweet Transvestite",
+        "version": "Christopher Malcolm, Tim Curry+Sweet Transvestite+0-Sweet Transvestite"
+    },
+    {
+        "utt": "cover9985_00116304_9985_1",
+        "wav": "datasets/shs100k/xiZfUA-Uh3Q.wav",
+        "dur_s": 334.46025,
+        "song": "Sweet Transvestite",
+        "version": "Gary Glitter+Sweet Transvestite+1-Sweet Transvestite"
+    },
+    {
+        "utt": "cover9985_00116305_9985_2",
+        "wav": "datasets/shs100k/9Uq2vaP2cLU.wav",
+        "dur_s": 210.951,
+        "song": "Sweet Transvestite",
+        "version": "Anthony Head+Sweet Transvestite+2-Sweet Transvestite"
+    },
+    {
+        "utt": "cover9985_00116306_9985_3",
+        "wav": "datasets/shs100k/_38jDwzlZyo.wav",
+        "dur_s": 229.1345625,
+        "song": "Sweet Transvestite",
+        "version": "Bates Motel [1]+Sweet Transvestite+3-Sweet Transvestite"
+    },
+    {
+        "utt": "cover9985_00116307_9985_4",
+        "wav": "datasets/shs100k/CXPtmKlveNQ.wav",
+        "dur_s": 200.9223125,
+        "song": "Sweet Transvestite",
+        "version": "Apocalypse Hoboken+Sweet Transvestite+4-Sweet Transvestite"
+    },
+    {
+        "utt": "cover9985_00116308_9985_5",
+        "wav": "datasets/shs100k/iRaT1hhXans.wav",
+        "dur_s": 208.0740625,
+        "song": "Sweet Transvestite",
+        "version": "Spit Like This+Sweet Transvestite+5-Sweet Transvestite"
+    },
+    {
+        "utt": "cover9986_00116311_9986_1",
+        "wav": "datasets/shs100k/Z_zebh1sWLs.wav",
+        "dur_s": 246.479875,
+        "song": "Shoot to Thrill",
+        "version": "Marmalade [1]+Shoot to Thrill+1-Shoot to Thrill"
+    },
+    {
+        "utt": "cover9986_00116312_9986_2",
+        "wav": "datasets/shs100k/BpfwJVQUvXo.wav",
+        "dur_s": 317.83475,
+        "song": "Shoot to Thrill",
+        "version": "Six Feet Under+Shoot to Thrill+2-Shoot to Thrill"
+    },
+    {
+        "utt": "cover9986_00116313_9986_3",
+        "wav": "datasets/shs100k/7qqPB-g-P64.wav",
+        "dur_s": 331.7435,
+        "song": "Shoot to Thrill",
+        "version": "Night Horse+Shoot to Thrill+3-Shoot to Thrill"
+    },
+    {
+        "utt": "cover9986_00116314_9986_4",
+        "wav": "datasets/shs100k/fk1CjUZ6_j8.wav",
+        "dur_s": 315.0948125,
+        "song": "Shoot to Thrill",
+        "version": "Halestorm+Shoot to Thrill+4-Shoot to Thrill"
+    },
+    {
+        "utt": "cover9987_00116316_9987_1",
+        "wav": "datasets/shs100k/JRwz85wTmyg.wav",
+        "dur_s": 240.4426875,
+        "song": "Let Me Put My Love Into You",
+        "version": "Erin Alden+Let Me Put My Love Into You+1-Let Me Put My Love Into You"
+    },
+    {
+        "utt": "cover9987_00116317_9987_2",
+        "wav": "datasets/shs100k/FmmUcpOGCl0.wav",
+        "dur_s": 267.1920625,
+        "song": "Let Me Put My Love Into You",
+        "version": "Six Feet Under+Let Me Put My Love Into You+2-Let Me Put My Love Into You"
+    },
+    {
+        "utt": "cover9987_00116318_9987_3",
+        "wav": "datasets/shs100k/edmyt9gp8gk.wav",
+        "dur_s": 279.0806875,
+        "song": "Let Me Put My Love Into You",
+        "version": "Crippled Black Phoenix+Let Me Put My Love Into You+3-Let Me Put My Love Into You"
+    },
+    {
+        "utt": "cover9987_00116319_9987_4",
+        "wav": "datasets/shs100k/XWYM-5PCDX4.wav",
+        "dur_s": 246.3173125,
+        "song": "Let Me Put My Love into You",
+        "version": "Jettblack+Let Me Put My Love into You+4-Let Me Put My Love into You"
+    },
+    {
+        "utt": "cover9987_00116320_9987_5",
+        "wav": "datasets/shs100k/4FeBy13djtU.wav",
+        "dur_s": 252.16875,
+        "song": "Let Me Put My Love Into You",
+        "version": "SuidAkrA+Let Me Put My Love Into You+5-Let Me Put My Love Into You"
+    },
+    {
+        "utt": "cover9988_00116323_9988_2",
+        "wav": "datasets/shs100k/asqI6JpqM_k.wav",
+        "dur_s": 141.1076875,
+        "song": "Happy Days",
+        "version": "The Boppers+Happy Days+2-Happy Days"
+    },
+    {
+        "utt": "cover9988_00116324_9988_3",
+        "wav": "datasets/shs100k/60pbEJKdPAo.wav",
+        "dur_s": 58.3981875,
+        "song": "Happy Days",
+        "version": "Less Than Jake+Happy Days+3-Happy Days"
+    },
+    {
+        "utt": "cover9989_00116326_9989_0",
+        "wav": "datasets/shs100k/rIgFju8-Hp0.wav",
+        "dur_s": 111.2468125,
+        "song": "Palisades Park",
+        "version": "Freddy Cannon with Frank Slay and His Orchestra+Palisades Park+0-Palisades Park"
+    },
+    {
+        "utt": "cover9989_00116327_9989_1",
+        "wav": "datasets/shs100k/z_6ASJLNbI8.wav",
+        "dur_s": 116.039,
+        "song": "Palisades Park",
+        "version": "Shelley Fabares+Palisades Park+1-Palisades Park"
+    },
+    {
+        "utt": "cover9989_00116328_9989_2",
+        "wav": "datasets/shs100k/zmo8t6tLncs.wav",
+        "dur_s": 116.610625,
+        "song": "Palisades Park",
+        "version": "Gary Lewis & The Playboys+Palisades Park+2-Palisades Park"
+    },
+    {
+        "utt": "cover9989_00116329_9989_3",
+        "wav": "datasets/shs100k/j7i245y5Duo.wav",
+        "dur_s": 140.0628125,
+        "song": "Palisades Park",
+        "version": "The Beach Boys+Palisades Park+3-Palisades Park"
+    },
+    {
+        "utt": "cover9989_00116331_9989_5",
+        "wav": "datasets/shs100k/eAnm87Wmb6U.wav",
+        "dur_s": 103.6306875,
+        "song": "Palisades Park",
+        "version": "The Devil Dogs+Palisades Park+5-Palisades Park"
+    },
+    {
+        "utt": "cover9989_00116332_9989_6",
+        "wav": "datasets/shs100k/X1L8ThOe75o.wav",
+        "dur_s": 126.8041875,
+        "song": "Palisades Park",
+        "version": "Black Raven+Palisades Park+6-Palisades Park"
+    },
+    {
+        "utt": "cover9990_00116334_9990_0",
+        "wav": "datasets/shs100k/abfZH2-Iiqc.wav",
+        "dur_s": 126.59525,
+        "song": "Shape of Things to Come",
+        "version": "Max Frost & The Troopers+Shape of Things to Come+0-Shape of Things to Come"
+    },
+    {
+        "utt": "cover9990_00116336_9990_2",
+        "wav": "datasets/shs100k/zWp93Dgsl9E.wav",
+        "dur_s": 134.582875,
+        "song": "The Shape of Things to Come",
+        "version": "Slade+The Shape of Things to Come+2-The Shape of Things to Come"
+    },
+    {
+        "utt": "cover9990_00116337_9990_3",
+        "wav": "datasets/shs100k/QeVlb6_HQuw.wav",
+        "dur_s": 198.6699375,
+        "song": "Shape of Things to Come",
+        "version": "The Raiders+Shape of Things to Come+3-Shape of Things to Come"
+    },
+    {
+        "utt": "cover9990_00116338_9990_4",
+        "wav": "datasets/shs100k/JbW_pmacjQc.wav",
+        "dur_s": 138.1123125,
+        "song": "Shape of Things to Come",
+        "version": "The Diodes+Shape of Things to Come+4-Shape of Things to Come"
+    },
+    {
+        "utt": "cover9990_00116340_9990_6",
+        "wav": "datasets/shs100k/7o88sr0339A.wav",
+        "dur_s": 321.7821875,
+        "song": "Shape of Things to Come",
+        "version": "George Benson+Shape of Things to Come+6-Shape of Things to Come"
+    },
+    {
+        "utt": "cover9992_00116341_9992_0",
+        "wav": "datasets/shs100k/O70E5PYved4.wav",
+        "dur_s": 173.383,
+        "song": "Vous permettez, Monsieur",
+        "version": "Adamo+Vous permettez, Monsieur+0-Vous permettez, Monsieur"
+    },
+    {
+        "utt": "cover9992_00116342_9992_1",
+        "wav": "datasets/shs100k/v817C6yItnQ.wav",
+        "dur_s": 166.023,
+        "song": "Vous permettez, Madame?",
+        "version": "Slome Japie+Vous permettez, Madame?+1-Vous permettez, Madame?"
+    },
+    {
+        "utt": "cover9993_00116345_9993_1",
+        "wav": "datasets/shs100k/ovHMHx1BuWY.wav",
+        "dur_s": 171.868375,
+        "song": "53rd & 3rd",
+        "version": "Shotgun Messiah+53rd & 3rd+1-53rd & 3rd"
+    },
+    {
+        "utt": "cover9993_00116346_9993_2",
+        "wav": "datasets/shs100k/P27xcT6mJP4.wav",
+        "dur_s": 140.7129375,
+        "song": "53rd & 3rd",
+        "version": "Metallica+53rd & 3rd+2-53rd & 3rd"
+    },
+    {
+        "utt": "cover9998_00116352_9998_2",
+        "wav": "datasets/shs100k/-t8fkmDlRk8.wav",
+        "dur_s": 87.7714375,
+        "song": "I Don't Care",
+        "version": "The Queers+I Don't Care+2-I Don't Care"
+    }
+]

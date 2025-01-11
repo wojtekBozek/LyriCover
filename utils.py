@@ -6,9 +6,11 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 from text_utils import preprocess_text, compute_cosine_similarity
 from hpcp_utils import extract_tonal_features, generate_lyrics
+from config import training_pairs_limit
 
-# Parameters
-MAX_PAIRS = 10
+
+# Parameters from config.py
+MAX_PAIRS = training_pairs_limit
 
 def read_metadata(json_path):
     logging.info(f"Reading metadata from {json_path}...")

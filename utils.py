@@ -4,6 +4,7 @@ import random
 from collections import defaultdict
 from sklearn.model_selection import train_test_split
 import numpy as np
+<<<<<<< HEAD
 from text_utils import preprocess_text, compute_cosine_similarity
 from hpcp_utils import extract_tonal_features, generate_lyrics
 from config import training_pairs_limit
@@ -11,6 +12,14 @@ from config import training_pairs_limit
 
 # Parameters from config.py
 MAX_PAIRS = training_pairs_limit
+=======
+from text_utils import compute_cosine_similarity, generate_lyrics
+from hpcp_utils import extract_tonal_features
+from config import whisper_size, training_pairs_number
+
+# Parameters
+MAX_PAIRS = training_pairs_number
+>>>>>>> 291534603959157a9adde24c61a410d8ccd29c6b
 
 def read_metadata(json_path):
     logging.info(f"Reading metadata from {json_path}...")
@@ -25,7 +34,7 @@ def read_metadata(json_path):
 def load_whisper_model():
     import whisper  # Local import to keep main.py clean
     logging.info("Loading Whisper model...")
-    return whisper.load_model("small")
+    return whisper.load_model(whisper_size)
 
 def generate_pairs(metadata, max_pairs=MAX_PAIRS):
     logging.info("Generating random pairs of songs for cover classification...")
@@ -98,7 +107,7 @@ def extract_pair_features(pairs, model):
     logging.info("Feature extraction for pairs completed.")
     return np.array(features), np.array(labels)
 
-def split_data(features, labels):
+def split_data(features, labels, test_percentage = 0.2):
     logging.info("Splitting data into training and test sets...")
     X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
     logging.info(f"Train set: {len(X_train)} samples, Test set: {len(X_test)} samples")

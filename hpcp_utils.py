@@ -8,13 +8,9 @@ import logging
 
 def extract_tonal_features(file_path):
     try:
-        # Load audio file
+    
         y, sr = librosa.load(file_path, sr=None)
-        
-        # Extract chroma features
         chroma = librosa.feature.chroma_cqt(y=y, sr=sr)
-        
-        # Compute mean chroma features across time
         tonal_features = np.mean(chroma, axis=1)
         
         return tonal_features

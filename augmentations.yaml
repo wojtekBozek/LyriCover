@@ -1,0 +1,28 @@
+augmentations:
+  - type: AddGaussianNoise
+    min_amplitude: 0.001
+    max_amplitude: 0.015
+    probability: 0.6
+
+  - type: PitchShift
+    min_semitones: -4
+    max_semitones: 4
+    probability: 0.6
+
+  - type: HighPassFilter
+    min_cutoff_freq: 2000
+    max_cutoff_freq: 8000
+    probability: 0.6
+
+  - type: TimeMask
+    min_band_part: 0.05
+    max_band_part: 0.15
+    fade: true
+    probability: 0.6
+
+  - type: ClippingDistortion
+    min_percentile_threshold: 10
+    max_percentile_threshold: 50
+    probability: 0.6
+
+  

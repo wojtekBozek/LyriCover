@@ -4,22 +4,12 @@ import random
 from collections import defaultdict
 from sklearn.model_selection import train_test_split
 import numpy as np
-<<<<<<< HEAD
-from text_utils import preprocess_text, compute_cosine_similarity
-from hpcp_utils import extract_tonal_features, generate_lyrics
-from config import training_pairs_limit
-
-
-# Parameters from config.py
-MAX_PAIRS = training_pairs_limit
-=======
 from text_utils import compute_cosine_similarity, generate_lyrics
 from hpcp_utils import extract_tonal_features
 from config import whisper_size, training_pairs_number
 
 # Parameters
 MAX_PAIRS = training_pairs_number
->>>>>>> 291534603959157a9adde24c61a410d8ccd29c6b
 
 def read_metadata(json_path):
     logging.info(f"Reading metadata from {json_path}...")

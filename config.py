@@ -1,2 +1,2 @@
-training_pairs_limit = 2000
+training_pairs_number = 200
 whisper_size = "small"

@@ -5,9 +5,11 @@ import torch.nn as nn
 import torch.optim as optim
 import torchmetrics
 import numpy as np
+import tempfile
+import librosa
 from hpcp_utils import extract_tonal_features
 from text_utils import compute_cosine_similarity, generate_lyrics
-
+from wandb_augmentations import load_augmentations_from_yaml
 
 class CoverClassifierNN(nn.Module):
     def __init__(self):
@@ -25,12 +27,16 @@ class CoverClassifierNN(nn.Module):
 
 
 class CoverClassifier:
-    def __init__(self, instrumental_threshold=8, lyrics_model=None):
+    def __init__(self, instrumental_threshold=8, lyrics_model=None, augmentation_config=None):
         self.instrumental_threshold = instrumental_threshold
         self.lyrics_model = lyrics_model
         self.nn_model = CoverClassifierNN()
         self.is_model_loaded = False
-    
+        self.augment = None
+
+        if augmentation_config:
+            self.augment, _ = load_augmentations_from_yaml(augmentation_config)
+
     def load_model(self, model_path="model.pth"):
         """Load the model once for predictions."""
         logging.info("Loading model...")
@@ -39,6 +45,21 @@ class CoverClassifier:
         self.is_model_loaded = True
         logging.info("Model loaded successfully.")
 
+    def apply_augmentation(self, audio_path):
+        """Apply augmentation to audio and return path to the augmented version."""
+        if not self.augment:
+            return audio_path  # No augmentation
+    
+        # Load original audio
+        signal, sr = librosa.load(audio_path, sr=None)
+    
+        # Apply augmentation
+        augmented_signal = self.augment(signal, sr)
+    
+        # Save to a temp file
+        tmp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".wav")
+        tempfile.write(tmp_file.name, augmented_signal, sr)
+        return tmp_file.name
 
     def load_lyrics(self, filepath):
         """Load lyrics from a file if it exists."""
@@ -90,6 +111,9 @@ class CoverClassifier:
             lyrics_path_b = os.path.join(lyrics_dir, f"{os.path.basename(audio_b)}.txt")
 
             # Get lyrics and instrumental status for each song
+
+            audio_a = self.apply_augmentation(song_a['wav'])
+            audio_b = self.apply_augmentation(song_b['wav'])
             lyrics_a, is_instrumental_a = self.get_lyrics(audio_a, lyrics_path_a, load_save)
             lyrics_b, is_instrumental_b = self.get_lyrics(audio_b, lyrics_path_b, load_save)
 
@@ -246,6 +270,7 @@ class CoverClassifier:
         
         logging.info("Preparing features for prediction...")
         # Extract features
+        
         lyrics_a, is_instrumental_a = generate_lyrics(
             audio_a, instrumental_threshold=self.instrumental_threshold, model=self.lyrics_model
         )

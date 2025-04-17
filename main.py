@@ -15,6 +15,7 @@ def main():
     parser.add_argument("--load_save", type=str, default=None, choices=["load", "save", None],
                         help="Specify whether to load or save lyrics embeddings.")
     parser.add_argument("--lyrics_dir", type=str, default="lyrics", help="Directory for storing/loading lyrics files.")
+    parser.add_argument("--augmentation_config", type=str, default=None, help="Path to YAML config for audio augmentations.")
     args = parser.parse_args()
 
     # Initialize Whisper model and read metadata
@@ -23,7 +24,11 @@ def main():
     pairs = generate_pairs(metadata)
 
     # Initialize the classifier with Whisper model and instrumental threshold
-    classifier = CoverClassifier(instrumental_threshold=args.instrumental_threshold, lyrics_model=whisper)
+    classifier = CoverClassifier(
+        instrumental_threshold=args.instrumental_threshold,
+        lyrics_model=whisper,
+        augmentation_config=args.augmentation_config
+    )
 
     # Extract features with specified load_save option and lyrics directory
     features, labels = classifier.extract_pair_features(pairs, load_save=args.load_save, lyrics_dir=args.lyrics_dir)

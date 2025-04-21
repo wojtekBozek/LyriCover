@@ -2,13 +2,13 @@ import os
 import json
 import subprocess
 
-OUTPUT_DIR = 'datasets/shs100k'
+OUTPUT_DIR = 'datasets/shs100k_unique'
 
 # Create output directory if needed
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Load your JSON data
-with open('datasets/shs100k.json', 'r') as f:
+with open('unique_songs.json', 'r') as f:
     data = json.load(f)
 
 for entry in data:

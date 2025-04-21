@@ -112,7 +112,7 @@ class CoverClassifier:
 
             # Get lyrics and instrumental status for each song
 
-            audio_a = self.apply_augmentation(song_a['wav'])
+            #audio_a = self.apply_augmentation(song_a['wav'])
             audio_b = self.apply_augmentation(song_b['wav'])
             lyrics_a, is_instrumental_a = self.get_lyrics(audio_a, lyrics_path_a, load_save)
             lyrics_b, is_instrumental_b = self.get_lyrics(audio_b, lyrics_path_b, load_save)
@@ -224,6 +224,35 @@ class CoverClassifier:
         logging.info("Training completed.")
         self.save_model("model.pth")
 
+
+    def train_from_loader(self, train_loader, num_epochs=10, learning_rate=0.001):
+        logging.info("Training with on-the-fly extracted features...")
+    
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.nn_model = self.nn_model.to(device)
+        criterion = nn.BCELoss()
+        optimizer = optim.Adam(self.nn_model.parameters(), lr=learning_rate)
+    
+        for epoch in range(num_epochs):
+            self.nn_model.train()
+            running_loss = 0.0
+    
+            for inputs, labels in train_loader:
+                inputs, labels = inputs.to(device), labels.to(device)
+    
+                optimizer.zero_grad()
+                outputs = self.nn_model(inputs).squeeze()
+                loss = criterion(outputs, labels)
+                loss.backward()
+                optimizer.step()
+    
+                running_loss += loss.item()
+    
+            logging.info(f"Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}")
+    
+        logging.info("Training completed.")
+        self.save_model("model.pth")
+
     def evaluate(self, X_test, y_test):
         """Evaluate the classifier."""
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -298,4 +327,7 @@ class CoverClassifier:
 
         logging.info(f"Prediction score (cover likelihood): {prediction:.4f}")
         return prediction
+
+
+
 

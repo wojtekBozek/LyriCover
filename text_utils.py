@@ -2,8 +2,33 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
-
+import os
 import logging
+
+def load_lyrics(filepath):
+    """Load lyrics from a file if it exists."""
+    if os.path.exists(filepath):
+        with open(filepath, 'r') as file:
+            return file.read()
+    return None
+
+def save_lyrics(filepath, lyrics):
+    """Save lyrics to a file."""
+    with open(filepath, 'w') as file:
+        file.write(lyrics)
+
+def is_empty_or_stop_words(lyrics):
+     """Check if lyrics are empty or contain only stop words."""
+     from sklearn.feature_extraction.text import CountVectorizer
+     vectorizer = CountVectorizer(stop_words="english")
+     try:
+         vectorizer.fit_transform([lyrics])
+         return len(vectorizer.vocabulary_) == 0
+     except ValueError:
+         return True
+
+
+
 
 def preprocess_text(text):
      # Convert to lowercase

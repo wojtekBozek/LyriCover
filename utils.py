@@ -24,7 +24,7 @@ def read_metadata(json_path):
 def load_whisper_model():
     import whisper  # Local import to keep main.py clean
     logging.info("Loading Whisper model...")
-    return whisper.load_model(whisper_size)
+    return whisper.load_model(whisper_size, device="cuda")
 
 def generate_pairs(metadata, max_pairs=MAX_PAIRS):
     logging.info("Generating random pairs of songs for cover classification...")

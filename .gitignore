@@ -1,5 +1,5 @@
-datasets/shs100k_unique/*.wav
-datasets/shs100k/*.wav
+datasets/shs100k_unique/
+datasets/shs100k/
 lyrics/*.txt
 TODO
 *.wav
@@ -11,3 +11,4 @@ datasets/shs100k_unique.json
 *.Identifier
 venv/
 __pycache__/
+unique_songs.json

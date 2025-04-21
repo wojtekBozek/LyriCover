@@ -1,0 +1,3 @@
+./datasets/shs100k_unique/*.wav
+./datasets/shs100k/*.wav
+./lyrics/*.txt

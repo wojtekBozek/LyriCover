@@ -1,3 +1,13 @@
-./datasets/shs100k_unique/*.wav
-./datasets/shs100k/*.wav
-./lyrics/*.txt
+datasets/shs100k_unique/*.wav
+datasets/shs100k/*.wav
+lyrics/*.txt
+TODO
+*.wav
+*.pth
+input.json
+download_from_youtube.py
+subset*.json
+datasets/shs100k_unique.json
+*.Identifier
+venv/
+__pycache__/

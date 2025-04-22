@@ -10,7 +10,6 @@ import librosa
 
 from hpcp_utils import extract_tonal_features
 from text_utils import compute_cosine_similarity, generate_lyrics, load_lyrics, is_empty_or_stop_words, save_lyrics
-from wandb_augmentations import load_augmentations_from_yaml
 
 
 class AudioPairDataset(torch.utils.data.Dataset):
@@ -41,6 +40,24 @@ class AudioPairDataset(torch.utils.data.Dataset):
             save_lyrics(filepath, lyrics)
         return lyrics, is_instrumental
 
+    def extract_tonal_features(self, audio_path):
+        try:
+            y, sr = librosa.load(audio_path, sr=None)
+            if self.augmentation_fn:
+                y = self.augmentation_fn(y, sr)
+            chroma = librosa.feature.chroma_cqt(y=y, sr=sr)
+            tonal_features = np.mean(chroma, axis=1)
+            return tonal_features
+        except FileNotFoundError:
+            logging.error(f"File not found: {audio_path}")
+            return np.zeros(12)
+        except librosa.util.exceptions.ParameterError as e:
+            logging.error(f"Parameter error when processing {audio_path}: {e}")
+            return np.zeros(12)
+        except ValueError as e:
+            logging.error(f"Value error when processing {audio_path}: {e}")
+            return np.zeros(12)
+
     def __getitem__(self, idx):
         pair = self.pairs[idx]
         song_a, song_b, label = pair
@@ -48,24 +65,23 @@ class AudioPairDataset(torch.utils.data.Dataset):
         lyrics_path_a = os.path.join(self.lyrics_dir, f"{os.path.basename(audio_a)}.txt")
         lyrics_path_b = os.path.join(self.lyrics_dir, f"{os.path.basename(audio_b)}.txt")
 
-        # Augmentation
-        if self.augmentation_fn:
-            audio_a = self.augmentation_fn(audio_a)
-            audio_b = self.augmentation_fn(audio_b)
-
         # Extract features
         if self.load_lyrics and os.path.exists(lyrics_path_a):
+            #logging.info(f"Loading lyrics from {lyrics_path_a}")
             lyrics_a, is_inst_a = load_lyrics(lyrics_path_a), is_empty_or_stop_words(load_lyrics(lyrics_path_a))
-            tonal_a = extract_tonal_features(audio_a)
+            tonal_a = self.extract_tonal_features(audio_a)
         else:
+            #logging.info(f"Can not load lyrics from {lyrics_path_a}, generating...")
             lyrics_a, is_inst_a = self.gen_lyrics(audio_a, lyrics_path_a, self.save_lyrics)
-            tonal_a = extract_tonal_features(audio_a)
+            tonal_a = self.extract_tonal_features(audio_a)
         if self.load_lyrics and os.path.exists(lyrics_path_b):
+            #logging.info(f"Loading lyrics from {lyrics_path_b}")
             lyrics_b, is_inst_b = load_lyrics(lyrics_path_b), is_empty_or_stop_words(load_lyrics(lyrics_path_b))
-            tonal_b = extract_tonal_features(audio_b)
+            tonal_b = self.extract_tonal_features(audio_b)
         else:
+            #logging.info(f"Can not load lyrics from {lyrics_path_b}, generating...")
             lyrics_b, is_inst_b= self.gen_lyrics(audio_b, lyrics_path_b, self.save_lyrics)
-            tonal_b = extract_tonal_features(audio_b)
+            tonal_b = self.extract_tonal_features(audio_b)
 
         # Compute similarity
         tonal_similarity = np.dot(tonal_a, tonal_b) / (np.linalg.norm(tonal_a) * np.linalg.norm(tonal_b))

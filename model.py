@@ -9,7 +9,7 @@ import tempfile
 import librosa
 from hpcp_utils import extract_tonal_features
 from text_utils import compute_cosine_similarity, generate_lyrics
-from wandb_augmentations import load_augmentations_from_yaml
+import wandb
 
 class CoverClassifierNN(nn.Module):
     def __init__(self):
@@ -34,8 +34,6 @@ class CoverClassifier:
         self.is_model_loaded = False
         self.augment = None
 
-        if augmentation_config:
-            self.augment, _ = load_augmentations_from_yaml(augmentation_config)
 
     def load_model(self, model_path="model.pth"):
         """Load the model once for predictions."""
@@ -113,7 +111,7 @@ class CoverClassifier:
             # Get lyrics and instrumental status for each song
 
             #audio_a = self.apply_augmentation(song_a['wav'])
-            audio_b = self.apply_augmentation(song_b['wav'])
+            #audio_b = self.apply_augmentation(song_b['wav'])
             lyrics_a, is_instrumental_a = self.get_lyrics(audio_a, lyrics_path_a, load_save)
             lyrics_b, is_instrumental_b = self.get_lyrics(audio_b, lyrics_path_b, load_save)
 
@@ -248,7 +246,9 @@ class CoverClassifier:
     
                 running_loss += loss.item()
     
-            logging.info(f"Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}")
+            avg_loss = running_loss / len(train_loader)
+            logging.info(f"Epoch [{epoch+1}/{num_epochs}], Loss: {avg_loss:.4f}")
+            wandb.log({"epoch": epoch + 1, "train_loss": avg_loss})
     
         logging.info("Training completed.")
         self.save_model("model.pth")
@@ -276,10 +276,22 @@ class CoverClassifier:
             recall.update(preds, labels)
             f1.update(preds, labels)
 
-        logging.info(f"Accuracy: {accuracy.compute():.4f}")
-        logging.info(f"Precision: {precision.compute():.4f}")
-        logging.info(f"Recall: {recall.compute():.4f}")
-        logging.info(f"F1 Score: {f1.compute():.4f}")
+            acc_value = accuracy.compute().item()
+            precision_value = precision.compute().item()
+            recall_value = recall.compute().item()
+            f1_value = f1.compute().item()
+
+            logging.info(f"Accuracy: {acc_value:.4f}")
+            logging.info(f"Precision: {precision_value:.4f}")
+            logging.info(f"Recall: {recall_value:.4f}")
+            logging.info(f"F1 Score: {f1_value:.4f}")
+
+            wandb.log({
+                "val_accuracy": acc_value,
+                "val_precision": precision_value,
+                "val_recall": recall_value,
+                "val_f1": f1_value
+            })
 
     def save_model(self, filepath):
         """Save the model to a file."""

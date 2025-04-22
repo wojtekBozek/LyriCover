@@ -12,3 +12,6 @@ datasets/shs100k_unique.json
 venv/
 __pycache__/
 unique_songs.json
+wandb/
+source/
+examples/

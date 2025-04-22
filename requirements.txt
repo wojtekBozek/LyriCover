@@ -1,4 +1,6 @@
 audioread==3.0.1
+audiomentations==0.40.0
+pydub==0.25.1
 certifi==2024.12.14
 cffi==1.17.1
 charset-normalizer==3.4.1

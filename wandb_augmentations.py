@@ -1,44 +1,54 @@
-import yaml
 import wandb
-from audiomentations import Compose, AddGaussianNoise, PitchShift, HighPassFilter, TimeMask, ClippingDistortion 
 import librosa
 import soundfile as sf
+from augmentations_from_yaml import get_augmentation
 
-def load_augmentations_from_yaml(config_path):
-    with open(config_path, "r") as file:
-        config = yaml.safe_load(file)
-    
-    augmentation_list = []
-    for aug in config["augmentations"]:
-        aug_type = aug.pop("type")
-        probability = aug.pop("probability", 1.0)
-        augmentation_class = globals()[aug_type]
-        augmentation_list.append(augmentation_class(p=probability, **aug))
-    
-    return Compose(augmentation_list), config
+AUGMENTATIONS = [
+    "none",
+    "pitch_shift_1",
+    "pitch_shift_2",
+    "time_stretch_1",
+    "time_stretch_2",
+    "GaussianNoise_1",
+    "GaussianNoise_2",
+    "clipping_distortion_1",
+    "clipping_distortion_2",
+    "high_pass_filter",
+    "low_pass_filter",
+    "Mp3Compression_1",
+    "Mp3Compression_2",
+    "negative_gain",
+    "positive_gain",
+    "transition_gain",
+    "polarity_inversion"
+]
 
-if __name__ == "__main__":
-    # Initialize W&B
-    wandb.init(project="audio-augmentations", name="augmentation-run")
+AUDIO_PATH = "examples/bleach.wav"
 
-    config_path = "augmentations.yaml"
-    augment, config = load_augmentations_from_yaml(config_path)
+for aug_name in AUGMENTATIONS:
+    wandb.init(project="audio-augmentations", name=f"test_{aug_name}")
 
-    # Log the YAML configuration to W&B
+    config = {"augmentation_type": aug_name}
     wandb.config.update(config)
 
-    # Load and augment the audio signal
-    signal, sr = librosa.load("examples/bleach.wav", sr=None)
-    augmented_signal = augment(signal, sr)
+    # Load augmentation and audio
+    augment = get_augmentation(config)
+    signal, sr = librosa.load(AUDIO_PATH, sr=None)
 
-    # Save the augmented audio
-    output_path = "audiomentations_augment.wav"
-    sf.write(output_path, augmented_signal, sr)
+    # Apply augmentation
+    if augment:
+        augmented = augment(signal, sr)
+    else:
+        augmented = signal
 
-    # Log the augmented audio as an artifact
-    wandb.log({"sample_rate": sr})
-    #wandb.log({"original_audio": wandb.Audio("examples/bleach.wav", sample_rate=sr)})
-    #wandb.log({"augmented_audio": wandb.Audio(output_path, sample_rate=sr)})
+    # Save and log
+    output_path = f"output_augmented_{aug_name}.wav"
+    sf.write(output_path, augmented, sr)
 
-    # Finish the W&B run
+    wandb.log({
+        "sample_rate": sr,
+        #"original_audio": wandb.Audio(AUDIO_PATH, sample_rate=sr),
+        #"augmented_audio": wandb.Audio(output_path, sample_rate=sr),
+    })
+
     wandb.finish()

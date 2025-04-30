@@ -1,28 +1,23 @@
 program: main.py
 method: grid
 metric:
-  name: accurace
+  name: accuracy
   goal: maximize
 parameters:
   metadata_path: 
     values:
-      - "datasets/shs100k_reduced.json"
+      - "datasets/shs100k_unique.json"
   augmentation_type:
     values:
       - "none"
       - "pitch_shift_1"
-      - "pitch_shift_2"
       - "time_stretch_1"
-      - "time_stretch_2"
       - "GaussianNoise_1"
-      - "GaussianNoise_2"
       - "clipping_distortion_1"
-      - "clipping_distortion_2"
       - "high_pass_filter"
       - "low_pass_filter"
       - "Mp3Compression_1"
       - "Mp3Compression_2"
-      - "negative_gain"
-      - "positive_gain"
+      - "combined_gain"
       - "transition_gain"
       - "polarity_inversion"

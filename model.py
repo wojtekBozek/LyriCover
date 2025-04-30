@@ -8,7 +8,7 @@ import numpy as np
 import tempfile
 import librosa
 from hpcp_utils import extract_tonal_features
-from text_utils import compute_cosine_similarity, generate_lyrics
+from text_utils import compute_cosine_similarity, generate_lyrics, is_empty_or_stop_words
 import wandb
 
 class CoverClassifierNN(nn.Module):
@@ -73,7 +73,14 @@ class CoverClassifier:
 
     def get_lyrics(self, audio_path, filepath, load_save=None):
         """Load, generate, or save lyrics for a given audio file."""
-        lyrics = self.load_lyrics(filepath) if load_save == "load" else None
+        if load_save == "load" and os.path.isfile(filepath):
+            lyrics = self.load_lyrics(filepath)
+            is_instrumental = self.is_empty_or_stop_words(lyrics)
+            return lyrics, is_instrumental
+        else:
+            lyrics = None
+            is_instrumental = True
+
         if lyrics is None:
             logging.info(f"Lyrics not found for {audio_path}, generating...")
             lyrics, is_instrumental = generate_lyrics(
@@ -85,8 +92,7 @@ class CoverClassifier:
                 lyrics, is_instrumental = None, True
             if load_save == "save" and lyrics is not None:
                 self.save_lyrics(filepath, lyrics)
-        else:
-            is_instrumental = False
+        
         return lyrics, is_instrumental
 
     def is_empty_or_stop_words(self, lyrics):
@@ -251,7 +257,7 @@ class CoverClassifier:
             wandb.log({"epoch": epoch + 1, "train_loss": avg_loss})
     
         logging.info("Training completed.")
-        self.save_model("model.pth")
+        
 
     def evaluate(self, X_test, y_test):
         """Evaluate the classifier."""

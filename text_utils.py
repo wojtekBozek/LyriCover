@@ -45,11 +45,24 @@ def preprocess_text(text):
 
     return text
 
+#def compute_cosine_similarity(text1, text2):
+#    vectorizer = TfidfVectorizer(ngram_range=(3, 3))
+#    tfidf_matrix = vectorizer.fit_transform([text1, text2])
+#    return cosine_similarity(tfidf_matrix[0], tfidf_matrix[1])[0, 0]
+
 def compute_cosine_similarity(text1, text2):
     vectorizer = TfidfVectorizer(ngram_range=(3, 3))
-    tfidf_matrix = vectorizer.fit_transform([text1, text2])
-    return cosine_similarity(tfidf_matrix[0], tfidf_matrix[1])[0, 0]
-
+    try:
+        tfidf_matrix = vectorizer.fit_transform([text1, text2])
+        if tfidf_matrix.shape[1] == 0:
+            # No valid features (empty after stopword removal or too short)
+            return 0.0
+        cosine_sim = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:2])[0, 0]
+        return float(cosine_sim)
+    except ValueError:
+        # Empty vocabulary or other processing failure
+        return 0.0
+    
 
 def generate_lyrics(file_path, model, instrumental_threshold):
     logging.info(f"Generating lyrics for: {file_path}")

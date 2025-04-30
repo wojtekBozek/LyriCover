@@ -1,0 +1,30 @@
+[
+    {
+        "utt": "cover9764_00115348_9764_3",
+        "wav": "datasets/shs100k/Y87IxaBuNvw.wav",
+        "dur_s": 225.7211875,
+        "song": "Every Kinda People",
+        "version": "Randy Crawford+Every Kinda People+3-Every Kinda People"
+    },
+    {
+        "utt": "cover9764_00115349_9764_4",
+        "wav": "datasets/shs100k/tEfAoLyIsHA.wav",
+        "dur_s": 205.705625,
+        "song": "Every Kinda People",
+        "version": "Frankie Goes To Hollywood+Every Kinda People+4-Every Kinda People"
+    },
+    {
+        "utt": "cover9976_00116267_9976_0",
+        "wav": "datasets/shs100k/NlzVestR1iQ.wav",
+        "dur_s": 163.956125,
+        "song": "Juke",
+        "version": "Little Walter and His Night Cats+Juke+0-Juke"
+    },
+    {
+        "utt": "cover9976_00116268_9976_1",
+        "wav": "datasets/shs100k/V4hqOqg1m_E.wav",
+        "dur_s": 188.499625,
+        "song": "Juke",
+        "version": "George Smith+Juke+1-Juke"
+    }
+]

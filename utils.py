@@ -76,6 +76,19 @@ def generate_pairs(metadata, max_pairs=MAX_PAIRS):
     return cover_pairs+not_cover_pairs
 
 
+def load_pairs(file_name):
+    logging.info("Loading pairs from file...")
+    with open(f'{file_name}.json', 'r') as f:
+        pairs = json.load(f)
+    logging.info(f"Loaded {len(pairs)} pairs.")
+    return pairs
+
+def save_pairs(pairs, file_name):
+    logging.info("Saving pairs to file...")
+    with open(f'{file_name}.json', 'w') as f:
+        json.dump(pairs, f)
+    logging.info(f"Saved {len(pairs)} pairs to {file_name}.json.")
+
 
 def extract_pair_features(pairs, model):
     logging.info("Extracting features for pairs...")

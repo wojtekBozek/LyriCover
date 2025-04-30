@@ -1,5 +1,6 @@
 datasets/shs100k_unique/
 datasets/shs100k/
+datasets/shs100k_reduced/
 lyrics/*.txt
 TODO
 *.wav

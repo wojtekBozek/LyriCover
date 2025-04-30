@@ -5,34 +5,17 @@ def get_augmentation(cfg):
 
     if aug_type == "none":
         return None
-
     elif aug_type == "pitch_shift_1":
         return Compose([
             PitchShift(min_semitones=-4, max_semitones=4, p=0.8)
         ])
-
-    elif aug_type == "pitch_shift_2":
-        return Compose([
-            PitchShift(min_semitones=-8, max_semitones=8, p=0.8)
-        ])
-
     elif aug_type == "time_stretch_1":
         return Compose([
-            TimeStretch(min_rate=0.8, max_rate=1.2, p=0.8)
-        ])
-
-    elif aug_type == "time_stretch_2":
-        return Compose([
-            TimeStretch(min_rate=0.6, max_rate=1.4, p=0.8)
-        ])
-    
+            TimeStretch(min_rate=0.7, max_rate=1.3, p=0.8)
+        ])    
     elif aug_type == "GaussianNoise_1":
         return Compose([
-            AddGaussianNoise(min_amplitude=0.001, max_amplitude=0.015, p=0.8)
-        ])
-    elif aug_type == "GaussianNoise_2":
-        return Compose([
-            AddGaussianNoise(min_amplitude=0.015, max_amplitude=0.05, p=0.8)
+            AddGaussianNoise(min_amplitude=0.001, max_amplitude=0.05, p=0.8)
         ])
     elif aug_type == "clipping_distortion_1":
         return Compose([
@@ -41,6 +24,10 @@ def get_augmentation(cfg):
     elif aug_type == "clipping_distortion_2":
         return Compose([
             ClippingDistortion(min_percentile_threshold=30, max_percentile_threshold=60, p=0.8)
+        ])
+    elif aug_type == "combined_gain":
+        return Compose([
+            Gain(min_gain_db=-10, max_gain_db=10, p=0.8)
         ])
     elif aug_type == "negative_gain":
         return Compose([
@@ -56,11 +43,11 @@ def get_augmentation(cfg):
         ])
     elif aug_type == "low_pass_filter":
         return Compose([
-            LowPassFilter(min_cutoff_freq=1000, max_cutoff_freq=5000, p=0.8)
+            LowPassFilter(min_cutoff_freq=4000, max_cutoff_freq=8000, p=0.8)
         ])
     elif aug_type == "high_pass_filter":
         return Compose([
-            HighPassFilter(min_cutoff_freq=1000, max_cutoff_freq=5000, p=0.8)
+            HighPassFilter(min_cutoff_freq=100, max_cutoff_freq=500, p=0.8)
         ])
     elif aug_type == "Mp3Compression_1":
         return Compose([

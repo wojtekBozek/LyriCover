@@ -2,7 +2,7 @@ import json
 from collections import Counter
 
 # Load JSON data
-with open("datasets/shs100k_reduced.json", "r") as f:
+with open("datasets/shs100k_unique.json", "r") as f:
     data = json.load(f)
 
 # Count how many times each song appears

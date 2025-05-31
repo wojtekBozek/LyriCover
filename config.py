@@ -1,2 +1,2 @@
-training_pairs_number = 2000
+training_pairs_number = 10
 whisper_size = "small"

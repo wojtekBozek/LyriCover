@@ -9,7 +9,7 @@ import tempfile
 import librosa
 from hpcp_utils import extract_tonal_features
 from text_utils import compute_cosine_similarity, generate_lyrics, is_empty_or_stop_words
-import wandb
+
 
 class CoverClassifierNN(nn.Module):
     def __init__(self):
@@ -43,21 +43,6 @@ class CoverClassifier:
         self.is_model_loaded = True
         logging.info("Model loaded successfully.")
 
-    def apply_augmentation(self, audio_path):
-        """Apply augmentation to audio and return path to the augmented version."""
-        if not self.augment:
-            return audio_path  # No augmentation
-    
-        # Load original audio
-        signal, sr = librosa.load(audio_path, sr=None)
-    
-        # Apply augmentation
-        augmented_signal = self.augment(signal, sr)
-    
-        # Save to a temp file
-        tmp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".wav")
-        tempfile.write(tmp_file.name, augmented_signal, sr)
-        return tmp_file.name
 
     def load_lyrics(self, filepath):
         """Load lyrics from a file if it exists."""
@@ -90,7 +75,8 @@ class CoverClassifier:
             if not lyrics or self.is_empty_or_stop_words(lyrics):
                 logging.warning(f"Lyrics for {audio_path} are empty or contain only stop words. Treating as instrumental.")
                 lyrics, is_instrumental = None, True
-            if load_save == "save" and lyrics is not None:
+                self.save_lyrics(filepath, "")
+            else:
                 self.save_lyrics(filepath, lyrics)
         
         return lyrics, is_instrumental
@@ -115,9 +101,6 @@ class CoverClassifier:
             lyrics_path_b = os.path.join(lyrics_dir, f"{os.path.basename(audio_b)}.txt")
 
             # Get lyrics and instrumental status for each song
-
-            #audio_a = self.apply_augmentation(song_a['wav'])
-            #audio_b = self.apply_augmentation(song_b['wav'])
             lyrics_a, is_instrumental_a = self.get_lyrics(audio_a, lyrics_path_a, load_save)
             lyrics_b, is_instrumental_b = self.get_lyrics(audio_b, lyrics_path_b, load_save)
 
@@ -254,7 +237,6 @@ class CoverClassifier:
     
             avg_loss = running_loss / len(train_loader)
             logging.info(f"Epoch [{epoch+1}/{num_epochs}], Loss: {avg_loss:.4f}")
-            wandb.log({"epoch": epoch + 1, "train_loss": avg_loss})
     
         logging.info("Training completed.")
         
@@ -291,13 +273,6 @@ class CoverClassifier:
             logging.info(f"Precision: {precision_value:.4f}")
             logging.info(f"Recall: {recall_value:.4f}")
             logging.info(f"F1 Score: {f1_value:.4f}")
-
-            wandb.log({
-                "val_accuracy": acc_value,
-                "val_precision": precision_value,
-                "val_recall": recall_value,
-                "val_f1": f1_value
-            })
 
     def save_model(self, filepath):
         """Save the model to a file."""

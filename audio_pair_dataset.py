@@ -42,7 +42,7 @@ class AudioPairDataset(torch.utils.data.Dataset):
 
     def extract_tonal_features(self, audio_path):
         try:
-            y, sr = librosa.load(audio_path, sr=None)
+            y, sr = librosa.load(audio_path, sr=44100)
             if self.augmentation_fn:
                 y = self.augmentation_fn(y, sr)
             chroma = librosa.feature.chroma_cqt(y=y, sr=sr)
@@ -68,7 +68,8 @@ class AudioPairDataset(torch.utils.data.Dataset):
         # Extract features
         if self.load_lyrics and os.path.exists(lyrics_path_a):
             #logging.info(f"Loading lyrics from {lyrics_path_a}")
-            lyrics_a, is_inst_a = load_lyrics(lyrics_path_a), is_empty_or_stop_words(load_lyrics(lyrics_path_a))
+            file = load_lyrics(lyrics_path_a)
+            lyrics_a, is_inst_a = file, is_empty_or_stop_words(file)
             tonal_a = self.extract_tonal_features(audio_a)
         else:
             #logging.info(f"Can not load lyrics from {lyrics_path_a}, generating...")
@@ -76,7 +77,8 @@ class AudioPairDataset(torch.utils.data.Dataset):
             tonal_a = self.extract_tonal_features(audio_a)
         if self.load_lyrics and os.path.exists(lyrics_path_b):
             #logging.info(f"Loading lyrics from {lyrics_path_b}")
-            lyrics_b, is_inst_b = load_lyrics(lyrics_path_b), is_empty_or_stop_words(load_lyrics(lyrics_path_b))
+            file = load_lyrics(lyrics_path_b)
+            lyrics_b, is_inst_b = file, is_empty_or_stop_words(file)
             tonal_b = self.extract_tonal_features(audio_b)
         else:
             #logging.info(f"Can not load lyrics from {lyrics_path_b}, generating...")
@@ -85,6 +87,9 @@ class AudioPairDataset(torch.utils.data.Dataset):
 
         # Compute similarity
         tonal_similarity = np.dot(tonal_a, tonal_b) / (np.linalg.norm(tonal_a) * np.linalg.norm(tonal_b))
+        tonal_similarity = np.clip(tonal_similarity, -1.0, 1.0)
+        if np.isnan(tonal_similarity):
+            tonal_similarity = 0.0
         lyrics_similarity = compute_cosine_similarity(lyrics_a, lyrics_b) if not (is_inst_a or is_inst_b) else 0.1
 
         feature_vector = torch.tensor([tonal_similarity, lyrics_similarity], dtype=torch.float32)

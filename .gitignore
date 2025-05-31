@@ -16,3 +16,5 @@ unique_songs.json
 wandb/
 source/
 examples/
+impulse_responses/
+*.png

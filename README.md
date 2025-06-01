@@ -63,54 +63,38 @@ We conducted several experiments, testing the dataset with different number of a
 Our final effect is the datasets that beats it's predecessor in terms of precsision, by the price of becoming more conservative and lowering Recall.
 
 For example on test dataset after training our model received following score:
-Accuracy: 0.8650
-Precision: 1.0000
-Recall: 0.7286
-F1 Score: 0.8430
+| Metric     | Value   |
+|------------|---------|
+| Accuracy   | 0.8650  |
+| Precision  | 1.0000  |
+| Recall     | 0.7286  |
+| F1 Score   | 0.8430  |
 
 While original model received:
-Accuracy: 0.8725
-Precision: 0.8524
-Recall: 0.8995
-F1 Score: 0.8753
-
+| Metric     | Value   |
+|------------|---------|
+| Accuracy   | 0.8725  |
+| Precision  | 0.8524  |
+| Recall     | 0.8995  |
+| F1 Score   | 0.8753  |
 Judging by the F1 score, the overall performance of the model was lowered.
 On datasets available for evaluation on CoverDetectionHub as well as our new Test called DistractedDataset (where clean audio is sompared with it's cover, where additional audio plays constantly in the background of cover song, momentarly increasing it's volume to match the volume of first song)
 
-lyricover z augmentacjami - cover80
-
-Mean Average Precision (mAP): 0.8052877338675468
-Precision at 10 (P@10): 0.09939024390243881
-Mean Rank of First Correct Cover (MR1): 4.987804878048781
-
-injected abracadabra
-
-Mean Average Precision (mAP): 0.8864763627588865
-Precision at 10 (P@10): 0.9
-Mean Rank of First Correct Cover (MR1): 1.0
-
-Distracted Dataset
-
-Mean Average Precision (mAP): 0.26876672956508024
-Precision at 10 (P@10): 0.052999999999999936
-Mean Rank of First Correct Cover (MR1): 41.69
-
-Distracted Reference
-
-Mean Average Precision (mAP): 0.2892236846462369
-Precision at 10 (P@10): 0.0699999999999999
-Mean Rank of First Correct Cover (MR1): 34.9
+Lyricover trained with augmentations
+| Dataset               | mAP     | mP@10   | mMR1   |
+|-----------------------|---------|---------|--------|
+| Injected Abracadabra  | 0.88648 | 0.90000 | 1.00000 |
+| Covers80              | 0.80529 | 0.09939 | 4.98780 |
+| Distracted Dataset    | 0.26877 | 0.05300 | 41.69000 |
+| Distracted Reference  | 0.28922 | 0.07000 | 34.90000 |
 
 Original Lyricover
-distracted:
-Mean Average Precision (mAP): 0.25800795428151213
-Precision at 10 (P@10): 0.057499999999999926
-Mean Rank of First Correct Cover (MR1): 44.14
-
-reference:
-Mean Average Precision (mAP): 0.28662226362218324
-Precision at 10 (P@10): 0.0694999999999999
-Mean Rank of First Correct Cover (MR1): 43.845
+| Dataset               | mAP     | mP@10   | mMR1    |
+|-----------------------|---------|---------|---------|
+| Injected Abracadabra  | 0.82029 | 0.90000 | 1.00000 |
+| Covers80              | 0.83425 | 0.09939 | 7.41463 |
+| Distracted Dataset    | 0.25801 | 0.05750 | 44.14000 |
+| Distracted Reference  | 0.28662 | 0.06950 | 43.84500 |
 
 ## Usage and requirements
 For reproductibility we attach datasets metadata, json files containing generated pairs from metadata and utility files we used for downloading datasets. We recomend testing download with initial configuration listed in youtube download script in utility_scripts directory. Then replacing data to match shs100k_unique.json file, as this file was the one we used for pair generations. It was also filtered for possibly lacking youtube files. In order to prevent any non exsisting tracks from clustering the training progress, we recomend running filter_data.py file. 

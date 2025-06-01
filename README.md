@@ -101,10 +101,10 @@ For reproductibility we attach datasets metadata, json files containing generate
 
 Recomended Python Version: 3.9 - 3.10
 
-Download impulse responses zip file from [link], unzip and paste as directory to this folder
+Download impulse responses zip file from [(https://drive.google.com/file/d/134V7bc82_P-wG4jMNEoE08HbsImQQtVD/view?usp=drive_link)], unzip and paste as directory to this folder
 
 Set venv envrionment (example: python3 -m venv venv) then run it (source venv/bin/activate)
-
+run pip install -r requirments.txt
 Initializing WandB environment and account is described on WandB docs - https://docs.wandb.ai/quickstart/#sign-up-and-create-an-api-key.
 
 For running sweep experiment with singular augmentations selected run command: wandb sweep sweep.yaml
@@ -112,6 +112,8 @@ For running sweep experiment with singular augmentations selected run command: w
 For training with more selected augmentations modify augmentation.yaml and run: python main.py
 
 For evaluation run: python evaluation.py
+
+For the first run we recomend running downloadDataset.py from utils directory and then main.py to test model and data retrival. Then modify given files (eg. download proper dataset like shs100k_unique and conduct learning on larger dataset, change split size in main from 0.5 to more reasonable, etc.)
 
 ## Changes to model
 -- added augmentations
@@ -137,3 +139,5 @@ Values of augmentations were selected based on percepting augmented audio files 
 More interesting augmentation type was selected in later stage of experimentations, when Impulse response was added to pipeline. We selected https://www.echothief.com/ database which is a set of hundreds locations and rooms collected in USA. From this we filtered that slowing down the processing of audio (with sample rate of 32000 Hz). From this filtered data we constructed our own dataset to apply impulse response augmentation.
 
 In the end we concluded that augmentation pipeline should follow the most natural way data could be augmented in real situation (eg. recording song by phone on concert), so changing pitch and time stretching are applied as first, as they can annotate different style or singer, then Impulse response to annotate place where recording could take place, noise is added as it could be applied by any recording device and in the end augmentations that are more connected to file corruption/modification, like MP3 codec or clipping distortions due to data corruption. 
+
+Effects of augmentations can be downloaded and listened to from following link: https://drive.google.com/file/d/1oGQVgj9jmcRsp8YEOKKQJdaqh2gLg4mP/view?usp=drive_link.

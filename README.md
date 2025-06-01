@@ -48,13 +48,17 @@ Results:
 | Covers80     | 0.83425 | 0.09939 | 7.41463 |
 
 
-## Augmentations
+# WIMU2025L
 
 As for 2025L WIMU semester course augmentations experimentations were performed. The Lyricover Model was enhanced with custom DataLoader, that allows for extracting features each epoch, robusting augmentation pipeline, assuring that each epoch training set differs a little bit.
 
-Furthermore W&B framework was implemented into the code, allowing for more robust experimentation tracking, saving model configuration, logging events and weights of the model after run. 
+Furthermore W&B framework was implemented into the code, allowing for more robust experimentation tracking, saving model configuration, logging events and weights of the model after each run. 
 
 We conducted several experiments, testing the dataset with different number of augmentations, measuring their effect on the model performence. Our initial strategyu was to perform fine tuning with augmentations on new training data and compare the effects of new learning. However due to taking too much epochs and too large of a learning rate we overfitted the model in initial experimentation phase. After lowering number of epochs and limiting learining rate we conducted further experimentations on larger pool of augmentations. 
+
+## SELECTED AUGMETNATIONS AND AUGMENTATION STRATEGY
+
+
 
 Our final effect is the datasets that beats it's predecessor in terms of precsision, by the price of becoming more conservative and lowering Recall.
 
@@ -71,3 +75,81 @@ Recall: 0.8995
 F1 Score: 0.8753
 
 Judging by the F1 score, the overall performance of the model was lowered.
+On datasets available for evaluation on CoverDetectionHub as well as our new Test called DistractedDataset (where clean audio is sompared with it's cover, where additional audio plays constantly in the background of cover song, momentarly increasing it's volume to match the volume of first song)
+
+lyricover z augmentacjami - cover80
+
+Mean Average Precision (mAP): 0.8052877338675468
+Precision at 10 (P@10): 0.09939024390243881
+Mean Rank of First Correct Cover (MR1): 4.987804878048781
+
+injected abracadabra
+
+Mean Average Precision (mAP): 0.8864763627588865
+Precision at 10 (P@10): 0.9
+Mean Rank of First Correct Cover (MR1): 1.0
+
+Distracted Dataset
+
+Mean Average Precision (mAP): 0.26876672956508024
+Precision at 10 (P@10): 0.052999999999999936
+Mean Rank of First Correct Cover (MR1): 41.69
+
+Distracted Reference
+
+Mean Average Precision (mAP): 0.2892236846462369
+Precision at 10 (P@10): 0.0699999999999999
+Mean Rank of First Correct Cover (MR1): 34.9
+
+Original Lyricover
+distracted:
+Mean Average Precision (mAP): 0.25800795428151213
+Precision at 10 (P@10): 0.057499999999999926
+Mean Rank of First Correct Cover (MR1): 44.14
+
+reference:
+Mean Average Precision (mAP): 0.28662226362218324
+Precision at 10 (P@10): 0.0694999999999999
+Mean Rank of First Correct Cover (MR1): 43.845
+
+## Usage and requirements
+For reproductibility we attach datasets metadata, json files containing generated pairs from metadata and utility files we used for downloading datasets. We recomend testing download with initial configuration listed in youtube download script in utility_scripts directory. Then replacing data to match shs100k_unique.json file, as this file was the one we used for pair generations. It was also filtered for possibly lacking youtube files. In order to prevent any non exsisting tracks from clustering the training progress, we recomend running filter_data.py file. 
+
+Recomended Python Version: 3.9 - 3.10
+
+Download impulse responses zip file from [link], unzip and paste as directory to this folder
+
+Set venv envrionment (example: python3 -m venv venv) then run it (source venv/bin/activate)
+
+Initializing WandB environment and account is described on WandB docs - https://docs.wandb.ai/quickstart/#sign-up-and-create-an-api-key.
+
+For running sweep experiment with singular augmentations selected run command: wandb sweep sweep.yaml
+
+For training with more selected augmentations modify augmentation.yaml and run: python main.py
+
+For evaluation run: python evaluation.py
+
+## Changes to model
+-- added augmentations
+-- added possibility to extract features on the fly not just before loop
+-- improved arguments passed for trainig, including number of epochs, selection of initial model, number of pairs and many more
+-- added WandB environment for easier tracking of experiments and saving data configuration and trained models
+
+
+## Possible further works
+
+Due to time constrains we had to optimize time required for generating data. As generating lyrics was especially time consuming, we opted for generating most of the lyrics once, then loading it each training. This has obvious effect of not taking into consideration augmentation effects on lyrics generation performance. As such we recomend conducting further experimenations on sets of augmentations, but with lyrics generated each time. This task is expected to take long time even on advanced machines.
+
+From our work with the model we recomend starting with low number of epoch, wheter for fine tuning (1-3, sample_rate around 0.0001) or training (3-5,, sample_rate around 0.001) when dealing with 2000 and more pairs. As after each training model is logged to it's own WandB directory, there is no problem with resuming training afterwards. 
+
+Another possible addition would be exploring torchaudio library and whisper model parraller options in order to make feature extraction more robust. 
+
+## Augmentations pipeline used in training
+
+Library we decided to use for augmentations was audiomentations (docs. https://iver56.github.io/audiomentations/). Our decision was based on the recomendations given by Valerio Velardo course (https://www.youtube.com/watch?v=HH_h52I_Qeg&list=PL-wATfeyAMNoR4aqS-Fv0GRmS6bx5RtTW) as well on our own experimentations (torchaudio, our own librosa based implementations, audiomentations), where audiomentations proved to be easiest to use and implement into workflow.
+
+Values of augmentations were selected based on percepting augmented audio files with selected values and anotating if given value makes outcome seem reasonable to human ear.
+
+More interesting augmentation type was selected in later stage of experimentations, when Impulse response was added to pipeline. We selected https://www.echothief.com/ database which is a set of hundreds locations and rooms collected in USA. From this we filtered that slowing down the processing of audio (with sample rate of 32000 Hz). From this filtered data we constructed our own dataset to apply impulse response augmentation.
+
+In the end we concluded that augmentation pipeline should follow the most natural way data could be augmented in real situation (eg. recording song by phone on concert), so changing pitch and time stretching are applied as first, as they can annotate different style or singer, then Impulse response to annotate place where recording could take place, noise is added as it could be applied by any recording device and in the end augmentations that are more connected to file corruption/modification, like MP3 codec or clipping distortions due to data corruption. 

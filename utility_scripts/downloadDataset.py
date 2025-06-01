@@ -3,7 +3,7 @@ import json
 import subprocess
 
 OUTPUT_DIR = '../datasets/test_youtube_downloads' # Directory to save downloaded WAV files -- change it accordingly
-DATASET_FILE = '../datasets/shs100k_reduced_reduced_download_Test.json'  # Path to your JSON dataset file -- change it accordingly
+DATASET_FILE = '../datasets/shs100k_reduced_download_test.json'  # Path to your JSON dataset file -- change it accordingly
 
 # Create output directory if needed
 os.makedirs(OUTPUT_DIR, exist_ok=True)

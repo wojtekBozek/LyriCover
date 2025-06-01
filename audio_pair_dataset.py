@@ -1,14 +1,9 @@
 import logging
 import os
 import torch
-import torch.nn as nn
-import torch.optim as optim
-import torchmetrics
 import numpy as np
-import tempfile
 import librosa
 
-from hpcp_utils import extract_tonal_features
 from text_utils import compute_cosine_similarity, generate_lyrics, load_lyrics, is_empty_or_stop_words, save_lyrics
 
 

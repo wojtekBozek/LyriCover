@@ -1,4 +1,4 @@
-program: main.py
+program: sweep.py
 method: grid
 metric:
   name: accuracy
@@ -21,3 +21,6 @@ parameters:
       - "combined_gain"
       - "transition_gain"
       - "polarity_inversion"
+  epochs:
+    values:
+      - 1

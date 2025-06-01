@@ -1,5 +1,8 @@
 from audiomentations import Compose, PitchShift, TimeStretch, AddGaussianNoise, ClippingDistortion, HighPassFilter, TimeMask, Mp3Compression, PolarityInversion, Gain, GainTransition, LowPassFilter
 
+'''
+get_augmentation(cfg) function takes a configuration dictionary and returns an augmentation pipeline based on the specified augmentation type.
+'''
 def get_augmentation(cfg):
     aug_type = cfg['augmentation_type']
 

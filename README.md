@@ -48,3 +48,26 @@ Results:
 | Covers80     | 0.83425 | 0.09939 | 7.41463 |
 
 
+## Augmentations
+
+As for 2025L WIMU semester course augmentations experimentations were performed. The Lyricover Model was enhanced with custom DataLoader, that allows for extracting features each epoch, robusting augmentation pipeline, assuring that each epoch training set differs a little bit.
+
+Furthermore W&B framework was implemented into the code, allowing for more robust experimentation tracking, saving model configuration, logging events and weights of the model after run. 
+
+We conducted several experiments, testing the dataset with different number of augmentations, measuring their effect on the model performence. Our initial strategyu was to perform fine tuning with augmentations on new training data and compare the effects of new learning. However due to taking too much epochs and too large of a learning rate we overfitted the model in initial experimentation phase. After lowering number of epochs and limiting learining rate we conducted further experimentations on larger pool of augmentations. 
+
+Our final effect is the datasets that beats it's predecessor in terms of precsision, by the price of becoming more conservative and lowering Recall.
+
+For example on test dataset after training our model received following score:
+Accuracy: 0.8650
+Precision: 1.0000
+Recall: 0.7286
+F1 Score: 0.8430
+
+While original model received:
+Accuracy: 0.8725
+Precision: 0.8524
+Recall: 0.8995
+F1 Score: 0.8753
+
+Judging by the F1 score, the overall performance of the model was lowered.

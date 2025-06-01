@@ -5,7 +5,9 @@ import os
 import soundfile as sf
 import logging
 
-
+'''
+load_augmentations_from_yaml(config_path) function reads a YAML configuration file and returns a Compose object containing the specified audio augmentations.
+This function supports various augmentations such as pitch shifting, time stretching, adding noise, applying impulse responses, and more.'''
 def load_augmentations_from_yaml(config_path):
     with open(config_path, "r") as file:
         config = yaml.safe_load(file)

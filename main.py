@@ -19,9 +19,9 @@ def main_train_from_loader():
     '''Main function to train with on the fly extracted features using audio pairs dataset and augmentations from a YAML configuration file.'''
     wandb.init(project="Lyricover-Augmentation-Compose") 
     parser = argparse.ArgumentParser(description="Pair-based cover detection system with PyTorch classifier.")
-    parser.add_argument("--metadata_path", type=str, default="datasets/shs100k_unique.json", help="Path to the metadata JSON file.")
+    parser.add_argument("--metadata_path", type=str, default="datasets/shs100k_reduced_download_test.json", help="Path to the metadata JSON file.")
     parser.add_argument("--instrumental_threshold", type=int, default=10, help="Threshold for detecting instrumental songs.")
-    parser.add_argument("--test_split_size", default=0.2, type=float, help="Test size percentage for training and validation.")
+    parser.add_argument("--test_split_size", default=0.5, type=float, help="Test size percentage for training and validation.")
     parser.add_argument("--load_save", type=str, default="load", choices=["load", "save", None],
                         help="Specify whether to load or save lyrics embeddings.")
     parser.add_argument("--lyrics_dir", type=str, default="lyrics", help="Directory for storing/loading lyrics files.")
@@ -30,9 +30,9 @@ def main_train_from_loader():
     parser.add_argument("--model_path", type=str, default="model.pth", help="Path to the model file.")
     parser.add_argument("--train_from_existing_pairs", action="store_true", default=True, help="Use existing pairs for training.")
     parser.add_argument("--save_generated_pairs", action="store_true", default=True, help="Save existing pairs if they do not exist.")
-    parser.add_argument("--test_pairs_path", type=str, default="datasets/fixed_pairs/saved_test_pairs2.json", help="Path to the test pairs JSON file.")
-    parser.add_argument("--train_pairs_path", type=str, default="datasets/fixed_pairs/saved_train_pairs2.json", help="Path to the train pairs JSON file.")
-    parser.add_argument("--max_pairs", type=int, default=10, help="Maximum number of pairs to generate.")
+    parser.add_argument("--test_pairs_path", type=str, default="datasets/fixed_pairs/saved_test_pairs3.json", help="Path to the test pairs JSON file.")
+    parser.add_argument("--train_pairs_path", type=str, default="datasets/fixed_pairs/saved_train_pairs3.json", help="Path to the train pairs JSON file.")
+    parser.add_argument("--max_pairs", type=int, default=4, help="Maximum number of pairs to generate.")
     args = parser.parse_args()
 
     args_path = os.path.join(wandb.run.dir, "args.yaml")

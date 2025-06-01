@@ -14,6 +14,7 @@ def load_lyrics(filepath):
 
 def save_lyrics(filepath, lyrics):
     """Save lyrics to a file."""
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, 'w') as file:
         file.write(lyrics)
 

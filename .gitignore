@@ -8,6 +8,7 @@ TODO
 input.json
 download_from_youtube.py
 subset*.json
+datasets/metadata_augmented.json
 *.Identifier
 venv/
 __pycache__/

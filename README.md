@@ -160,7 +160,7 @@ For the first run we recomend running downloadDataset.py from utils directory an
 
 ## Possible further works
 
-Due to time constrains we had to optimize time required for generating data. As generating lyrics was especially time consuming, we opted for generating most of the lyrics once, then loading it each training. This has obvious effect of not taking into consideration augmentation effects on lyrics generation performance. As such we recomend conducting further experimenations on sets of augmentations, but with lyrics generated each time. This task is expected to take long time even on advanced machines.
+Due to time constrains we had to optimize time required for generating data. As generating lyrics was especially time consuming, we opted for generating most of the lyrics once, then loading it each training. This has obvious effect of not taking into consideration augmentation effects on lyrics generation performance. As such we recomend conducting further experimenations on sets of augmentations, but with lyrics generated each time. This task is expected to take long time even on relatively strong machines (we trained it on machine with RTX4060 and i5-14400). 
 
 From our work with the model we recomend starting with low number of epoch, wheter for fine tuning (1-3, sample_rate around 0.0001) or training (3-5,, sample_rate around 0.001) when dealing with 2000 and more pairs. As after each training model is logged to it's own WandB directory, there is no problem with resuming training afterwards. 
 

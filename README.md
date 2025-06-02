@@ -56,13 +56,28 @@ Furthermore W&B framework was implemented into the code, allowing for more robus
 
 We conducted several experiments, testing the dataset with different number of augmentations, measuring their effect on the model performence. Our initial strategyu was to perform fine tuning with augmentations on new training data and compare the effects of new learning. However due to taking too much epochs and too large of a learning rate we overfitted the model in initial experimentation phase. After lowering number of epochs and limiting learining rate we conducted further experimentations on larger pool of augmentations. 
 
-## SELECTED AUGMETNATIONS AND AUGMENTATION STRATEGY
+
+## Augmentations pipeline used in training
+
+Library we decided to use for augmentations was audiomentations (docs. https://iver56.github.io/audiomentations/). Our decision was based on the recomendations given by Valerio Velardo course (https://www.youtube.com/watch?v=HH_h52I_Qeg&list=PL-wATfeyAMNoR4aqS-Fv0GRmS6bx5RtTW) as well on our own experimentations (torchaudio, our own librosa based implementations, audiomentations), where audiomentations proved to be easiest to use and implement into workflow.
+
+Values of augmentations were selected based on percepting augmented audio files with selected values and anotating if given value makes outcome seem reasonable to human ear.
+
+More interesting augmentation type was selected in later stage of experimentations, when Impulse response was added to pipeline. We selected https://www.echothief.com/ database which is a set of hundreds locations and rooms collected in USA. From this we filtered that slowing down the processing of audio (with sample rate of 32000 Hz). From this filtered data we constructed our own dataset to apply impulse response augmentation.
+
+In the end we concluded that augmentation pipeline should follow the most natural way data could be augmented in real situation (eg. recording song by phone on concert), so changing pitch and time stretching are applied as first, as they can annotate different style or singer, then Impulse response to annotate place where recording could take place, noise is added as it could be applied by any recording device and in the end augmentations that are more connected to file corruption/modification, like MP3 codec or clipping distortions due to data corruption. 
+
+Effects of augmentations can be downloaded and listened to from following link: https://drive.google.com/file/d/1oGQVgj9jmcRsp8YEOKKQJdaqh2gLg4mP/view?usp=drive_link.
+
+
+## Augmentations effects
 
 
 
-Our final effect is the datasets that beats it's predecessor in terms of precsision, by the price of becoming more conservative and lowering Recall.
+Our final effect is the model that beats it's predecessor in terms of precsision, by the price of becoming more conservative and lowering Recall.
 
 For example on test dataset after training our model received following score:
+
 | Metric     | Value   |
 |------------|---------|
 | Accuracy   | 0.8650  |
@@ -71,14 +86,35 @@ For example on test dataset after training our model received following score:
 | F1 Score   | 0.8430  |
 
 While original model received:
+
 | Metric     | Value   |
 |------------|---------|
 | Accuracy   | 0.8725  |
 | Precision  | 0.8524  |
 | Recall     | 0.8995  |
 | F1 Score   | 0.8753  |
+
+Another evaluation was conducted on dataset which was augmented with minor augmentations (pitch shift, time stretch and clipping_distortion). Our augmented model metrics are presented below:
+
+| Metric     | Value   |
+|------------|---------|
+| Accuracy   | 0.7788  |
+| Precision  | 1.0000  |
+| Recall     | 0.5589  |
+| F1 Score   | 0.7171  |
+
+and original model for comparisson:
+
+| Metric     | Value   |
+|------------|---------|
+| Accuracy   | 0.7838  |
+| Precision  | 0.9075  |
+| Recall     | 0.6331  |
+| F1 Score   | 0.7458  |
+
+
 Judging by the F1 score, the overall performance of the model was lowered.
-On datasets available for evaluation on CoverDetectionHub as well as our new Test called DistractedDataset (where clean audio is sompared with it's cover, where additional audio plays constantly in the background of cover song, momentarly increasing it's volume to match the volume of first song)
+On datasets available for evaluation on CoverDetectionHub as well as our new Test called DistractedDataset (where clean audio is sompared with it's cover, where additional audio plays constantly in the background of cover song, momentarly increasing it's volume to match the volume of first song) our model performed slightly better on Inejcted Abracadabra set. It was also better in general in terms of Mean Avarage Precision and Mean rank of first relevant item.
 
 Lyricover trained with augmentations
 | Dataset               | mAP     | mP@10   | mMR1   |
@@ -99,7 +135,7 @@ Original Lyricover
 ## Usage and requirements
 For reproductibility we attach datasets metadata, json files containing generated pairs from metadata and utility files we used for downloading datasets. We recomend testing download with initial configuration listed in youtube download script in utility_scripts directory. Then replacing data to match shs100k_unique.json file, as this file was the one we used for pair generations. It was also filtered for possibly lacking youtube files. In order to prevent any non exsisting tracks from clustering the training progress, we recomend running filter_data.py file. 
 
-Recomended Python Version: 3.9 - 3.10
+Recomended Python Version: 3.10
 
 Download impulse responses zip file from [(https://drive.google.com/file/d/134V7bc82_P-wG4jMNEoE08HbsImQQtVD/view?usp=drive_link)], unzip and paste as directory to this folder
 
@@ -116,10 +152,10 @@ For evaluation run: python evaluation.py
 For the first run we recomend running downloadDataset.py from utils directory and then main.py to test model and data retrival. Then modify given files (eg. download proper dataset like shs100k_unique and conduct learning on larger dataset, change split size in main from 0.5 to more reasonable, etc.)
 
 ## Changes to model
--- added augmentations
--- added possibility to extract features on the fly not just before loop
--- improved arguments passed for trainig, including number of epochs, selection of initial model, number of pairs and many more
--- added WandB environment for easier tracking of experiments and saving data configuration and trained models
+ - added augmentations
+-  added possibility to extract features on the fly not just before loop
+-  improved arguments passed for trainig, including number of epochs, selection of initial model, number of pairs and many more
+-  added WandB environment for easier tracking of experiments and saving data configuration and trained models
 
 
 ## Possible further works
@@ -130,14 +166,4 @@ From our work with the model we recomend starting with low number of epoch, whet
 
 Another possible addition would be exploring torchaudio library and whisper model parraller options in order to make feature extraction more robust. 
 
-## Augmentations pipeline used in training
-
-Library we decided to use for augmentations was audiomentations (docs. https://iver56.github.io/audiomentations/). Our decision was based on the recomendations given by Valerio Velardo course (https://www.youtube.com/watch?v=HH_h52I_Qeg&list=PL-wATfeyAMNoR4aqS-Fv0GRmS6bx5RtTW) as well on our own experimentations (torchaudio, our own librosa based implementations, audiomentations), where audiomentations proved to be easiest to use and implement into workflow.
-
-Values of augmentations were selected based on percepting augmented audio files with selected values and anotating if given value makes outcome seem reasonable to human ear.
-
-More interesting augmentation type was selected in later stage of experimentations, when Impulse response was added to pipeline. We selected https://www.echothief.com/ database which is a set of hundreds locations and rooms collected in USA. From this we filtered that slowing down the processing of audio (with sample rate of 32000 Hz). From this filtered data we constructed our own dataset to apply impulse response augmentation.
-
-In the end we concluded that augmentation pipeline should follow the most natural way data could be augmented in real situation (eg. recording song by phone on concert), so changing pitch and time stretching are applied as first, as they can annotate different style or singer, then Impulse response to annotate place where recording could take place, noise is added as it could be applied by any recording device and in the end augmentations that are more connected to file corruption/modification, like MP3 codec or clipping distortions due to data corruption. 
-
-Effects of augmentations can be downloaded and listened to from following link: https://drive.google.com/file/d/1oGQVgj9jmcRsp8YEOKKQJdaqh2gLg4mP/view?usp=drive_link.
+Additionaly further works on W&B configuration are welcomed.
